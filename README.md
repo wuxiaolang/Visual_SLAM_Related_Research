@@ -11,9 +11,9 @@
   + 介绍：用了ElasticFusion和caffe合成，实现了三维场景的语义分割，（YouTube的视频展示了它可以回环检测，畸形的椅子正常了，不知道是它的创新还是Elastic本身自带）
     + 仪器：Elastic本身需要Kinect深度图 
     + 软件：caffe 有训练好的model供下载 
-        <center>
-        <img src="https://github.com/wuxiaolang/Mark/blob/master/pic/paper_semantic/SemanticFusion.PNG?raw=true" title="SemanticFusion" width="500" />
-        </center>
+    <center>
+      <img src="https://github.com/wuxiaolang/Mark/blob/master/pic/paper_semantic/SemanticFusion.PNG?raw=true" title="SemanticFusion" width="500" />
+    </center>
 
 ---
 ## 2. 工具
