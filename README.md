@@ -57,7 +57,7 @@
   + EVO：https://github.com/MichaelGrupp/evo
 ---
 ## 4. 优秀作者与实验
-+ **Julian Straub MIN**
-  + 主页：http://people.csail.mit.edu/jstraub/
++ **Julian Straub MIT,facebook VR 实验室**
+  + [个人主页](http://people.csail.mit.edu/jstraub/) &emsp; [Google Scholar](https://scholar.google.com/citations?user=49_cCT8AAAAJ)  &emsp; [Github](https://github.com/jstraub)
   + 人工 3D 感知方面，曼哈顿世界，很多开源方案
   
