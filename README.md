@@ -12,7 +12,7 @@
     + 仪器：Elastic本身需要Kinect深度图 
     + 软件：caffe 有训练好的model供下载 
 <center>
-<img src="https://github.com/wuxiaolang/Mark/blob/master/pic/paper_semantic/SemanticFusion.PNG?raw=true" title="SemanticFusion" width="700" />
+<img src="https://github.com/wuxiaolang/Mark/blob/master/pic/paper_semantic/SemanticFusion.PNG?raw=true" title="SemanticFusion" width="500" />
 </center>
 
 ---
