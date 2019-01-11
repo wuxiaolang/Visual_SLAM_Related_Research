@@ -44,12 +44,19 @@
 ---
 ## 2. 常用算法与知识点
 + **消失点检测 vanishing point detection**
+  + ！！！！论文：Lu X, Yaoy J, Li H, et al. [**2-Line Exhaustive Searching for Real-Time Vanishing Point Estimation in Manhattan World**](https://xiaohulugo.github.io/papers/Vanishing_Point_Detection_WACV2017.pdf)[C]//Applications of Computer Vision (WACV), **2017** IEEE Winter Conference on. IEEE, 2017: 345-353.
+      + 代码：https://github.com/xiaohulugo/VanishingPointDetection
   + https://github.com/ankitdhall/Vanishing-Point-Detector
-+ 曼哈顿世界
+
++ **曼哈顿世界**
   + [CVPR 2014: A Mixture of Manhattan Frames: Beyond the Manhattan World](http://people.csail.mit.edu/jstraub/pub/A-Mixture-Of-Manhattan-Frames-Beyond-the-Manhattan-World/) 开源 MIT Julian Straub
   + [IROS 2015: Real-time Manhattan World Rotation Estimation in 3D](http://people.csail.mit.edu/jstraub/pub/A-Dirichlet-Process-Mixture-Model-for-Spherical-Data/) 开源 MIT Julian Straub
   + [TPAMI 2017: The Manhattan Frame Model-Manhattan World Inference in the Space of Surface Normals](http://people.csail.mit.edu/jstraub/pub/The-Manhattan-Frame-Model-Manhattan-World-Inference-in-the-Space-of-Surface-Normals/) 开源 MIT Julian Straub
-
++ **倒角匹配**
+  + 代码：https://github.com/s-trinh/Chamfer-Matching
++ 无穷小平面姿态估计
+  + 代码：https://github.com/tobycollins/IPPE
+  
 ---
 ## 3. 工具
 ### 3.1 轨迹误差分析工具
