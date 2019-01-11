@@ -31,7 +31,7 @@
     </center>
 ### 1.3 深度学习相关
 + :white_check_mark: **LayoutNet：从单张 RGB 图像中恢复室内 3D 环境**
-  + 论文：Zou C, Colburn A, Shan Q, et al. **LayoutNet: Reconstructing the 3D Room Layout from a Single RGB Image**(http://openaccess.thecvf.com/content_cvpr_2018/papers/Zou_LayoutNet_Reconstructing_the_CVPR_2018_paper.pdf)[C]//Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. **CVPR 2018**: 2051-2059.
+  + 论文：Zou C, Colburn A, Shan Q, et al. [**LayoutNet: Reconstructing the 3D Room Layout from a Single RGB Image**](http://openaccess.thecvf.com/content_cvpr_2018/papers/Zou_LayoutNet_Reconstructing_the_CVPR_2018_paper.pdf)[C]//Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. **CVPR 2018**: 2051-2059.
   + **代码**：https://github.com/zouchuhang/LayoutNet
     <center>
       <img src="https://github.com/zouchuhang/LayoutNet/raw/master/figs/teasor.jpg" title="SemanticFusion" width="500" />
