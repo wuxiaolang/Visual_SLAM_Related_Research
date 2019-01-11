@@ -1,7 +1,14 @@
 # Mark
 
 ## 1. 论文及代码
-### 1.1 语义相关
+### 1.1 传统视觉 SLAM
++ 【直接法：LSD-SLAM】
+  + 论文：Engel J, Schöps T, Cremers D. [**LSD-SLAM: Large-scale direct monocular SLAM**](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.646.7193&rep=rep1&type=pdf)[C]//European Conference on Computer Vision. Springer, Cham, **ECCV 2014**: 834-849.
+  + 代码：https://github.com/tum-vision/lsd_slam
+  + 资料：
+    + 课题组网站：https://vision.in.tum.de/research/vslam/lsdslam?redirect=1
+    + [LSD SLAM和ORB SLAM的对比](https://blog.csdn.net/OsgoodWu/article/details/79900277?utm_source=blogxgwz0)
+### 1.2 语义相关
 + **【CNN 稠密三维语义建图】**
   + 论文：   
     + **[SemanticFusion: Dense 3D Semantic Mapping with Convolutional Neural Networks](http://wp.doc.ic.ac.uk/bjm113/wp-content/uploads/sites/113/2017/07/SemanticFusion_ICRA17_CameraReady.pdf)**, _J. McCormac, A. Handa, A. J. Davison, and S. Leutenegger_, ICRA '17
