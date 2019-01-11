@@ -16,6 +16,10 @@
   + 论文：[**LDSO: Direct Sparse Odometry with Loop Closure**](https://arxiv.org/abs/1808.01111) (X. Gao, R. Wang, N. Demmel, D. Cremers), In International Conference on Intelligent Robots and Systems (**IROS**), **2018**
   + 代码：https://github.com/tum-vision/LDSO
   + 慕尼黑工业大学：https://vision.in.tum.de/research/vslam/ldso
++ :white_check_mark: **单目稠密分段平面跟踪与建图：DPPTAM**
+  + 论文：Concha Belenguer A, Civera Sancho J. [**DPPTAM: Dense piecewise planar tracking and mapping from a monocular sequence**](https://zaguan.unizar.es/record/36752/files/texto_completo.pdf)[C]//Proc. IEEE/RSJ Int. Conf. Intell. Rob. Syst. **2015** (ART-2015-92153).    
+  + 代码：https://github.com/alejocb/dpptam
+
 ### 1.2 语义相关
 + :white_check_mark: **CNN 稠密三维语义建图**
   + 论文：   
