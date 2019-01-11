@@ -42,13 +42,22 @@
   </center>
 
 ---
-## 2. 常用算法
+## 2. 常用算法与知识点
 + **消失点检测 vanishing point detection**
   + https://github.com/ankitdhall/Vanishing-Point-Detector
-
++ 曼哈顿世界
+  + [CVPR 2014: A Mixture of Manhattan Frames: Beyond the Manhattan World](http://people.csail.mit.edu/jstraub/pub/A-Mixture-Of-Manhattan-Frames-Beyond-the-Manhattan-World/) 开源 MIT Julian Straub
+  + [IROS 2015: Real-time Manhattan World Rotation Estimation in 3D](http://people.csail.mit.edu/jstraub/pub/A-Dirichlet-Process-Mixture-Model-for-Spherical-Data/) 开源 MIT Julian Straub
+  + [TPAMI 2017: The Manhattan Frame Model-Manhattan World Inference in the Space of Surface Normals](http://people.csail.mit.edu/jstraub/pub/The-Manhattan-Frame-Model-Manhattan-World-Inference-in-the-Space-of-Surface-Normals/) 开源 MIT Julian Straub
 
 ---
 ## 3. 工具
 ### 3.1 轨迹误差分析工具
   + 苏黎世大学rpg_trajectory_evaluation：https://github.com/uzh-rpg/rpg_trajectory_evaluation
   + EVO：https://github.com/MichaelGrupp/evo
+---
+## 4. 优秀作者与实验
++ **Julian Straub MIN**
+  + 主页：http://people.csail.mit.edu/jstraub/
+  + 人工 3D 感知方面，曼哈顿世界，很多开源方案
+  
