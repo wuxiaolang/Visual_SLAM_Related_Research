@@ -1,6 +1,7 @@
 # Mark
 
-## 论文及代码
+## 1. 论文及代码
+### 1.1 语义相关
 + **【语义 SemanticFusion & ElasticFusion】**
   + 论文：   
     + **[SemanticFusion: Dense 3D Semantic Mapping with Convolutional Neural Networks](http://wp.doc.ic.ac.uk/bjm113/wp-content/uploads/sites/113/2017/07/SemanticFusion_ICRA17_CameraReady.pdf)**, _J. McCormac, A. Handa, A. J. Davison, and S. Leutenegger_, ICRA '17
@@ -11,8 +12,7 @@
     + 仪器：Elastic本身需要Kinect深度图 
     + 软件：caffe 有训练好的model供下载 
 
-## 工具
-+ 轨迹误差分析工具
+## 2. 工具
+### 2.1 轨迹误差分析工具
   + 苏黎世大学rpg_trajectory_evaluation：https://github.com/uzh-rpg/rpg_trajectory_evaluation
   + EVO：https://github.com/MichaelGrupp/evo
-  
