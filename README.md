@@ -31,7 +31,13 @@
     </center>
 
 ---
-## 2. 工具
-### 2.1 轨迹误差分析工具
+## 2. 常用算法
++ **消失点检测 vanishing point detection**
+  + https://github.com/ankitdhall/Vanishing-Point-Detector
+
+
+---
+## 3. 工具
+### 3.1 轨迹误差分析工具
   + 苏黎世大学rpg_trajectory_evaluation：https://github.com/uzh-rpg/rpg_trajectory_evaluation
   + EVO：https://github.com/MichaelGrupp/evo
