@@ -1,7 +1,7 @@
 # Mark
 
 ## 1. 论文及代码
-### 1.1 传统视觉 SLAM
+### :smile: 1.1 传统视觉 SLAM
 #### :white_check_mark: **直接法：LSD-SLAM（TUM）**
   + 论文：Engel J, Schöps T, Cremers D. [**LSD-SLAM: Large-scale direct monocular SLAM**](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.646.7193&rep=rep1&type=pdf)[C]//European Conference on Computer Vision. Springer, Cham, **ECCV 2014**: 834-849.
   + 代码：https://github.com/tum-vision/lsd_slam
@@ -20,7 +20,7 @@
   + 论文：Concha Belenguer A, Civera Sancho J. [**DPPTAM: Dense piecewise planar tracking and mapping from a monocular sequence**](https://zaguan.unizar.es/record/36752/files/texto_completo.pdf)[C]//Proc. IEEE/RSJ Int. Conf. Intell. Rob. Syst. **2015** (ART-2015-92153).    
   + 代码：https://github.com/alejocb/dpptam
   + 相关研究：基于超像素的单目 SLAM：[**Using Superpixels in Monocular SLAM**](http://webdiis.unizar.es/~jcivera/papers/concha_civera_icra14.pdf) ICRA 2014
-### 1.2 语义相关
+### :smile: 1.2 语义相关
 #### :white_check_mark: **CNN 稠密三维语义建图**
   + 论文：   
     + **[SemanticFusion: Dense 3D Semantic Mapping with Convolutional Neural Networks](http://wp.doc.ic.ac.uk/bjm113/wp-content/uploads/sites/113/2017/07/SemanticFusion_ICRA17_CameraReady.pdf)**, _J. McCormac, A. Handa, A. J. Davison, and S. Leutenegger_, ICRA '17
@@ -33,14 +33,23 @@
     <center>
       <img src="https://github.com/wuxiaolang/Mark/blob/master/pic/paper_semantic/SemanticFusion.PNG?raw=true" title="SemanticFusion" width="400" />
     </center>
-### 1.3 深度学习相关
+### :smile: 1.3 深度学习相关
 #### :white_check_mark: **LayoutNet：从单张 RGB 图像中恢复室内 3D 环境**
   + 论文：Zou C, Colburn A, Shan Q, et al. [**LayoutNet: Reconstructing the 3D Room Layout from a Single RGB Image**](http://openaccess.thecvf.com/content_cvpr_2018/papers/Zou_LayoutNet_Reconstructing_the_CVPR_2018_paper.pdf)[C]//Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. **CVPR 2018**: 2051-2059.
   + **代码**：https://github.com/zouchuhang/LayoutNet
   <center>
   <img src="https://github.com/zouchuhang/LayoutNet/raw/master/figs/teasor.jpg" title="SemanticFusion" width="400" />
   </center>
-
+### :smile: 1.4 稠密建图相关
+#### :white_check_mark: **BundleFusion：识别表面 3D 重建**
+  + 论文：Dai A, Nießner M, Zollhöfer M, et al. [**Bundlefusion: Real-time globally consistent 3d reconstruction using on-the-fly surface reintegration**](https://arxiv.org/pdf/1604.01093.pdf)[J]. ACM Transactions on Graphics (TOG), 2017, 36(4): 76a.
+  + **代码**：https://github.com/niessner/BundleFusion
+  + 工程地址：http://graphics.stanford.edu/projects/bundlefusion/
+#### :white_check_mark: **FlashFusion：CPU下实时稠密三维重建**
+  + 论文：Han L, Fang L. [**FlashFusion: Real-time Globally Consistent Dense 3D Reconstruction using CPU Computing**](http://www.roboticsproceedings.org/rss14/p06.pdf)[C]. RSS, 2018.
+  + **代码**：
+  + 工程地址：http://www.luvision.net/FlashFusion/?tdsourcetag=s_pctim_aiomsg
+  
 ---
 ## 2. 常用算法与知识点
 + **消失点检测 vanishing point detection**
