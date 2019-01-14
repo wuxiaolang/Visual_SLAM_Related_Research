@@ -40,16 +40,18 @@
   <center>
   <img src="https://github.com/zouchuhang/LayoutNet/raw/master/figs/teasor.jpg" title="SemanticFusion" width="400" />
   </center>
+  
 ### :smile: 1.4 稠密建图相关
 #### :white_check_mark: **BundleFusion：识别表面 3D 重建**
   + 论文：Dai A, Nießner M, Zollhöfer M, et al. [**Bundlefusion: Real-time globally consistent 3d reconstruction using on-the-fly surface reintegration**](https://arxiv.org/pdf/1604.01093.pdf)[J]. ACM Transactions on Graphics (TOG), 2017, 36(4): 76a.
   + **代码**：https://github.com/niessner/BundleFusion
   + 工程地址：http://graphics.stanford.edu/projects/bundlefusion/
+  + 简介：
 #### :white_check_mark: **FlashFusion：CPU下实时稠密三维重建**
   + 论文：Han L, Fang L. [**FlashFusion: Real-time Globally Consistent Dense 3D Reconstruction using CPU Computing**](http://www.roboticsproceedings.org/rss14/p06.pdf)[C]. RSS, 2018.
   + **代码**：
   + 工程地址：http://www.luvision.net/FlashFusion/?tdsourcetag=s_pctim_aiomsg
-  
+  + 简介：清华-伯克利深圳学院
 ---
 ## 2. 常用算法与知识点
 + **消失点检测 vanishing point detection**
