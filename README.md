@@ -78,4 +78,8 @@
 + **Julian Straub MIT,facebook VR 实验室**
   + [个人主页](http://people.csail.mit.edu/jstraub/) &emsp; [Google Scholar](https://scholar.google.com/citations?user=49_cCT8AAAAJ)  &emsp; [Github](https://github.com/jstraub)
   + 人工 3D 感知方面，曼哈顿世界，很多开源方案
-  
+---
+## 5. 资料
++ SLAM 最新研究更新 Recent_SLAM_Research ：https://github.com/YiChenCityU/Recent_SLAM_Research
++ 西北工大智能系统实验室 SLAM 培训：https://github.com/zdzhaoyong/SummerCamp2018
++ 
