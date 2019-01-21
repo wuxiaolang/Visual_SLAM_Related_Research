@@ -1,7 +1,7 @@
 # Mark
 
 ## 1. 论文及代码
-### :smile: 1.1 传统视觉 SLAM
+### :smile: 1.1 传统视觉 SLAM (侧重前端)
 #### :white_check_mark: **PTAM**
   + 论文：Klein G, Murray D. [**Parallel tracking and mapping for small AR workspaces**](http://www.robots.ox.ac.uk/ActiveVision/Publications/klein_murray_ismar2007/klein_murray_ismar2007.pdf)[C]//Mixed and Augmented Reality, 2007. ISMAR 2007. 6th IEEE and ACM International Symposium on. IEEE, **2007**: 225-234.
   + 代码：https://github.com/Oxford-PTAM/PTAM-GPL
@@ -53,11 +53,18 @@
   + **代码**：https://github.com/niessner/BundleFusion
   + 工程地址：http://graphics.stanford.edu/projects/bundlefusion/
   + 简介：
+  
 #### :white_check_mark: **FlashFusion：CPU下实时稠密三维重建**
   + 论文：Han L, Fang L. [**FlashFusion: Real-time Globally Consistent Dense 3D Reconstruction using CPU Computing**](http://www.roboticsproceedings.org/rss14/p06.pdf)[C]. RSS, 2018.
   + **代码**：
   + 工程地址：http://www.luvision.net/FlashFusion/?tdsourcetag=s_pctim_aiomsg
   + 简介：清华-伯克利深圳学院
+
+#### :white_check_mark: **DPPTAM：单目稠密建图**
+  + 论文：Concha Belenguer A, Civera Sancho J. [**DPPTAM: Dense piecewise planar tracking and mapping from a monocular sequence**](https://zaguan.unizar.es/record/36752/files/texto_completo.pdf)[C]//Proc. IEEE/RSJ Int. Conf. Intell. Rob. Syst. 2015 (ART-2015-92153).
+  + **代码**：https://github.com/alejocb/dpptam
+  + 谷歌学术：https://scholar.google.com/citations?user=GIaG3CsAAAAJ&hl=zh-CN&oi=sra
+  
 ---
 ## 2. 常用算法与知识点
 + **消失点检测 vanishing point detection**
@@ -81,11 +88,11 @@
   + EVO：https://github.com/MichaelGrupp/evo
 ---
 ## 4. 优秀作者与实验
-+ **Julian Straub MIT,facebook VR 实验室**
++ :+1: **Julian Straub MIT,facebook VR 实验室**
   + [个人主页](http://people.csail.mit.edu/jstraub/) &emsp; [Google Scholar](https://scholar.google.com/citations?user=49_cCT8AAAAJ)  &emsp; [Github](https://github.com/jstraub)
   + 人工 3D 感知方面，曼哈顿世界，很多开源方案
 
-+ **牛津大学 Duncan Frost（PTAM 课题组）**
++ :+1: **牛津大学 Duncan Frost（PTAM 课题组）**
   + [谷歌学术](https://scholar.google.com/citations?hl=zh-CN&user=P9l4zHIAAAAJ&view_op=list_works&citft=1&citft=3&email_for_op=wuxiaolang2008%40gmail.com&gmla=AJsN-F5JUKaudKfKc2WwYAX2Fi7vY79tDw1lxd5PEz6GCwuhMwGuAKJQWIa3bPQC96HsGSEB0PqkP40E4qZGFGCHTUeubA1gr-wDSGe7d88TQ5lS3FomXSNYeHs497MCaVDi-QL4E4gPHaFcFVgO2sFKeR7LWX0iHCd2O3SXGU50WSLNLpE1Q7imrzefjWOy71Haz9ZSofbFIjUiziPGKOCTa8on8yrkqelT_TD9_z2bxU_8YvuJYsVH5JYuW2aUBltffGPulT5sU80CQnfFyqpe3K-X6KC5uw)
   + github：
     + https://github.com/duncanfrost/PSLAM
@@ -96,7 +103,7 @@
     + [**Direct Line Guidance Odometry**](https://ora.ox.ac.uk/objects/uuid:f8b6d16e-07b4-4432-bc6e-6dddccaca511/download_file?file_format=pdf&safe_filename=Direct%2Bline%2Bguidance%2Bodometry.pdf&type_of_work=Conference+item)[C]//2018 IEEE International Conference on Robotics and Automation (ICRA). IEEE, 2018
     + [**Object-aware bundle adjustment for correcting monocular scale drift**](http://www.robots.ox.ac.uk/~duncan/pdf/frost2016.pdf)[C]//Robotics and Automation (ICRA), 2016 IEEE International Conference on. IEEE, 2016
 
-+ **Yoshikatsu NAKAJIMA (中島 由勝)**
++ :+1: **Yoshikatsu NAKAJIMA (中島 由勝)**
   + 深度学习状态估计、语义分割、目标检测
   + [个人主页](http://hvrl.ics.keio.ac.jp/nakajima/)
   + 论文
@@ -105,6 +112,12 @@
     + Yoshikatsu Nakajima and Hideo Saito, [**Robust camera pose estimation by viewpoint classification using deep learning**](http://link.springer.com/article/10.1007/s41095-016-0067-z), Computational Visual Media (Springer), DOI 10.1007/s41095-016-0067-z, Vol.3, No.2, pp.189-198, 2017 [**Best Paper Award**]
     ![](http://hvrl.ics.keio.ac.jp/nakajima/img/access.png)
 
++ :+1: **Alejo Concha（苏黎世Oculus VR）**
+  + 介绍：单目稠密建图，布局平面，超像素，曼哈顿世界
+  + [个人主页](https://sites.google.com/view/alejoconcha/)  [谷歌学术](https://scholar.google.com/citations?user=GIaG3CsAAAAJ&hl=zh-CN&oi=sra)
+  + [Github](https://github.com/alejocb)
+  + 论文：
+    + Marta Salas, Wajahat Hussain, Alejo Concha, Luis Montano, Javier Civera, J. M. M. Montiel.**Layout Aware Visual Tracking and Mapping (**[**pdf**](http://www.google.com/url?q=http%3A%2F%2Fwebdiis.unizar.es%2F~jcivera%2Fpapers%2Fsalas_etal_iros15.pdf&sa=D&sntz=1&usg=AFQjCNG-5QcfQ8D3PTPonvE9K9xpTtur7A)**) (**[**video 1**](https://youtu.be/Qor9dVRqrpQ)**) (**[**video 2**](https://youtu.be/TsEbJMmR348)**).** IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS15), Hamburg, Germany, 2015.
 ---
 ## 5. 资料
 + SLAM 最新研究更新 Recent_SLAM_Research ：https://github.com/YiChenCityU/Recent_SLAM_Research
