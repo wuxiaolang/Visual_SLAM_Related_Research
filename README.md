@@ -72,22 +72,22 @@
   
 ---
 ## 2. 算法、知识点与代码
-+ :fa-codiepie: **消失点检测 vanishing point detection**
++ :coffee: **消失点检测 vanishing point detection**
   + ！！！！论文：Lu X, Yaoy J, Li H, et al. [**2-Line Exhaustive Searching for Real-Time Vanishing Point Estimation in Manhattan World**](https://xiaohulugo.github.io/papers/Vanishing_Point_Detection_WACV2017.pdf)[C]//Applications of Computer Vision (WACV), **2017** IEEE Winter Conference on. IEEE, 2017: 345-353.
       + 代码：https://github.com/xiaohulugo/VanishingPointDetection
   + https://github.com/ankitdhall/Vanishing-Point-Detector
 
-+ :fa-codiepie: **曼哈顿世界**
++ :coffee: **曼哈顿世界**
   + [CVPR 2014: A Mixture of Manhattan Frames: Beyond the Manhattan World](http://people.csail.mit.edu/jstraub/pub/A-Mixture-Of-Manhattan-Frames-Beyond-the-Manhattan-World/) 开源 MIT Julian Straub
   + [IROS 2015: Real-time Manhattan World Rotation Estimation in 3D](http://people.csail.mit.edu/jstraub/pub/A-Dirichlet-Process-Mixture-Model-for-Spherical-Data/) 开源 MIT Julian Straub
   + [TPAMI 2017: The Manhattan Frame Model-Manhattan World Inference in the Space of Surface Normals](http://people.csail.mit.edu/jstraub/pub/The-Manhattan-Frame-Model-Manhattan-World-Inference-in-the-Space-of-Surface-Normals/) 开源 MIT Julian Straub
-+ :fa-codiepie: **倒角匹配**
++ :coffee: **倒角匹配**
   + 代码：https://github.com/s-trinh/Chamfer-Matching
-+ :fa-codiepie: **无穷小平面姿态估计**
++ :coffee: **无穷小平面姿态估计**
   + 代码：https://github.com/tobycollins/IPPE
-+ :fa-codiepie: **3D 物体识别**
++ :coffee: **3D 物体识别**
   + 代码：https://github.com/AmeyaWagh/3D_object_recognition
-+ :fa-codiepie: **实时目标检测 YOLO**
++ :coffee: **实时目标检测 YOLO**
   + 代码：https://github.com/qixuxiang/real_time_object_detect
 
 ---
