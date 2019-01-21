@@ -1,6 +1,6 @@
 # Mark
 
-## 1. 论文及代码
+## 1. 论文（及代码）
 ### :smile: 1.1 传统视觉 SLAM (侧重前端)
 #### :white_check_mark: **PTAM**
   + 论文：Klein G, Murray D. [**Parallel tracking and mapping for small AR workspaces**](http://www.robots.ox.ac.uk/ActiveVision/Publications/klein_murray_ismar2007/klein_murray_ismar2007.pdf)[C]//Mixed and Augmented Reality, 2007. ISMAR 2007. 6th IEEE and ACM International Symposium on. IEEE, **2007**: 225-234.
@@ -36,6 +36,13 @@
     <center>
       <img src="https://github.com/wuxiaolang/Mark/blob/master/pic/paper_semantic/SemanticFusion.PNG?raw=true" title="SemanticFusion" width="400" />
     </center>
+
+#### :white_check_mark: ORB-SLAM2 + 语义标签
++ 论文：Qi X, Yang S, Yan Y. [**Deep Learning Based Semantic Labelling of 3D Point Cloud in Visual SLAM**](http://iopscience.iop.org/article/10.1088/1757-899X/428/1/012023/pdf)[C]//IOP Conference Series: Materials Science and Engineering. IOP Publishing, **2018**, 428(1): 012023.
++ 代码：https://github.com/qixuxiang/orb-slam2_with_semantic_label
++ 视频：http://v.youku.com/v_show/id_XMzYyOTMyODM2OA
+
+
 ### :smile: 1.3 深度学习相关
 #### :white_check_mark: **LayoutNet：从单张 RGB 图像中恢复室内 3D 环境**
   + 论文：Zou C, Colburn A, Shan Q, et al. [**LayoutNet: Reconstructing the 3D Room Layout from a Single RGB Image**](http://openaccess.thecvf.com/content_cvpr_2018/papers/Zou_LayoutNet_Reconstructing_the_CVPR_2018_paper.pdf)[C]//Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. **CVPR 2018**: 2051-2059.
@@ -64,21 +71,25 @@
   + 谷歌学术：https://scholar.google.com/citations?user=GIaG3CsAAAAJ&hl=zh-CN&oi=sra
   
 ---
-## 2. 常用算法与知识点
-+ **消失点检测 vanishing point detection**
+## 2. 算法、知识点与代码
++ :fa-codiepie: **消失点检测 vanishing point detection**
   + ！！！！论文：Lu X, Yaoy J, Li H, et al. [**2-Line Exhaustive Searching for Real-Time Vanishing Point Estimation in Manhattan World**](https://xiaohulugo.github.io/papers/Vanishing_Point_Detection_WACV2017.pdf)[C]//Applications of Computer Vision (WACV), **2017** IEEE Winter Conference on. IEEE, 2017: 345-353.
       + 代码：https://github.com/xiaohulugo/VanishingPointDetection
   + https://github.com/ankitdhall/Vanishing-Point-Detector
 
-+ **曼哈顿世界**
++ :fa-codiepie: **曼哈顿世界**
   + [CVPR 2014: A Mixture of Manhattan Frames: Beyond the Manhattan World](http://people.csail.mit.edu/jstraub/pub/A-Mixture-Of-Manhattan-Frames-Beyond-the-Manhattan-World/) 开源 MIT Julian Straub
   + [IROS 2015: Real-time Manhattan World Rotation Estimation in 3D](http://people.csail.mit.edu/jstraub/pub/A-Dirichlet-Process-Mixture-Model-for-Spherical-Data/) 开源 MIT Julian Straub
   + [TPAMI 2017: The Manhattan Frame Model-Manhattan World Inference in the Space of Surface Normals](http://people.csail.mit.edu/jstraub/pub/The-Manhattan-Frame-Model-Manhattan-World-Inference-in-the-Space-of-Surface-Normals/) 开源 MIT Julian Straub
-+ **倒角匹配**
++ :fa-codiepie: **倒角匹配**
   + 代码：https://github.com/s-trinh/Chamfer-Matching
-+ 无穷小平面姿态估计
++ :fa-codiepie: **无穷小平面姿态估计**
   + 代码：https://github.com/tobycollins/IPPE
-  
++ :fa-codiepie: **3D 物体识别**
+  + 代码：https://github.com/AmeyaWagh/3D_object_recognition
++ :fa-codiepie: **实时目标检测 YOLO**
+  + 代码：https://github.com/qixuxiang/real_time_object_detect
+
 ---
 ## 3. 工具
 ### 3.1 轨迹误差分析工具
