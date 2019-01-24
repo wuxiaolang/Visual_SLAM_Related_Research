@@ -132,9 +132,14 @@
   
 ---
 ## 3. 工具
-### 3.1 轨迹误差分析工具
+### :key: 3.1 轨迹误差分析工具
   + 苏黎世大学rpg_trajectory_evaluation：https://github.com/uzh-rpg/rpg_trajectory_evaluation
   + EVO：https://github.com/MichaelGrupp/evo
+  
+### :key: 3.2 RVIZ 显示不同的可视化图像
+  + Github：https://github.com/PickNikRobotics/rviz_visual_tools
+  + 参考资料：https://blog.csdn.net/u013834525/article/details/80447931
+  
 ---
 ## 4. 优秀作者与实验
 + :+1: **Julian Straub MIT,facebook VR 实验室**
