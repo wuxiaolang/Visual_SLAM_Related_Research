@@ -172,7 +172,7 @@
       + https://github.com/LRMPUT/PlaneLoc
 
 + :+1: **Xiaohu Lu**
-  + 武汉大学，香港大学。。。不知道哪个大学
+  + 俄亥俄州立大学在读博士
       + github：https://github.com/xiaohulugo
       + 相关作者：[Yahui Liu](https://scholar.google.com/citations?user=P8qd0rEAAAAJ&hl=zh-CN&oi=sra)
   + **消失点**检测
