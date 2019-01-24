@@ -150,7 +150,7 @@
   + **论文**：
       + Wietrzykowski J, Skrzypczyński P. [**A probabilistic framework for global localization with segmented planes**](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8098672)[C]//Mobile Robots (ECMR), 2017 European Conference on. IEEE, **2017**: 1-6.
       + Wietrzykowski J, Skrzypczyński P. [**PlaneLoc: Probabilistic global localization in 3-D using local planar features**](https://www.sciencedirect.com/science/article/pii/S0921889018303701)[J]. Robotics and Autonomous Systems, **2019**.
-      ![](https://ars.els-cdn.com/content/image/1-s2.0-S0921889018303701-gr9.jpg)
+![](https://ars.els-cdn.com/content/image/1-s2.0-S0921889018303701-gr9.jpg)
       + Nowicki M, Skrzypczyński P. [**A Multi-User Personal Indoor Localization System Employing Graph-Based Optimization**](https://www.mdpi.com/1424-8220/19/1/157#)[J]. Sensors, **2019**, 19(1): 157.          
       <font color = gray>基于图优化的室内多用户多传感器（WIFI+蓝牙）定位</font>
           
