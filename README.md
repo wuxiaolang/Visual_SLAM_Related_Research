@@ -171,6 +171,22 @@
       + https://github.com/LRMPUT/PUTSLAM
       + https://github.com/LRMPUT/PlaneLoc
 
++ :+1: **Xiaohu Lu**
+  + 武汉大学，香港大学。。。不知道哪个大学
+      + github：https://github.com/xiaohulugo
+      + 相关作者：[Yahui Liu](https://scholar.google.com/citations?user=P8qd0rEAAAAJ&hl=zh-CN&oi=sra)
+  + **消失点**检测
+      + Lu X, Yaoy J, Li H, et al. [**2-Line Exhaustive Searching for Real-Time Vanishing Point Estimation in Manhattan World**](https://www.computer.org/csdl/proceedings/wacv/2017/4822/00/07926628.pdf)[C]//Applications of Computer Vision (WACV), 2017 IEEE Winter Conference on. IEEE, **2017**: 345-353.
+      + 代码：https://github.com/xiaohulugo/VanishingPointDetection
+  + **点云分割聚类**
+      + Lu X, Yao J, Tu J, et al. [**PAIRWISE LINKAGE FOR POINT CLOUD SEGMENTATION**](https://www.isprs-ann-photogramm-remote-sens-spatial-inf-sci.net/III-3/201/2016/isprs-annals-III-3-201-2016.pdf)[J]. ISPRS Annals of Photogrammetry, Remote Sensing & Spatial Information Sciences, **2016**, 3(3).
+      + 代码：https://github.com/xiaohulugo/PointCloudSegmentation
+  + 点云中 **3D 线检测**
+      + Lu X, Liu Y, Li K. [**Fast 3D Line Segment Detection From Unorganized Point Cloud**](https://arxiv.org/pdf/1901.02532.pdf)[J]. arXiv preprint arXiv:1901.02532, **2019**.
+      + 代码：https://github.com/xiaohulugo/3DLineDetection
+  + 曼哈顿结构化环境的**单目 SLAM**
+      + Li H, Yao J, Bazin J C, et al. [**A monocular SLAM system leveraging structural regularity in Manhattan world**](http://cvrs.whu.edu.cn/projects/Struct-PL-SLAM/source/file/Struct_PL_SLAM.pdf)[C]//2018 IEEE International Conference on Robotics and Automation (**ICRA**). IEEE, **2018**: 2518-2525.
+    
 ---
 ## 5. 资料
 + SLAM 最新研究更新 Recent_SLAM_Research ：https://github.com/YiChenCityU/Recent_SLAM_Research
