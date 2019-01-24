@@ -39,6 +39,7 @@
 
 #### :white_check_mark: ORB-SLAM2 + 语义标签
 + 论文：Qi X, Yang S, Yan Y. [**Deep Learning Based Semantic Labelling of 3D Point Cloud in Visual SLAM**](http://iopscience.iop.org/article/10.1088/1757-899X/428/1/012023/pdf)[C]//IOP Conference Series: Materials Science and Engineering. IOP Publishing, **2018**, 428(1): 012023.
++ 其实就是 **meaningf maps** 这篇文章的魔改版. 论文大体思路和meaningf maps相同, SLAM部分用的orb-slam2, **目标检测换成了yolo-V3**, 点云分割没变. 论文的实验部分也写得比较简单, 只有定量结果, 没有定性结果, 并且不能实时运行.论文发表在IOP Conference Series Materials Science and Engineering, EI检索, 是一个**OA会议论文集**.
 + 代码：https://github.com/qixuxiang/orb-slam2_with_semantic_label
 + 视频：http://v.youku.com/v_show/id_XMzYyOTMyODM2OA
 
@@ -52,6 +53,13 @@
 + 介绍：**动态**语义SLAM **目标检测** + VSLAM+光流/多视角几何动态物体检测+ **octomap地图** + 目标数据库 **orbslam2** 基础上做**语义地图**
 + 代码：https://github.com/Ewenwan/ORB_SLAM2_SSD_Semantic
 ![](https://github.com/Ewenwan/ORB_SLAM2_SSD_Semantic/blob/master/global-pcl.png?raw=true)
+
+#### :white_check_mark: DynamicSemanticMapping
++ 基于**分割**和orbslam2 完成**动态场景**的**稠密重建**
++ **论文**：Kochanov D, Ošep A, Stückler J, et al. [**Scene flow propagation for semantic mapping and object discovery in dynamic street scenes**](http://web-info8.informatik.rwth-aachen.de/media/papers/paper_compressed.pdf)[C]//Intelligent Robots and Systems (IROS), 2016 IEEE/RSJ International Conference on. IEEE, **2016**: 1785-1792.
++ **代码**：https://github.com/ganlumomo/DynamicSemanticMapping
++ wiki有详细记录：https://github.com/ganlumomo/DynamicSemanticMapping/wiki
+![](https://raw.githubusercontent.com/ganlumomo/DynamicSemanticMapping/master/wiki_materials/snapshot_Area_1_office_1.jpg)
 
 #### :white_check_mark: DS-SLAM
 + 介绍：文章提出了一种实时的动态语义SLAM系统, DS-SLAM, 可以减少运动目标对位姿估计的影响, 同时提供**基于八叉树的3D稠密语义地图**. 在DS-SLAM中, 一共有5个并行运行的线程: **跟踪、语义分割、局部建图、闭环检测和密集语义地图构建**。文章结合实时的语义分割网络SegNet和基于光流的运动一致性检验, 剔除场景中动态的部分, 比如行走的人. 然后将匹配的特征点从检测到的动态区域中剔除，从而提高动态场景的鲁棒性和准确性。基于八叉树的3D稠密语义地图使用 log-odds score 方法剔除不稳定的体素, 可用于机器人的导航和复杂任务。在TUM RGB-D数据集和现实环境中进行了实验。结果表明，在高动态环境下， DS-SLAM在精度和鲁棒性方面明显优于orb - slam。
