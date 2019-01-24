@@ -22,6 +22,14 @@
   + 论文：[**LDSO: Direct Sparse Odometry with Loop Closure**](https://arxiv.org/abs/1808.01111) (X. Gao, R. Wang, N. Demmel, D. Cremers), In International Conference on Intelligent Robots and Systems (**IROS**), **2018**
   + 代码：https://github.com/tum-vision/LDSO
   + 慕尼黑工业大学：https://vision.in.tum.de/research/vslam/ldso
+  
+#### :white_check_mark: **点线SLAM**
+  + **双目点线SLAM**
+      + 论文：Gomez-Ojeda R, Zuñiga-Noël D, Moreno F A, et al. [**PL-SLAM: a Stereo SLAM System through the Combination of Points and Line Segments**](https://arxiv.org/pdf/1705.09479.pdf)[J]. arXiv preprint arXiv:1705.09479, **2017**.
+      + 代码：https://github.com/rubengooj/pl-slam
+  + **点线SVO**
+      + 论文：Gomez-Ojeda R, Briales J, Gonzalez-Jimenez J. [**PL-SVO: Semi-direct Monocular Visual Odometry by combining points and line segments**](http://mapir.isa.uma.es/rgomez/publications/iros16plsvo.pdf)[C]//Intelligent Robots and Systems (IROS), 2016 IEEE/RSJ International Conference on. IEEE, **2016**: 4211-4216.
+      + 代码：https://github.com/rubengooj/pl-svo
 
 ### :smile: 1.2 语义相关
 #### :white_check_mark: **CNN 稠密三维语义建图**
