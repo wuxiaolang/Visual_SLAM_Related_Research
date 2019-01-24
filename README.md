@@ -91,6 +91,13 @@
   + 代码：https://github.com/alejocb/dpptam
   + 相关研究：基于超像素的单目 SLAM：[**Using Superpixels in Monocular SLAM**](http://webdiis.unizar.es/~jcivera/papers/concha_civera_icra14.pdf) ICRA 2014
   + 谷歌学术：https://scholar.google.com/citations?user=GIaG3CsAAAAJ&hl=zh-CN&oi=sra
+
+#### :white_check_mark: **单目稠密建图的几篇文章**
+  + Tateno K, Tombari F, Laina I, et al. [**CNN-SLAM: Real-time dense monocular SLAM with learned depth prediction**](http://openaccess.thecvf.com/content_cvpr_2017/papers/Tateno_CNN-SLAM_Real-Time_Dense_CVPR_2017_paper.pdf)[C]//Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (**CVPR**). **2017**, 2.
+  + Brasch N, Bozic A, Lallemand J, et al. [**Semantic Monocular SLAM for Highly Dynamic Environments**](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8593828)[C]//2018 IEEE/RSJ International Conference on Intelligent Robots and Systems (**IROS**). IEEE, **2018**: 393-400.
+  + Hosseinzadeh M, Li K, Latif Y, et al. [**Real-Time Monocular Object-Model Aware Sparse SLAM**](https://arxiv.org/pdf/1809.09149.pdf)[J]. arXiv preprint arXiv:1809.09149, **2018**.
+  + Sünderhauf N, Pham T T, Latif Y, et al. [**Meaningful maps with object-oriented semantic mapping**](https://arxiv.org/pdf/1609.07849.pdf)[C]//Intelligent Robots and Systems (**IROS**), 2017 IEEE/RSJ International Conference on. IEEE, **2017**: 5079-5085.
+  + Yang X, Chen J, Wang Z, et al. [**Monocular Camera Based Real-Time Dense Mapping Using Generative Adversarial Network**](http://delivery.acm.org/10.1145/3250000/3240564/p896-yang.pdf?ip=219.216.73.1&id=3240564&acc=ACTIVE%20SERVICE&key=BF85BBA5741FDC6E%2E4183B12E3311CD37%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35&__acm__=1548299726_a21229f36359160e246c0c03d8ffd0c0)[C]//2018 ACM Multimedia Conference on Multimedia Conference. ACM, **2018**: 896-904.
   
 ---
 ## 2. 算法、知识点与代码
