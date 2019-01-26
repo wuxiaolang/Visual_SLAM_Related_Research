@@ -202,7 +202,7 @@
 
 
 + :+1: **阿德莱德大学机器人视觉中心 Yasir Latif**
-  + 团队代表作：SLAM 的过去现在和未来，Meaningful Maps
+  + 团队代表作：SLAM 的过去现在和未来，Meaningful Maps，平面物体路标
   + [**作者主页**](http://ylatif.github.io/) &emsp; [**谷歌学术**](https://scholar.google.com/citations?user=pGsO6EkAAAAJ&hl=zh-CN) &emsp; [**机器人视觉中心**](https://www.roboticvision.org/)
   + **论文**：
       + Cadena C, Carlone L, Carrillo H, et al. [**Past, present, and future of simultaneous localization and mapping: Toward the robust-perception age**](https://arxiv.org/pdf/1606.05830.pdf)[J]. IEEE Transactions on Robotics, **2016**, 32(6): 1309-1332.
