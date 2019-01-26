@@ -201,9 +201,12 @@
       + Li H, Yao J, Bazin J C, et al. [**A monocular SLAM system leveraging structural regularity in Manhattan world**](http://cvrs.whu.edu.cn/projects/Struct-PL-SLAM/source/file/Struct_PL_SLAM.pdf)[C]//2018 IEEE International Conference on Robotics and Automation (**ICRA**). IEEE, **2018**: 2518-2525.
 
 
-+ :+1: **阿德莱德大学机器人视觉中心 Yasir Latif**
-  + 团队代表作：SLAM 的过去现在和未来，Meaningful Maps，平面物体路标
-  + [**作者主页**](http://ylatif.github.io/) &emsp; [**谷歌学术**](https://scholar.google.com/citations?user=pGsO6EkAAAAJ&hl=zh-CN) &emsp; [**机器人视觉中心**](https://www.roboticvision.org/)
++ :+1: **澳大利亚机器人视觉中心 Yasir Latif**
+  + [**机器人视觉中心**](https://www.roboticvision.org/)
+  + 团队代表作：SLAM 的过去现在和未来，Meaningful Maps，平面物体路标，Rat SLAM，SeqSLAM
+  + **Yasir Latif**：[**作者主页**](http://ylatif.github.io/) &emsp; [**谷歌学术**](https://scholar.google.com/citations?user=pGsO6EkAAAAJ&hl=zh-CN) 
+  + **Lachlan Nicholson**：二次平面作为物体SLAM的路标  &emsp; [**谷歌学术**](https://scholar.google.com/citations?user=DkyLABAAAAAJ&hl=zh-CN&oi=sra) 
+  + **Michael Milford**：Rat SLAM，SeqSLAM &emsp; [**谷歌学术**](https://scholar.google.com/citations?user=TDSmCKgAAAAJ&hl=zh-CN&oi=sra) 
   + **论文**：
       + Cadena C, Carlone L, Carrillo H, et al. [**Past, present, and future of simultaneous localization and mapping: Toward the robust-perception age**](https://arxiv.org/pdf/1606.05830.pdf)[J]. IEEE Transactions on Robotics, **2016**, 32(6): 1309-1332.
       + Sünderhauf N, Pham T T, Latif Y, et al. [**Meaningful maps with object-oriented semantic mapping**](https://arxiv.org/pdf/1609.07849.pdf)[C]//Intelligent Robots and Systems (IROS), 2017 IEEE/RSJ International Conference on. IEEE, **2017**: 5079-5085.
