@@ -106,6 +106,28 @@
   + Hosseinzadeh M, Li K, Latif Y, et al. [**Real-Time Monocular Object-Model Aware Sparse SLAM**](https://arxiv.org/pdf/1809.09149.pdf)[J]. arXiv preprint arXiv:1809.09149, **2018**.
   + Sünderhauf N, Pham T T, Latif Y, et al. [**Meaningful maps with object-oriented semantic mapping**](https://arxiv.org/pdf/1609.07849.pdf)[C]//Intelligent Robots and Systems (**IROS**), 2017 IEEE/RSJ International Conference on. IEEE, **2017**: 5079-5085.
   + Yang X, Chen J, Wang Z, et al. [**Monocular Camera Based Real-Time Dense Mapping Using Generative Adversarial Network**](http://delivery.acm.org/10.1145/3250000/3240564/p896-yang.pdf?ip=219.216.73.1&id=3240564&acc=ACTIVE%20SERVICE&key=BF85BBA5741FDC6E%2E4183B12E3311CD37%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35&__acm__=1548299726_a21229f36359160e246c0c03d8ffd0c0)[C]//2018 ACM Multimedia Conference on Multimedia Conference. ACM, **2018**: 896-904.
+
+#### :white_check_mark: **orb_slam2-ElasticFusion**
+  + 代码：https://github.com/mp3guy/ElasticFusion
+```
+一种离线SLAM获取三维图的方法(linux平台，ubuntu14.04测试）
+1.在线跑orb_slam2,录制成oni格式的录像
+2.离线对oni录像逐帧处理得到相机的位姿数据
+3.将oni文件转换成为ElasticFusion支持的klg格式
+4.将klg文件和位姿数据传递给ElasticFusion，fusion成图
+编译
+下载orb_slam2,(https://github.com/gaoxiang12/ORBSLAM2_with_pointcloud_map)，
+添加两个cpp文件和一个yaml文件，修改CMakeLists.txt，编译ORBSLAM2_with_pointcloud_map。
+下载ElasticFusion（https://github.com/mp3guy/ElasticFusion），替换两个cpp文件后编译ElasticFusion。
+编译FormatConverter。
+使用
+cd ×××/ORB_SLAM2_modified
+./Examples/RGB-D/rgbd_xtion_cc Vocabulary/ORBvoc.txt Examples/RGB-D/xtion.yaml 
+./Examples/RGB-D/rgbd_xtion_cc_offline Vocabulary/ORBvoc.txt Examples/RGB-D/xtion.yaml test.oni
+FormatConverter test.oni test.klg
+cd ×××/ElasticFusion-master/GUI/build
+./ElasticFusion -l test.klg -p trajectory.txt -ocl
+```
   
 ---
 ## 2. 算法、知识点与代码
