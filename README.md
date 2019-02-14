@@ -31,6 +31,11 @@
       + 论文：Gomez-Ojeda R, Briales J, Gonzalez-Jimenez J. [**PL-SVO: Semi-direct Monocular Visual Odometry by combining points and line segments**](http://mapir.isa.uma.es/rgomez/publications/iros16plsvo.pdf)[C]//Intelligent Robots and Systems (IROS), 2016 IEEE/RSJ International Conference on. IEEE, **2016**: 4211-4216.
       + 代码：https://github.com/rubengooj/pl-svo
 
+#### :white_check_mark: **基于滑动窗口滤波的R-VIO**
+   + 论文：Zheng Huai and Guoquan Huang, [**Robocentric visual-inertial odometry**](https://arxiv.org/pdf/1805.04031.pdf), The International Journal of Robotics Research, Nov 2018
+   + 代码：https://github.com/rpng/R-VIO
+
+      
 ### :smile: 1.2 语义相关
 #### :white_check_mark: **CNN 稠密三维语义建图**
   + 论文：   
