@@ -230,7 +230,6 @@ cd ×××/ElasticFusion-master/GUI/build
   + 曼哈顿结构化环境的**单目 SLAM**
       + Li H, Yao J, Bazin J C, et al. [**A monocular SLAM system leveraging structural regularity in Manhattan world**](http://cvrs.whu.edu.cn/projects/Struct-PL-SLAM/source/file/Struct_PL_SLAM.pdf)[C]//2018 IEEE International Conference on Robotics and Automation (**ICRA**). IEEE, **2018**: 2518-2525.
 
-
 + :+1: **澳大利亚机器人视觉中心 Yasir Latif**
   + [**机器人视觉中心**](https://www.roboticvision.org/)
   + 团队代表作：SLAM 的过去现在和未来，Meaningful Maps，平面物体路标，Rat SLAM，SeqSLAM
@@ -242,6 +241,11 @@ cd ×××/ElasticFusion-master/GUI/build
       + Sünderhauf N, Pham T T, Latif Y, et al. [**Meaningful maps with object-oriented semantic mapping**](https://arxiv.org/pdf/1609.07849.pdf)[C]//Intelligent Robots and Systems (IROS), 2017 IEEE/RSJ International Conference on. IEEE, **2017**: 5079-5085.
       + Hosseinzadeh M, Li K, Latif Y, et al. [**Real-Time Monocular Object-Model Aware Sparse SLAM**](https://arxiv.org/pdf/1809.09149.pdf)[J]. arXiv preprint arXiv:1809.09149, **2018**.实时单目目标-模型感知的稀疏SLAM
       + Hosseinzadeh M, Latif Y, Pham T, et al. [**Towards Semantic SLAM: Points, Planes and Objects**](https://arxiv.org/pdf/1804.09111.pdf)[J]. arXiv preprint arXiv:1804.09111, **2018**.基于二次曲面和平面的结构感知SLAM
+
++ :+1: **西班牙马拉加大学博士生：RubénGómezOjeda**
+  + 计算机视觉和移动机器人专业，**点线 SLAM**；
+  + [个人主页](http://mapir.isa.uma.es/mapirwebsite/index.php/people/164-ruben-gomez) &emsp; [谷歌学术](https://scholar.google.com/citations?user=7jne0V4AAAAJ&hl=zh-CN) &emsp; [Github](https://github.com/rubengooj)
+  + 代表作：PL-SVO，stvo-pl，pl-slam
   
 ---
 ## 5. 资料
