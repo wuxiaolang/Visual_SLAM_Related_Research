@@ -23,14 +23,17 @@
   + 代码：https://github.com/tum-vision/LDSO
   + 慕尼黑工业大学：https://vision.in.tum.de/research/vslam/ldso
   
-#### :white_check_mark: **点线SLAM**
-  + **双目点线SLAM**
-      + 论文：Gomez-Ojeda R, Zuñiga-Noël D, Moreno F A, et al. [**PL-SLAM: a Stereo SLAM System through the Combination of Points and Line Segments**](https://arxiv.org/pdf/1705.09479.pdf)[J]. arXiv preprint arXiv:1705.09479, **2017**.
-      + 代码：https://github.com/rubengooj/pl-slam
+#### :white_check_mark: **Gomez-Ojeda R 点线SLAM**
   + **点线SVO**
       + 论文：Gomez-Ojeda R, Briales J, Gonzalez-Jimenez J. [**PL-SVO: Semi-direct Monocular Visual Odometry by combining points and line segments**](http://mapir.isa.uma.es/rgomez/publications/iros16plsvo.pdf)[C]//Intelligent Robots and Systems (IROS), 2016 IEEE/RSJ International Conference on. IEEE, **2016**: 4211-4216.
       + 代码：https://github.com/rubengooj/pl-svo
-
+  + **双目点线里程计**
+      + 论文：Gomez-Ojeda R, Gonzalez-Jimenez J. [**Robust stereo visual odometry through a probabilistic combination of points and line segments**](https://riuma.uma.es/xmlui/bitstream/handle/10630/11515/icra16rgo.pdf?sequence=1&isAllowed=y)[C]//**2016** IEEE International Conference on Robotics and Automation (**ICRA**). IEEE, 2016: 2521-2526.
+      + 代码：https://github.com/rubengooj/stvo-pl
+  + **双目点线SLAM**
+      + 论文：Gomez-Ojeda R, Zuñiga-Noël D, Moreno F A, et al. [**PL-SLAM: a Stereo SLAM System through the Combination of Points and Line Segments**](https://arxiv.org/pdf/1705.09479.pdf)[J]. arXiv preprint arXiv:1705.09479, **2017**.
+      + 代码：https://github.com/rubengooj/pl-slam
+      
 #### :white_check_mark: **基于滑动窗口滤波的R-VIO**
    + 论文：Zheng Huai and Guoquan Huang, [**Robocentric visual-inertial odometry**](https://arxiv.org/pdf/1805.04031.pdf), The International Journal of Robotics Research, Nov 2018
    + 代码：https://github.com/rpng/R-VIO
