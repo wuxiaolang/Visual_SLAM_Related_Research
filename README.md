@@ -150,6 +150,10 @@ cd ×××/ElasticFusion-master/GUI/build
 #### :white_check_mark: **单目稠密建图-沈邵劼**
   + **论文**：Yang Z, Gao F, Shen S. [**Real-time monocular dense mapping on aerial robots using visual-inertial fusion**](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7989529)[C]//2017 IEEE International Conference on Robotics and Automation (ICRA). IEEE, 2017: 4552-4559.
   + **代码**：https://github.com/dvorak0/VI-MEAN
+
+#### :white_check_mark: **苏黎世单目稠密建图**
+  + **论文**：Pizzoli M, Forster C, Scaramuzza D. [**REMODE: Probabilistic, monocular dense reconstruction in real time**](https://files.ifi.uzh.ch/rpg/website/rpg.ifi.uzh.ch/html/docs/ICRA14_Pizzoli.pdf)[C]//2014 IEEE International Conference on Robotics and Automation (ICRA). IEEE, 2014: 2609-2616.
+  + **代码**：https://github.com/uzh-rpg/rpg_open_remode
   
 ---
 ## 2. 算法、知识点与代码
