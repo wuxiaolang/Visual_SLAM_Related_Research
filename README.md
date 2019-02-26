@@ -5,6 +5,8 @@
   + [**1.2 语义相关**](https://github.com/wuxiaolang/Mark/blob/master/README.md#smile-12-%E8%AF%AD%E4%B9%89%E7%9B%B8%E5%85%B3)
   + [**1.3 深度学习相关**](https://github.com/wuxiaolang/Mark/blob/master/README.md#smile-13-%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9B%B8%E5%85%B3)
   + [**1.4 稠密建图相关**](https://github.com/wuxiaolang/Mark/blob/master/README.md#smile-14-%E7%A8%A0%E5%AF%86%E5%BB%BA%E5%9B%BE%E7%9B%B8%E5%85%B3)
+  + [**1.5 物体级 SLAM**](https://github.com/wuxiaolang/Mark/blob/master/README.md#smile-15-%E7%89%A9%E4%BD%93%E7%BA%A7%E7%9A%84-slam)
+    
 + [**2. 算法、知识点与代码**](https://github.com/wuxiaolang/Mark/blob/master/README.md#2-%E7%AE%97%E6%B3%95%E7%9F%A5%E8%AF%86%E7%82%B9%E4%B8%8E%E4%BB%A3%E7%A0%81)
 + [**3. 工具**](https://github.com/wuxiaolang/Mark/blob/master/README.md#3-%E5%B7%A5%E5%85%B7)
 + [**4. 优秀作者与实验**](https://github.com/wuxiaolang/Mark/blob/master/README.md#4-%E4%BC%98%E7%A7%80%E4%BD%9C%E8%80%85%E4%B8%8E%E5%AE%9E%E9%AA%8C)
@@ -158,6 +160,7 @@ cd ×××/ElasticFusion-master/GUI/build
 ### :smile: 1.5 物体级的 SLAM
 #### :white_check_mark: **BundleFusion：识别表面 3D 重建**
   + 论文：Mu B, Liu S Y, Paull L, et al. [**Slam with objects using a nonparametric pose graph**](https://arxiv.org/pdf/1704.05959.pdf)[C]//**2016** IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). IEEE, 2016: 4602-4609.
+  + 需要 caffe-fast-rcnn
   + **代码**：https://github.com/BeipengMu/objectSLAM
   + 视频：https://www.youtube.com/watch?v=YANUWdVLJD4&feature=youtu.be
 
