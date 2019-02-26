@@ -154,7 +154,13 @@ cd ×××/ElasticFusion-master/GUI/build
 #### :white_check_mark: **苏黎世单目稠密建图**
   + **论文**：Pizzoli M, Forster C, Scaramuzza D. [**REMODE: Probabilistic, monocular dense reconstruction in real time**](https://files.ifi.uzh.ch/rpg/website/rpg.ifi.uzh.ch/html/docs/ICRA14_Pizzoli.pdf)[C]//2014 IEEE International Conference on Robotics and Automation (ICRA). IEEE, 2014: 2609-2616.
   + **代码**：https://github.com/uzh-rpg/rpg_open_remode
-  
+
+### :smile: 1.5 物体级的 SLAM
+#### :white_check_mark: **BundleFusion：识别表面 3D 重建**
+  + 论文：Mu B, Liu S Y, Paull L, et al. [**Slam with objects using a nonparametric pose graph**](https://arxiv.org/pdf/1704.05959.pdf)[C]//**2016** IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). IEEE, 2016: 4602-4609.
+  + **代码**：https://github.com/BeipengMu/objectSLAM
+  + 视频：https://www.youtube.com/watch?v=YANUWdVLJD4&feature=youtu.be
+
 ---
 ## 2. 算法、知识点与代码
 + :coffee: **消失点检测 vanishing point detection**
