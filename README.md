@@ -51,7 +51,10 @@
    + 论文：Zheng Huai and Guoquan Huang, [**Robocentric visual-inertial odometry**](https://arxiv.org/pdf/1805.04031.pdf), The International Journal of Robotics Research, Nov 2018
    + 代码：https://github.com/rpng/R-VIO
 
-      
+#### :white_check_mark: **ORB-SLAM2 单目半稠密建图**
+   + 博客：https://blog.csdn.net/heyijia0327/article/details/52464278
+   + 代码：https://github.com/HeYijia/ORB_SLAM2
+![](https://img-blog.csdn.net/20160909121926348)
 ### :smile: 1.2 语义相关
 #### :white_check_mark: **CNN 稠密三维语义建图**
   + 论文：   
