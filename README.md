@@ -76,19 +76,28 @@
 + 介绍：法国ENSTA学校的学生做的研究项目 , 做的基于ros的稠密语义建图, slam部分用的**orbslam**, **分割部分用的PSPNet50**, **地图表达有OctoMap和PCL两种**形式
 + 代码：https://github.com/floatlazer/semantic_slam
 + 视频：https://www.youtube.com/watch?v=IwQaRnFmRuU&feature=youtu.be
-![](https://github.com/floatlazer/semantic_slam/raw/master/docs/images/rgb.png)
+
+<center>
+<img src="https://github.com/floatlazer/semantic_slam/raw/master/docs/images/rgb.png" title="" width="650" />
+</center>
 
 #### :white_check_mark: ORB_SLAM2_SSD_Semantic
 + 介绍：**动态**语义SLAM **目标检测** + VSLAM+光流/多视角几何动态物体检测+ **octomap地图** + 目标数据库 **orbslam2** 基础上做**语义地图**
 + 代码：https://github.com/Ewenwan/ORB_SLAM2_SSD_Semantic
-![](https://github.com/Ewenwan/ORB_SLAM2_SSD_Semantic/blob/master/global-pcl.png?raw=true)
+
+<center>
+<img src="https://github.com/Ewenwan/ORB_SLAM2_SSD_Semantic/blob/master/global-pcl.png?raw=true" title="" width="650" />
+</center>
 
 #### :white_check_mark: DynamicSemanticMapping
 + 基于**分割**和orbslam2 完成**动态场景**的**稠密重建**
 + **论文**：Kochanov D, Ošep A, Stückler J, et al. [**Scene flow propagation for semantic mapping and object discovery in dynamic street scenes**](http://web-info8.informatik.rwth-aachen.de/media/papers/paper_compressed.pdf)[C]//Intelligent Robots and Systems (IROS), 2016 IEEE/RSJ International Conference on. IEEE, **2016**: 1785-1792.
 + **代码**：https://github.com/ganlumomo/DynamicSemanticMapping
 + wiki有详细记录：https://github.com/ganlumomo/DynamicSemanticMapping/wiki
-![](https://raw.githubusercontent.com/ganlumomo/DynamicSemanticMapping/master/wiki_materials/snapshot_Area_1_office_1.jpg)
+
+<center>
+<img src="https://raw.githubusercontent.com/ganlumomo/DynamicSemanticMapping/master/wiki_materials/snapshot_Area_1_office_1.jpg" title="" width="650" />
+</center>
 
 #### :white_check_mark: DS-SLAM
 + 介绍：文章提出了一种实时的动态语义SLAM系统, DS-SLAM, 可以减少运动目标对位姿估计的影响, 同时提供**基于八叉树的3D稠密语义地图**. 在DS-SLAM中, 一共有5个并行运行的线程: **跟踪、语义分割、局部建图、闭环检测和密集语义地图构建**。文章结合实时的语义分割网络SegNet和基于光流的运动一致性检验, 剔除场景中动态的部分, 比如行走的人. 然后将匹配的特征点从检测到的动态区域中剔除，从而提高动态场景的鲁棒性和准确性。基于八叉树的3D稠密语义地图使用 log-odds score 方法剔除不稳定的体素, 可用于机器人的导航和复杂任务。在TUM RGB-D数据集和现实环境中进行了实验。结果表明，在高动态环境下， DS-SLAM在精度和鲁棒性方面明显优于orb - slam。
@@ -153,17 +162,19 @@ FormatConverter test.oni test.klg
 cd ×××/ElasticFusion-master/GUI/build
 ./ElasticFusion -l test.klg -p trajectory.txt -ocl
 ```
-#### :white_check_mark: **单目稠密建图-沈邵劼**
+#### :white_check_mark: **单目稠密建图-沈邵劼团队**
   + **论文**：Yang Z, Gao F, Shen S. [**Real-time monocular dense mapping on aerial robots using visual-inertial fusion**](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7989529)[C]//2017 IEEE International Conference on Robotics and Automation (ICRA). IEEE, 2017: 4552-4559.
   + **代码**：https://github.com/dvorak0/VI-MEAN
 
 #### :white_check_mark: **苏黎世单目稠密建图**
   + **论文**：Pizzoli M, Forster C, Scaramuzza D. [**REMODE: Probabilistic, monocular dense reconstruction in real time**](https://files.ifi.uzh.ch/rpg/website/rpg.ifi.uzh.ch/html/docs/ICRA14_Pizzoli.pdf)[C]//2014 IEEE International Conference on Robotics and Automation (ICRA). IEEE, 2014: 2609-2616.
   + **原始开源代码**：https://github.com/uzh-rpg/rpg_open_remode
-  + **与 ORB-SLAM2 结合版本**：https://github.com/ayushgaud/ORB_SLAM2  https://github.com/ayushgaud/ORB_SLAM2
+  + **与 ORB-SLAM2 结合版本**：https://github.com/ayushgaud/ORB_SLAM2  https://github.com/ayushgaud/ORB_SLAM2    
+  
 <center>
-<img src="https://cloud.githubusercontent.com/assets/4923897/26147541/7f7feec8-3b11-11e7-8b4c-5458aa922709.png" title="" width="700" /></center>
-
+<img src="https://cloud.githubusercontent.com/assets/4923897/26147541/7f7feec8-3b11-11e7-8b4c-5458aa922709.png" title="" width="700" />
+</center>
+    
 ### :smile: 1.5 物体级的 SLAM
 #### :white_check_mark: **BundleFusion：识别表面 3D 重建**
   + 论文：Mu B, Liu S Y, Paull L, et al. [**Slam with objects using a nonparametric pose graph**](https://arxiv.org/pdf/1704.05959.pdf)[C]//**2016** IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). IEEE, 2016: 4602-4609.
