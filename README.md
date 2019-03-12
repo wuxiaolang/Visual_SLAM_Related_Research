@@ -159,7 +159,10 @@ cd ×××/ElasticFusion-master/GUI/build
 
 #### :white_check_mark: **苏黎世单目稠密建图**
   + **论文**：Pizzoli M, Forster C, Scaramuzza D. [**REMODE: Probabilistic, monocular dense reconstruction in real time**](https://files.ifi.uzh.ch/rpg/website/rpg.ifi.uzh.ch/html/docs/ICRA14_Pizzoli.pdf)[C]//2014 IEEE International Conference on Robotics and Automation (ICRA). IEEE, 2014: 2609-2616.
-  + **代码**：https://github.com/uzh-rpg/rpg_open_remode
+  + **原始开源代码**：https://github.com/uzh-rpg/rpg_open_remode
+  + **与 ORB-SLAM2 结合版本**：https://github.com/ayushgaud/ORB_SLAM2  https://github.com/ayushgaud/ORB_SLAM2
+<center>
+<img src="https://cloud.githubusercontent.com/assets/4923897/26147541/7f7feec8-3b11-11e7-8b4c-5458aa922709.png" title="" width="700" /></center>
 
 ### :smile: 1.5 物体级的 SLAM
 #### :white_check_mark: **BundleFusion：识别表面 3D 重建**
