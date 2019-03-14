@@ -1,6 +1,7 @@
 # Mark
-+ **前言：** 以下论文、代码等资料是自己收集的与本人学习方向**视觉 SLAM、增强现实** 相关的内容。    
-目前（2019年3月）**重点关注前端，语义、传感器融合、稠密建图略有关注**，所以以下资料的收集范围也与自己兴趣比较一致，无法涵盖视觉 SLAM 的所有研究。    
+## 前言
+以下收集的论文、代码等资料主要与本人的学习方向**视觉 SLAM、增强现实** 相关。    
+目前（2019年3月）**重点关注前端，语义、传感器融合、稠密建图也略有关注**，所以资料的收集范围也与自己的兴趣比较一致，无法涵盖视觉 SLAM 的所有研究，请谨慎参考。   
 `1. 论文` ：**代码开源**的相关论文    
 `2. 算法、知识点与代码` ：一些零散的知识点和算法    
 `3. 工具` ：论文或实验用到的一些工具    
@@ -269,7 +270,7 @@ cd ×××/ElasticFusion-master/GUI/build
     + Marta Salas, Wajahat Hussain, Alejo Concha, Luis Montano, Javier Civera, J. M. M. Montiel.**Layout Aware Visual Tracking and Mapping (**[**pdf**](http://www.google.com/url?q=http%3A%2F%2Fwebdiis.unizar.es%2F~jcivera%2Fpapers%2Fsalas_etal_iros15.pdf&sa=D&sntz=1&usg=AFQjCNG-5QcfQ8D3PTPonvE9K9xpTtur7A)**) (**[**video 1**](https://youtu.be/Qor9dVRqrpQ)**) (**[**video 2**](https://youtu.be/TsEbJMmR348)**).** IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS15), Hamburg, Germany, 2015.
     
 + :+1: **波兹南理工大学移动机器人实验室**
-  + 有很多基于**RGB-D平面**的稠密建图工作（但我想搞单目啊！！！）
+  + 有很多基于**RGB-D平面**的稠密建图工作
   + **论文**：
       + Wietrzykowski J, Skrzypczyński P. [**A probabilistic framework for global localization with segmented planes**](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8098672)[C]//Mobile Robots (ECMR), 2017 European Conference on. IEEE, **2017**: 1-6.
       + Wietrzykowski J, Skrzypczyński P. [**PlaneLoc: Probabilistic global localization in 3-D using local planar features**](https://www.sciencedirect.com/science/article/pii/S0921889018303701)[J]. Robotics and Autonomous Systems, **2019**.
