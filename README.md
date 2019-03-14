@@ -186,7 +186,7 @@ cd ×××/ElasticFusion-master/GUI/build
   + 视频：https://www.youtube.com/watch?v=YANUWdVLJD4&feature=youtu.be
 
 ---
-## 2. 算法、知识点与代码
+## 2. 算法、知识点与开源库
 + :coffee: **消失点检测 vanishing point detection**
   + ！！！！论文：Lu X, Yaoy J, Li H, et al. [**2-Line Exhaustive Searching for Real-Time Vanishing Point Estimation in Manhattan World**](https://xiaohulugo.github.io/papers/Vanishing_Point_Detection_WACV2017.pdf)[C]//Applications of Computer Vision (WACV), **2017** IEEE Winter Conference on. IEEE, 2017: 345-353.
       + 代码：https://github.com/xiaohulugo/VanishingPointDetection
@@ -207,6 +207,8 @@ cd ×××/ElasticFusion-master/GUI/build
 + :coffee: **ORB-SLAM2 地图保存**
   + 代码：https://github.com/BoomFan/ORB_SLAM2
   + 博客：https://blog.csdn.net/qq_34254510/article/details/79969046
++ :coffee: **关注截断面和欧几里得符号随机场的体素建图开源库**
+  + 代码：https://github.com/ethz-asl/voxblox
   
 ---
 ## 3. 工具
@@ -296,7 +298,13 @@ cd ×××/ElasticFusion-master/GUI/build
   + 代表作：PL-SVO，stvo-pl，pl-slam
   
 ---
+
 ## 5. 资料
 + SLAM 最新研究更新 Recent_SLAM_Research ：https://github.com/YiChenCityU/Recent_SLAM_Research
 + 西北工大智能系统实验室 SLAM 培训：https://github.com/zdzhaoyong/SummerCamp2018
-+ 
+
+---
+
+## 3. 论文（持续更新）
+### 2019.03.14
+
