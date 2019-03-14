@@ -1,5 +1,14 @@
 # Mark
-
++ **前言：** 以下论文、代码等资料是自己收集的与本人学习方向**视觉 SLAM、增强现实** 相关的内容。    
+目前（2019年3月）**重点关注前端，语义、传感器融合、稠密建图略有关注**，所以以下资料的收集范围也与自己兴趣比较一致，无法涵盖视觉 SLAM 的所有研究。    
+`1. 论文` ：**代码开源**的相关论文    
+`2. 算法、知识点与代码` ：一些零散的知识点和算法    
+`3. 工具` ：论文或实验用到的一些工具    
+`4. 优秀作者与团队` ：在自己感兴趣领域比较**优秀的值得关注的团队或个人**    
+`5. 资料` ：可供参考的资料或备忘    
+`6. 论文` ：自己感兴趣方向的**最新论文**，大概半个月一更新    
+能力有限，欢迎大家补充。
+## 目录
 + [**1.论文（及代码）**](https://github.com/wuxiaolang/Mark/blob/master/README.md#1-%E8%AE%BA%E6%96%87%E5%8F%8A%E4%BB%A3%E7%A0%81)
   + [**1.1 传统视觉 SLAM (侧重前端)**](https://github.com/wuxiaolang/Mark/blob/master/README.md#smile-11-%E4%BC%A0%E7%BB%9F%E8%A7%86%E8%A7%89-slam-%E4%BE%A7%E9%87%8D%E5%89%8D%E7%AB%AF)
   + [**1.2 语义相关**](https://github.com/wuxiaolang/Mark/blob/master/README.md#smile-12-%E8%AF%AD%E4%B9%89%E7%9B%B8%E5%85%B3)
@@ -9,9 +18,8 @@
     
 + [**2. 算法、知识点与代码**](https://github.com/wuxiaolang/Mark/blob/master/README.md#2-%E7%AE%97%E6%B3%95%E7%9F%A5%E8%AF%86%E7%82%B9%E4%B8%8E%E4%BB%A3%E7%A0%81)
 + [**3. 工具**](https://github.com/wuxiaolang/Mark/blob/master/README.md#3-%E5%B7%A5%E5%85%B7)
-+ [**4. 优秀作者与实验**](https://github.com/wuxiaolang/Mark/blob/master/README.md#4-%E4%BC%98%E7%A7%80%E4%BD%9C%E8%80%85%E4%B8%8E%E5%AE%9E%E9%AA%8C)
++ [**4. 优秀作者与团队**](https://github.com/wuxiaolang/Mark/blob/master/README.md#4-%E4%BC%98%E7%A7%80%E4%BD%9C%E8%80%85%E4%B8%8E%E5%AE%9E%E9%AA%8C)
 + [**5.资料**](https://github.com/wuxiaolang/Mark/blob/master/README.md#5-%E8%B5%84%E6%96%99)
-  
 
 ## 1. 论文（及代码）
 ### :smile: 1.1 传统视觉 SLAM (侧重前端)
@@ -116,6 +124,13 @@
   + **代码**：https://github.com/zouchuhang/LayoutNet
   <center>
   <img src="https://github.com/zouchuhang/LayoutNet/raw/master/figs/teasor.jpg" title="SemanticFusion" width="400" />
+  </center>
+  
+#### :white_check_mark: **ICRA 2019：Self-Supervised Ego-Motion Estimation**
+  + 论文：Shen T, Luo Z, Zhou L, et al. [**Beyond Photometric Loss for Self-Supervised Ego-Motion Estimation**](https://arxiv.org/pdf/1902.09103.pdf)[J]. arXiv preprint arXiv:1902.09103, 2019.
+  + **代码**：https://github.com/hlzz/DeepMatchVO
+  <center>
+  <img src="https://github.com/hlzz/DeepMatchVO/raw/master/data/demo_result.png" title="SemanticFusion" width="600" />
   </center>
   
 ### :smile: 1.4 稠密建图相关
@@ -294,9 +309,13 @@ cd ×××/ElasticFusion-master/GUI/build
 
 + :+1: **西班牙马拉加大学博士生：RubénGómezOjeda**
   + 计算机视觉和移动机器人专业，**点线 SLAM**；
-  + [个人主页](http://mapir.isa.uma.es/mapirwebsite/index.php/people/164-ruben-gomez) &emsp; [谷歌学术](https://scholar.google.com/citations?user=7jne0V4AAAAJ&hl=zh-CN) &emsp; [Github](https://github.com/rubengooj)
+  + [**个人主页**](http://mapir.isa.uma.es/mapirwebsite/index.php/people/164-ruben-gomez) &emsp; [**谷歌学术**](https://scholar.google.com/citations?user=7jne0V4AAAAJ&hl=zh-CN) &emsp; [**Github**](https://github.com/rubengooj)
   + 代表作：PL-SVO，stvo-pl，pl-slam
-  
+
++ :+1: **法国运输，规划和网络科学与技术研究所博士：Nicolas Antigny**
+  + 主要研究城市环境下**单目 SLAM**，基于场景和已知物体的**大环境增强现实**，传感器融合
+  + [**researchgate**](https://www.researchgate.net/profile/Nicolas_Antigny) &emsp; [**YouTube**](https://www.youtube.com/channel/UC7zmj2Eonwi5kCfoe1r68dA/featured)
+
 ---
 
 ## 5. 资料
@@ -305,6 +324,43 @@ cd ×××/ElasticFusion-master/GUI/build
 
 ---
 
-## 3. 论文（持续更新）
-### 2019.03.14
-
+## 3. 近期论文（持续更新）
+### 2019.03.14 更新
++ Han L, Gao F, Zhou B, et al. [**FIESTA: Fast Incremental Euclidean Distance Fields for Online Motion Planning of Aerial Robots**](https://arxiv.org/abs/1903.02144)[J]. arXiv preprint arXiv:1903.02144, **2019**.
+    + 基于快速**增量式欧氏距离场**的飞行器实时运动规划
+    + 沈邵劼老师团队
++ ICRA **2019** ：[**Multimodal Semantic SLAM with Probabilistic Data Association**](https://marinerobotics.mit.edu/multimodal-semantic-slam-probabilistic-data-association)
+    + 具有概率数据关联的**多模态语义SLAM**
+    + 麻省理工学院海洋机器人团队
++ Zhang F, Rui T, Yang C, et al. [**LAP-SLAM: A Line-Assisted Point-Based Monocular VSLAM**](https://www.mdpi.com/2079-9292/8/2/243/htm)[J]. **Electronics**, **2019**, 8(2): 243.
+    + **线辅助**的点 SLAM
+    + 解放军陆军工程大学
++ Zhang H, Jin L, Zhang H, et al. [**A Comparative Analysis of Visual-Inertial SLAM for Assisted Wayfinding of the Visually Impaired**](https://ieeexplore.ieee.org/abstract/document/8658410)[C]//2019 IEEE Winter Conference on Applications of Computer Vision (**WACV**). IEEE, **2019**: 210-217.
+    + **VI-SLAM** 辅助寻径对比分析
+    + 弗吉尼亚联邦大学
++ Chen Z, Liu L. [**Creating Navigable Space from Sparse Noisy Map Points**](https://arxiv.org/pdf/1903.01503.pdf)[J]. arXiv preprint arXiv:1903.01503, **2019**.
+    + 从**稀疏地图点**中创建**可导航**空间
++ Antigny N, Uchiyama H, Servières M, et al. [**Solving monocular visual odometry scale factor with adaptive step length estimates for pedestrians using handheld devices**](https://www.mdpi.com/1424-8220/19/4/953)[J]. **Sensors**, **2019**, 19(4): 953.
+    + 行人步长估计辅助**单目手持式视觉里程计尺度估计** **城市环境 AR**应用
+    + 法国运输\规划和网络科学与技术研究所，[**researchgate**](https://www.researchgate.net/profile/Nicolas_Antigny) &emsp; [**YouTube**](https://www.youtube.com/channel/UC7zmj2Eonwi5kCfoe1r68dA/featured)
++ Zhou D, Dai Y, Li H. [**Ground Plane based Absolute Scale Estimation for Monocular Visual Odometry**]()[J]. arXiv preprint arXiv:1903.00912, **2019**.
+    + 基于地平面的**单目 SLAM 绝对尺度估计**
+    + 百度
++ Duong N D, Kacete A, Soladie C, et al. [**Accurate Sparse Feature Regression Forest Learning for Real-Time Camera Relocalization**](https://ieeexplore.ieee.org/abstract/document/8491017)[C]//2018 International Conference on 3D Vision (3DV). IEEE, **2018**: 643-652.
+    + 基于随机森林学习的实时**相机重定位**
+    + [视频](https://www.youtube.com/watch?v=2oOL-BSemmQ&feature=youtu.be)
++ Patra S, Gupta K, Ahmad F, et al. [**EGO-SLAM: A Robust Monocular SLAM for Egocentric Videos**](https://ieeexplore.ieee.org/abstract/document/8658783/)[C]//2019 IEEE Winter Conference on Applications of Computer Vision (WACV). IEEE, **2019**: 31-40.
+    + **视频序列**鲁棒的**单目 SLAM**
+    + 印度理工学院
++ Rosinol A, Sattler T, Pollefeys M, et al. [**Incremental Visual-Inertial 3D Mesh Generation with Structural Regularities**](https://arxiv.org/pdf/1903.01067.pdf)[J]. arXiv preprint arXiv:1903.01067, **2019**.
+    + 增量式 VI-SLAM **三维网格**生成
+    + 麻省理工学院信息与决策系统实验室，[项目主页](https://www.mit.edu/~arosinol/research/struct3dmesh.html)
++ Wang Z. [**Structure from Motion with Higher-level Environment Representations**](https://openresearch-repository.anu.edu.au/handle/1885/157021)[J]. **2019**.
+    + 具有**高级环境**表示的 **SFM**
+    + 澳大利亚国立大学 硕士学位
++ Vakhitov A, Lempitsky V. [**Learnable Line Segment Descriptor for Visual SLAM**](https://ieeexplore.ieee.org/abstract/document/8651490)[J]. IEEE Access, **2019**.
+    + 视觉SLAM中的可学习**线段描述**，基于 ORB-SLAM2
+    + Samsung AI Center, Moscow
++ Grinvald M, Furrer F, Novkovic T, et al. [**Volumetric Instance-Aware Semantic Mapping and 3D Object Discovery**](https://arxiv.org/abs/1903.00268)[J]. arXiv preprint arXiv:1903.00268, **2019**.
+    + **语义**感知建图与**三维物体探索**，基于 mask-RCNN
+    + 苏黎世联邦理工学院
