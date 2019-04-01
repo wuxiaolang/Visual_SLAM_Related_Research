@@ -336,7 +336,7 @@ cd ×××/ElasticFusion-master/GUI/build
 ---
 
 ## 6. 近期论文（持续更新）
-### 2019.03.14 更新
+### 2019.03.14 更新（13 篇）
 + [ ] **[1]** Han L, Gao F, Zhou B, et al. [**FIESTA: Fast Incremental Euclidean Distance Fields for Online Motion Planning of Aerial Robots**](https://arxiv.org/abs/1903.02144)[J]. arXiv preprint arXiv:1903.02144, **2019**.
     + 基于快速**增量式欧氏距离场**的飞行器实时运动规划
     + 沈邵劼老师团队
@@ -375,3 +375,62 @@ cd ×××/ElasticFusion-master/GUI/build
 + [ ] **[13]** Grinvald M, Furrer F, Novkovic T, et al. [**Volumetric Instance-Aware Semantic Mapping and 3D Object Discovery**](https://arxiv.org/abs/1903.00268)[J]. arXiv preprint arXiv:1903.00268, **2019**.
     + **语义**感知建图与**三维物体探索**，基于 mask-RCNN
     + 苏黎世联邦理工学院
+## 2019.04.01 更新（17 篇）
++ [x] **[1]** Rambach J, Lesur P, Pagani A, et al. [**SlamCraft: Dense Planar RGB Monocular SLAM**](https://www.researchgate.net/profile/Jason_Rambach/publication/331832804_SlamCraft_Dense_Planar_RGB_Monocular_SLAM/links/5c8f6a9a299bf14e7e82d880/SlamCraft-Dense-Planar-RGB-Monocular-SLAM.pdf)[C]. International Conference on Machine Vision Applications MVA **2019**.
+    + SlamCraft：**单目平面稠密** SLAM
+    + 德国人工智能研究中心 &emsp;[**作者主页**](https://av.dfki.de/members/rambach/) &emsp;[**谷歌学术**](https://scholar.google.com/citations?user=1l4G16AAAAAJ&hl=zh-CN&authuser=1&oi=sra) &emsp;**增强现实**应用
++ [ ] **[2]** Liu C, Yang J, Ceylan D, et al. [**Planenet: Piece-wise planar reconstruction from a single rgb image**](http://openaccess.thecvf.com/content_cvpr_2018/papers/Liu_PlaneNet_Piece-Wise_Planar_CVPR_2018_paper.pdf)[C]//Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. **CVPR 2018**: 2579-2588.
+    + **PlaneNet**：从单张 RGB 图像进行**平面重构**
+    + 华盛顿大学 &emsp;[**谷歌学术**](https://scholar.google.com/citations?user=Jy3u1_wAAAAJ&hl=zh-CN&authuser=1&oi=sra)  &emsp;[**Github 代码开源**](https://github.com/art-programmer/PlaneNet) 
++ [ ] **[3]** Weng X, Kitani K. [**Monocular 3D Object Detection with Pseudo-LiDAR Point Cloud**](https://arxiv.org/pdf/1903.09847.pdf)[J]. arXiv preprint arXiv:1903.09847, **2019**.
+    + 利用伪激光点云进行单目 **3D 物体检测**
+    + CMU  &emsp;[**谷歌学术**](https://scholar.google.com/citations?user=yv3sH74AAAAJ&hl=zh-CN&oi=sra) 
++ [ ] **[4]** Hassan M., Mohamed & Hemayed, Elsayed.. [**A Fast Linearly Back-End SLAM for Navigation Based on Monocular Camera**](https://www.researchgate.net/publication/331832850_A_Fast_Linearly_Back-End_SLAM_for_Navigation_Based_on_Monocular_Camera). International Journal of Civil Engineering and Technology **2018**. 627-645. 
+    + 单目 SLAM 的快速**线性后端优化**
+    + 埃及法尤姆大学
++ [ ] **[5]** Chen B, Yuan D, Liu C, et al. [**Loop Closure Detection Based on Multi-Scale Deep Feature Fusion**](https://www.mdpi.com/2076-3417/9/6/1120/htm)[J]. Applied Sciences, **2019**, 9(6): 1120.
+    + 基于多尺度**深度特征融合**的**闭环检测**
+    + 中南大学自动化学院
++ [x] **[6]** Ling Y, Shen S. [**Real‐time dense mapping for online processing and navigation**](https://onlinelibrary.wiley.com/doi/pdf/10.1002/rob.21868)[J]. Journal of Field Robotics.
+    + 用于在线处理和导航的实时**密集建图**
+    + **沈邵劼**老师团队 &emsp;[**Github 代码开源**](https://github.com/ygling2008/dense_mapping) 
++ [x] **[7]** Chen-Hsuan Lin, Oliver Wang et al.[**Photometric Mesh Optimization for Video-Aligned 3D Object Reconstruction**](https://arxiv.org/pdf/1903.08642.pdf)[C].IEEE Conference on Computer Vision and Pattern Recognition (**CVPR**), **2019**
+    + 用于视频**三维物体重建**的光度网格优化
+    + CMU 在读博士 &emsp;[**个人主页**](https://chenhsuanlin.bitbucket.io/) &emsp;[**Github 代码开源**](https://github.com/chenhsuanlin/photometric-mesh-optim)
++ [x] **[8]** Tang F, Li H, Wu Y. [**FMD Stereo SLAM: Fusing MVG and Direct Formulation Towards Accurate and Fast Stereo SLAM**](https://www.researchgate.net/publication/331198086_FMD_Stereo_SLAM_Fusing_MVG_and_Direct_Formulation_Towards_Accurate_and_Fast_Stereo_SLAM)[J]. **2019**.
+    + 融合多视图几何与直接法的快速精准**双目 SLAM**
+    + **中科院自动化研究所**，模式识别国家重点实验室，吴毅红团队
++ [ ] **[9]** Duff T, Kohn K, Leykin A, et al. [**PLMP-Point-Line Minimal Problems in Complete Multi-View Visibility**](https://arxiv.org/pdf/1903.10008.pdf)[J]. arXiv preprint arXiv:1903.10008, **2019**.
+    + PLMP：多视图中的**点线最小化**
+    + 佐治亚理工学院
++ [x] **[10]** Seong Hun Lee, Javier Civera. [**Loosely-Coupled Semi-Direct Monocular SLAM**](https://ieeexplore.ieee.org/abstract/document/8584894)[J] IEEE Robotics and Automation Letters. **2019**
+    + 松耦合的**半直接法单目 SLAM**
+    + 萨拉戈萨大学，[谷歌学术](https://scholar.google.com/citations?user=FeMFP7EAAAAJ&hl=zh-CN&oi=sra)，[**代码开源**](https://github.com/wuxiaolang/LCSD_SLAM)，[演示视频](https://www.youtube.com/watch?v=j7WnU7ZpZ8c&feature=youtu.be)
+    + Lee S H, de Croon G. [**Stability-based scale estimation for monocular SLAM**](https://www.researchgate.net/profile/Seong_Hun_Lee3/publication/322260802_Stability-based_Scale_Estimation_for_Monocular_SLAM/links/5b3def9b0f7e9b0df5f42d67/Stability-based-Scale-Estimation-for-Monocular-SLAM.pdf)[J]. IEEE Robotics and Automation Letters, **2018**, 3(2): 780-787.
+    + Lee S H, Civera J. [**Closed-Form Optimal Triangulation Based on Angular Errors**](https://arxiv.org/pdf/1903.09115.pdf)[J]. arXiv preprint arXiv:1903.09115, **2019**.
++ [x] **[11]** Delgado del Hoyo F J. [**Robust and affordable localization and mapping for 3D reconstruction. Application to architecture and construction**](http://uvadoc.uva.es/handle/10324/35078). **2018**.
+    + 用于建筑行业稳健的 SLAM 与 **3D 重建**
+    + 西班牙巴利亚多利德大学**博士学位论文**，[**代码开源**](https://gitlab.com/fradelg/kn-slam) (基于 ORB-SLAM2)
++ [x] **[12]** Jinyu Li, Bangbang Yang, Danpeng Chen, Nan Wang, Guofeng Zhang*, Hujun Bao*. [**Survey and Evaluation of Monocular Visual-Inertial SLAM Algorithms for Augmented Reality**](http://vr-ih.com/vrih/resource/latest_accept/267415796648960.pdf)[J] Journal of Virtual Reality & Intelligent Hardware **2019**.
+    + 应用于**增强现实**的**单目 VI-SLAM** 算法调研与评估
+    + 章国锋教授团队，[工程地址](http://www.zjucvg.net/eval-vislam/)，[Github-评估工具](https://github.com/zju3dv/eval-vislam)
++ [x] **[13]** Pablo Speciale, Johannes L. Schonberg, Sing Bing Kang. [**Privacy Preserving Image-Based Localization**](https://arxiv.org/pdf/1903.05572.pdf)[J] **2019**.
+    + 利用**线云**进行基于图像的定位
+    + **苏黎世**联邦理工、微软，[作者主页](http://people.inf.ethz.ch/sppablo/)，[工程地址](https://www.cvg.ethz.ch/research/secon/)
+    + Speciale P, Pani Paudel D, Oswald M R, et al. **Consensus maximization with linear matrix inequality constraints**[C]//Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. **CVPR 2017**: 4941-4949. 最大化线性矩阵不等式约束 [[PDF](https://www.cvg.ethz.ch/research/conmax/paper/PSpeciale2017CVPR.pdf)] [[Code](https://www.cvg.ethz.ch/research/conmax/paper/PSpeciale2017CVPR_code_sample.tar.gz)] [[Video](https://www.youtube.com/watch?v=yV1wXknpG1U)] [[Project Page](https://www.cvg.ethz.ch/research/conmax)]
++ [ ] **[14]** Li M, Zhang W, Shi Y, et al. [**Bionic Visual-based Data Conversion for SLAM**](https://ieeexplore.ieee.org/abstract/document/8665130)[C]//2018 IEEE International Conference on Robotics and Biomimetics (**ROBIO**). IEEE, **2018**: 1607-1612.
+    + 基于**仿生视觉**的 SLAM 数据转换
+    + **北京理工大学**仿生机器人与系统教育部重点实验室
++ [ ] **[15]** Cheng J, Sun Y, Chi W, et al. [**An Accurate Localization Scheme for Mobile Robots Using Optical Flow in Dynamic Environments**](https://ieeexplore.ieee.org/abstract/document/8664893)[C]//2018 IEEE International Conference on Robotics and Biomimetics (**ROBIO**). IEEE, **2018**: 723-728.
+    + **动态环境**下使用**光流**的移动机器人精确定位方案
+    + **香港中文大学**，[**实验室主页**](http://www.ee.cuhk.edu.hk/~qhmeng/index.html)
++ [x] **[16]** Zichao Zhang, Davide Scaramuzza, [**Beyond Point Clouds: Fisher Information Field for Active Visual Localization**](https://www.ifi.uzh.ch/dam/jcr:5a26a3b4-ce01-4647-8cf6-f6a24e579a85/ICRA19_Zhang.pdf).[C], IEEE International Conference on Robotics and Automation (**ICRA**), **2019**.
+    + **超越点云**:用于主动视觉定位的 Fisher 信息
+    + 苏黎世大学张子潮，[视频](https://www.youtube.com/watch?v=q3YqIyaFUVE&feature=youtu.be)，[**代码开源**](https://github.com/uzh-rpg/rpg_information_field)，[项目主页](http://rpg.ifi.uzh.ch/research_active_vision.html)
++ [x] **[17]** Georges Younes, Daniel Asmar, John Zelek. [**A Unified Formulation for Visual Odometry**](https://arxiv.org/abs/1903.04253)[J]. arXiv preprint arXiv:1903.04253, **2019**.
+    + 一种统一的**视觉里程计**方法
+    + 加拿大滑铁卢大学，贝鲁特美国大学； [谷歌学术](https://scholar.google.com/citations?hl=zh-CN&user=4Xy_9NQAAAAJ)
+    + Younes G, Asmar D, Shammas E, et al. [Keyframe-based monocular SLAM: design, survey, and future directions](https://www.sciencedirect.com/science/article/pii/S0921889017300647)[J]. Robotics and Autonomous Systems, **2017**, 98: 67-88.
+    + 2018：[Fdmo: Feature assisted direct monocular odometry](https://arxiv.org/pdf/1804.05422.pdf)
+---
+> wuyanminmax@gmail.com    
