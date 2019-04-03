@@ -330,8 +330,12 @@ cd ×××/ElasticFusion-master/GUI/build
 + :+1: **苏黎世联邦理工学院计算机视觉与几何实验室：Prof. Marc Pollefeys**
   + 三维语义重建、多相机协同 SLAM 
   + 实验室主页：http://www.cvg.ethz.ch/people/faculty/ 
-  + 实验室博士：http://people.inf.ethz.ch/liup/ ， http://people.inf.ethz.ch/sppablo/ ， http://people.inf.ethz.ch/schoepst/publications/ ， https://www.nsavinov.com/ , http://people.inf.ethz.ch/cian/Publications/, 
+  + 实验室博士：http://people.inf.ethz.ch/liup/ ， http://people.inf.ethz.ch/sppablo/ ， http://people.inf.ethz.ch/schoepst/publications/ ， https://www.nsavinov.com/ , http://people.inf.ethz.ch/cian/Publications/
 
++ :+1: **香港中文大学机器人、感知与 AI 实验室**
+  + 实验室主页：http://www.ee.cuhk.edu.hk/~qhmeng/research.html
+  + 动态 SLAM ，医疗服务型机器人
+  
 ---
 
 ## 5. 资料
