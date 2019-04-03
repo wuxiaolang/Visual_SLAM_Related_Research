@@ -327,6 +327,11 @@ cd ×××/ElasticFusion-master/GUI/build
     + Vakhitov A, Funke J, Moreno-Noguer F. [**Accurate and linear time pose estimation from points and lines**](https://link.springer.com/chapter/10.1007/978-3-319-46478-7_36)[C]//European Conference on Computer Vision. Springer, Cham, 2016: 583-599.
   + **Github**：https://github.com/alexander-vakhitov
 
++ :+1: **苏黎世联邦理工学院计算机视觉与几何实验室：Prof. Marc Pollefeys**
+  + 三维语义重建、多相机协同 SLAM 
+  + 实验室主页：http://www.cvg.ethz.ch/people/faculty/ 
+  + 实验室博士：http://people.inf.ethz.ch/liup/ ， http://people.inf.ethz.ch/sppablo/ ， http://people.inf.ethz.ch/schoepst/publications/ ， https://www.nsavinov.com/ , http://people.inf.ethz.ch/cian/Publications/, 
+
 ---
 
 ## 5. 资料
