@@ -64,6 +64,14 @@
    + 博客：https://blog.csdn.net/heyijia0327/article/details/52464278
    + 代码：https://github.com/HeYijia/ORB_SLAM2
 ![](https://img-blog.csdn.net/20160909121926348)
+
+#### :white_check_mark: **大场景移动视觉跟踪与建图**
+  + 论文：Ventura J, Höllerer T. [**Wide-area scene mapping for mobile visual tracking**](https://ieeexplore.ieee.org/abstract/document/6402531)[C]//2012 IEEE international symposium on mixed and augmented reality (ISMAR). IEEE, 2012: 3-12.
+  + 代码：https://github.com/jonathanventura/vrlt
+  + 作者其他研究 - 多相机：
+    + 论文：Ventura J, Arth C, Lepetit V. [**An efficient minimal solution for multi-camera motion**](http://openaccess.thecvf.com/content_iccv_2015/papers/Ventura_An_Efficient_Minimal_ICCV_2015_paper.pdf)[C]//Proceedings of the IEEE International Conference on Computer Vision. 2015: 747-755.
+    + 代码：https://github.com/jonathanventura/multi-camera-motion 
+  
 ### :smile: 1.2 语义相关
 #### :white_check_mark: **CNN 稠密三维语义建图**
   + 论文：   
