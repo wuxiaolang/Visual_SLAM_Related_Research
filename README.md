@@ -343,6 +343,14 @@ cd ×××/ElasticFusion-master/GUI/build
 + :+1: **香港中文大学机器人、感知与 AI 实验室**
   + 实验室主页：http://www.ee.cuhk.edu.hk/~qhmeng/research.html
   + 动态 SLAM ，医疗服务型机器人
+
++ :+1: **微软高级工程师、苏黎世联邦理工：Johannes L. Schönberger**
+  + 主要研究：基于图像的 3D 建模、 SFM、立体视觉、语义
+  + [**个人主页**](https://demuc.de/)&emsp;[**谷歌学术**](https://scholar.google.com/citations?user=MlcMCd0AAAAJ&hl=zh-CN&oi=sra)
+  + 主要文章：
+    + [VSO: Visual Semantic Odometry](https://demuc.de/papers/lianos2018vso.pdf)
+    + [Semantic Visual Localization](https://demuc.de/papers/schoenberger2018semantic.pdf)
+    + [Structure-from-Motion Revisited](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Schonberger_Structure-From-Motion_Revisited_CVPR_2016_paper.pdf)
   
 ---
 
