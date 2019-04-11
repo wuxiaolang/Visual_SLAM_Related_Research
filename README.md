@@ -1,4 +1,6 @@
-# Mark
+# Visual_SLAM_Related_Research
+> @Author：wuxiaolang    
+@E-mail ：wuyanminmax@gmail.com
 ## 前言
 以下收集的论文、代码等资料主要与本人的学习方向**视觉 SLAM、增强现实** 相关。    
 目前（2019年3月）**重点关注前端，语义、传感器融合、稠密建图也略有关注**，所以资料的收集范围也与自己的兴趣比较一致，无法涵盖视觉 SLAM 的所有研究，请谨慎参考。   
