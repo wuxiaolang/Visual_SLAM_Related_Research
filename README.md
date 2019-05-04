@@ -459,5 +459,29 @@ cd ×××/ElasticFusion-master/GUI/build
     + 加拿大滑铁卢大学，贝鲁特美国大学； [谷歌学术](https://scholar.google.com/citations?hl=zh-CN&user=4Xy_9NQAAAAJ)
     + Younes G, Asmar D, Shammas E, et al. [Keyframe-based monocular SLAM: design, survey, and future directions](https://www.sciencedirect.com/science/article/pii/S0921889017300647)[J]. Robotics and Autonomous Systems, **2017**, 98: 67-88.
     + 2018：[Fdmo: Feature assisted direct monocular odometry](https://arxiv.org/pdf/1804.05422.pdf)
+### 2019.05.04 更新（ 篇）
++ [x] **[1]** Yang S, Kuang Z F, Cao Y P, et al. [**Probabilistic Projective Association and Semantic Guided Relocalization for Dense Reconstruction**](https://cg.cs.tsinghua.edu.cn/papers/ICRA-2019-densemapping.pdf)[C]//**ICRA 2019**.
+    + <font color = blue>稠密重建的概率投影关联和语义引导重定位</font>
+    + 清华大学 &emsp; [谷歌学术](https://scholar.google.com/citations?user=50194vkAAAAJ&hl=zh-CN&oi=sra)
++ [ ] [2] Guclu O, Can A B. [**k-SLAM: A fast RGB-D SLAM approach for large indoor environments**](https://www.sciencedirect.com/science/article/pii/S107731421930058X)[J]. Computer Vision and Image Understanding, **2019**.
+    + <font color = blue>大型室内环境的快速 RGB-D SLAM 方法</font>
+    + 土耳其哈西德佩大学 &emsp; JCR Q2，IF 2.776
++ [ ] [3] Yokozuka M, Oishi S, Simon T, et al. [**VITAMIN-E: VIsual Tracking And Mapping with Extremely Dense Feature Points**](https://arxiv.org/pdf/1904.10324.pdf)[J]. arXiv preprint arXiv:1904.10324, **2019**.
+    + <font color = blue>具有极度密度的特征点的视觉跟踪与建图</font>
+    + 日本国家先进工业科学技术研究所 &emsp; 
++ [ ] [4] Qiu X, Zhang H, Fu W, et al. [**Monocular Visual-Inertial Odometry with an Unbiased Linear System Model and Robust Feature Tracking Front-End**](https://www.mdpi.com/1424-8220/19/8/1941/htm)[J]. Sensors, **2019**, 19(8): 1941.
+    + <font color = blue>具有无偏差线性模型和前端鲁棒特征跟踪的单目视觉惯导里程计</font>
+    + 多伦多大学 &emsp; [Google Scholor](https://scholar.google.com/citations?user=lSlo1RgAAAAJ&hl=zh-CN&oi=sra) &emsp; Sensors 开源期刊
++ [x] [5] Zhao Y, Qi J, Zhang R. [**CBHE: Corner-based Building Height Estimation for Complex Street Scene Images**](https://arxiv.org/pdf/1904.11128.pdf)[J]. arXiv preprint arXiv:1904.11128, **2019**.
+    + <font color = blue>基于角点的复杂街景图像建筑物高度估计</font>
+    + 墨尔本大学
++ [ ] [6] Feng M, Hu S, Ang M, et al. **2D3D-MatchNet: Learning to Match Keypoints Across 2D Image and 3D Point Cloud**[J]. arXiv preprint arXiv:1904.09742, 2019.
+    + <font color = blue>2D3D-MatchNet：学习匹配 2D 图像和 3D 点云的关键点</font>
+    + 新加坡国立大学
++ [x] [7] Zubizarreta J, Aguinaga I, Montiel J M M. [**Direct Sparse Mapping**](https://arxiv.org/pdf/1904.06577.pdf)[J]. arXiv preprint arXiv:1904.06577, **2019**.
+    + <font color = blue>直接法稀疏建图</font>
+    + 西班牙萨拉戈萨大学 &emsp; [代码开源](https://github.com/jzubizarreta/dsm)（还未放出）
+    + 作者 2018 年 ECCV 一篇文章：可变形贴图中 SLAM 的相机跟踪 [Camera Tracking for SLAM in Deformable Maps](http://openaccess.thecvf.com/content_ECCVW_2018/papers/11129/Lamarca_Camera_Tracking_for_SLAM_in_Deformable_Maps_ECCVW_2018_paper.pdf)
+
 ---
 > wuyanminmax@gmail.com    
