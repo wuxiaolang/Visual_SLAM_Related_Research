@@ -365,6 +365,13 @@ cd ×××/ElasticFusion-master/GUI/build
     + ICRA 2013 [Point-plane SLAM for hand-held 3D sensors](https://merl.com/publications/docs/TR2013-031.pdf)
     + CVPR 2019 [Minimal Solvers for Mini-Loop Closures in 3D Multi-Scan Alignment](https://arxiv.org/pdf/1904.03941.pdf)
 
++ :+1: **德国马克斯普朗克智能系统研究所：Jörg Stückler**
+  + 主要研究：三维感知、深度学习
+  + [实验室主页](https://ev.is.tuebingen.mpg.de/)&emsp;[**谷歌学术**](https://scholar.google.com/citations?user=xrOzfucAAAAJ&hl=zh-CN&oi=sra)
+  + 主要文章：
+    + 2015:[Large-scale direct SLAM with stereo cameras](https://ieeexplore.ieee.org/abstract/document/7353631)
+    + 2019:[EM-Fusion: Dynamic Object-Level SLAM with Probabilistic Data Association](https://arxiv.org/pdf/1904.11781.pdf)
+    
 ---
 
 ## 5. 资料
