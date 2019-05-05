@@ -353,7 +353,14 @@ cd ×××/ElasticFusion-master/GUI/build
     + [VSO: Visual Semantic Odometry](https://demuc.de/papers/lianos2018vso.pdf)
     + [Semantic Visual Localization](https://demuc.de/papers/schoenberger2018semantic.pdf)
     + [Structure-from-Motion Revisited](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Schonberger_Structure-From-Motion_Revisited_CVPR_2016_paper.pdf)
-  
+
++ :+1: **美国犹他大学计算机学院：Srikumar Ramalingam**
+  + 主要研究：三维重建、语义分割、视觉 SLAM、图像定位、深度学习
+  + [**个人主页**](https://www.cs.utah.edu/~srikumar/)&emsp;[**谷歌学术**](https://scholar.google.com/citations?user=6m1ptOgAAAAJ&hl=zh-CN&oi=sra)
+  + 主要文章：
+    + ICRA 2013 [Point-plane SLAM for hand-held 3D sensors](https://merl.com/publications/docs/TR2013-031.pdf)
+    + CVPR 2019 [Minimal Solvers for Mini-Loop Closures in 3D Multi-Scan Alignment](https://arxiv.org/pdf/1904.03941.pdf)
+
 ---
 
 ## 5. 资料
