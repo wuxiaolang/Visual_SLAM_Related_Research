@@ -67,6 +67,10 @@
    + 代码：https://github.com/HeYijia/ORB_SLAM2
 ![](https://img-blog.csdn.net/20160909121926348)
 
+#### :white_check_mark: **双目 PTAM **
+  + 论文：Taihú Pire,Thomas Fischer, Gastón Castro, Pablo De Cristóforis, Javier Civera and Julio Jacobo Berlles. [**S-PTAM: Stereo Parallel Tracking and Mapping**](http://webdiis.unizar.es/~jcivera/papers/pire_etal_ras17.pdf). Robotics and Autonomous Systems, **2017**.
+  + 代码：https://github.com/lrse/sptam
+
 #### :white_check_mark: **大场景移动视觉跟踪与建图**
   + 论文：Ventura J, Höllerer T. [**Wide-area scene mapping for mobile visual tracking**](https://ieeexplore.ieee.org/abstract/document/6402531)[C]//2012 IEEE international symposium on mixed and augmented reality (ISMAR). IEEE, 2012: 3-12.
   + 代码：https://github.com/jonathanventura/vrlt
