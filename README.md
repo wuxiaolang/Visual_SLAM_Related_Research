@@ -207,7 +207,12 @@ cd ×××/ElasticFusion-master/GUI/build
 <center>
 <img src="https://cloud.githubusercontent.com/assets/4923897/26147541/7f7feec8-3b11-11e7-8b4c-5458aa922709.png" title="" width="700" />
 </center>
-    
+
+#### :white_check_mark: **RTAB-Map**
+  + RTAB-Map (Real-Time Appearance-Based Mapping) is a **RGB-D, Stereo and Lidar** Graph-Based SLAM approach based on an incremental appearance-based **loop closure detector**. 
+  + 代码：https://github.com/introlab/rtabmap
+  + 主页：http://introlab.github.io/rtabmap/
+
 ### :smile: 1.5 物体级的 SLAM
 #### :white_check_mark: **BundleFusion：识别表面 3D 重建**
   + 论文：Mu B, Liu S Y, Paull L, et al. [**Slam with objects using a nonparametric pose graph**](https://arxiv.org/pdf/1704.05959.pdf)[C]//**2016** IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). IEEE, 2016: 4602-4609.
