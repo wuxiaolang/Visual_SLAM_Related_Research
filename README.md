@@ -377,6 +377,16 @@ cd ×××/ElasticFusion-master/GUI/build
   + 主要文章：
     + 2015:[Large-scale direct SLAM with stereo cameras](https://ieeexplore.ieee.org/abstract/document/7353631)
     + 2019:[EM-Fusion: Dynamic Object-Level SLAM with Probabilistic Data Association](https://arxiv.org/pdf/1904.11781.pdf)
+
++ :+1: **麻省理工学院航空航天控制实验室**
+  + 主要研究：飞机，航天器和地面车辆的自动系统和控制设计相关
+  + [实验室主页](http://acl.mit.edu/publications)
+  + 主要文章：
+    + Mu B, Liu S Y, Paull L, et al. [**Slam with objects using a nonparametric pose graph**](https://arxiv.org/pdf/1704.05959.pdf)[C]//2016 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). IEEE, **2016**: 4602-4609.
+    + ICRA 2019：Robust Object-Based SLAM for High-Speed Autonomous Navigation    
+    + ICRA 2019：[Efficient Constellation-Based Map-Merging for Semantic SLAM](https://arxiv.org/pdf/1809.09646.pdf)    
+    + IJRR 2018：[Reliable Graphs for SLAM](http://web.mit.edu/~mrrobot/filez/ijrr17.pdf)    
+    + [Resource-aware collaborative SLAM](http://acl.mit.edu/projects/resource-aware-collaborative-slam)    
     
 ---
 
