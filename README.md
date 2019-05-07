@@ -483,29 +483,180 @@ cd ×××/ElasticFusion-master/GUI/build
     + 加拿大滑铁卢大学，贝鲁特美国大学； [谷歌学术](https://scholar.google.com/citations?hl=zh-CN&user=4Xy_9NQAAAAJ)
     + Younes G, Asmar D, Shammas E, et al. [Keyframe-based monocular SLAM: design, survey, and future directions](https://www.sciencedirect.com/science/article/pii/S0921889017300647)[J]. Robotics and Autonomous Systems, **2017**, 98: 67-88.
     + 2018：[Fdmo: Feature assisted direct monocular odometry](https://arxiv.org/pdf/1804.05422.pdf)
-### 2019.05.04 更新（ 篇）
-+ [x] **[1]** Yang S, Kuang Z F, Cao Y P, et al. [**Probabilistic Projective Association and Semantic Guided Relocalization for Dense Reconstruction**](https://cg.cs.tsinghua.edu.cn/papers/ICRA-2019-densemapping.pdf)[C]//**ICRA 2019**.
-    + <font color = blue>稠密重建的概率投影关联和语义引导重定位</font>
-    + 清华大学 &emsp; [谷歌学术](https://scholar.google.com/citations?user=50194vkAAAAJ&hl=zh-CN&oi=sra)
-+ [ ] [2] Guclu O, Can A B. [**k-SLAM: A fast RGB-D SLAM approach for large indoor environments**](https://www.sciencedirect.com/science/article/pii/S107731421930058X)[J]. Computer Vision and Image Understanding, **2019**.
+##### 2019.05.05 论文整理
+#### 1. Geometric SLAM
++ [x] **[1]** Delmas P, Gee T. [**Stereo camera visual odometry for moving urban environments**](https://content.iospress.com/articles/integrated-computer-aided-engineering/ica190598)[J]. Integrated Computer-Aided Engineering, **2019** (Preprint): 1-14.
+    + <font color = blue>用于移动城市环境的双目里程计</font>
+    + 奥克兰大学 &emsp; 中科院二区 JCR Q2
++ [ ] **[2]** Guo R, Zhou D, Peng K, et al. [**Plane Based Visual Odometry for Structural and Low-Texture Environments Using RGB-D Sensors**](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8679500)[C]//**2019** IEEE International Conference on Big Data and Smart Computing (BigComp). IEEE, 2019: 1-4.
+    + <font color = blue>用于结构化低纹理的平面 RGB-D 视觉里程计</font>
+    + 国防科大
++ [ ] **[3]** X Wang, F Xue, Z Yan, W Dong, Q Wang, H Zha. [**Continuous-time Stereo Visual Odometry Based on Dynamics Model⋆**](https://www.researchgate.net/profile/Wang_Xin122/publication/332103736_Continuous-time_Stereo_Visual_Odometry_Based_on_Dynamics_Model/links/5ca04e17299bf11169521b1e/Continuous-time-Stereo-Visual-Odometry-Based-on-Dynamics-Model.pdf) **2019**
+    + <font color = blue>基于动力学模型的连续时间的双目视觉里程计</font>
+    + 北京大学，上海交大
++ [x] **[4]** Strecke M, Stückler J. [**EM-Fusion: Dynamic Object-Level SLAM with Probabilistic Data Association**](https://arxiv.org/pdf/1904.11781.pdf)[J]. arXiv preprint arXiv:1904.11781, **2019**.
+    + <font color = blue>具有概率数据关联的**动态物体级 SLAM**</font>
+    + 德国马克斯普朗克智能系统研究所 &emsp; [实验室主页](https://ev.is.tuebingen.mpg.de/)
+    + Usenko V, Demmel N, Schubert D, et al. [Visual-Inertial Mapping with Non-Linear Factor Recovery](https://arxiv.org/pdf/1904.06504.pdf)[J]. arXiv preprint arXiv:1904.06504, 2019.
+    + 奥克兰大学 &emsp; 期刊 Integrated Computer-Aided Engineering 中科院二区，JCR Q1，IF 3.667
++ [ ] **[5]** Guclu O, Can A B. [**k-SLAM: A fast RGB-D SLAM approach for large indoor environments**](https://www.sciencedirect.com/science/article/pii/S107731421930058X)[J]. Computer Vision and Image Understanding, **2019**.
     + <font color = blue>大型室内环境的快速 RGB-D SLAM 方法</font>
     + 土耳其哈西德佩大学 &emsp; JCR Q2，IF 2.776
-+ [ ] [3] Yokozuka M, Oishi S, Simon T, et al. [**VITAMIN-E: VIsual Tracking And Mapping with Extremely Dense Feature Points**](https://arxiv.org/pdf/1904.10324.pdf)[J]. arXiv preprint arXiv:1904.10324, **2019**.
-    + <font color = blue>具有极度密度的特征点的视觉跟踪与建图</font>
++ [ ] **[6]** Yokozuka M, Oishi S, Simon T, et al. [**VITAMIN-E: VIsual Tracking And Mapping with Extremely Dense Feature Points**](https://arxiv.org/pdf/1904.10324.pdf)[J]. arXiv preprint arXiv:1904.10324, **2019**.
+    + <font color = blue>具有**极度密度的特征点**的视觉跟踪与建图</font>
     + 日本国家先进工业科学技术研究所 &emsp; 
-+ [ ] [4] Qiu X, Zhang H, Fu W, et al. [**Monocular Visual-Inertial Odometry with an Unbiased Linear System Model and Robust Feature Tracking Front-End**](https://www.mdpi.com/1424-8220/19/8/1941/htm)[J]. Sensors, **2019**, 19(8): 1941.
-    + <font color = blue>具有无偏差线性模型和前端鲁棒特征跟踪的单目视觉惯导里程计</font>
-    + 多伦多大学 &emsp; [Google Scholor](https://scholar.google.com/citations?user=lSlo1RgAAAAJ&hl=zh-CN&oi=sra) &emsp; Sensors 开源期刊
-+ [x] [5] Zhao Y, Qi J, Zhang R. [**CBHE: Corner-based Building Height Estimation for Complex Street Scene Images**](https://arxiv.org/pdf/1904.11128.pdf)[J]. arXiv preprint arXiv:1904.11128, **2019**.
-    + <font color = blue>基于角点的复杂街景图像建筑物高度估计</font>
-    + 墨尔本大学
-+ [ ] [6] Feng M, Hu S, Ang M, et al. **2D3D-MatchNet: Learning to Match Keypoints Across 2D Image and 3D Point Cloud**[J]. arXiv preprint arXiv:1904.09742, 2019.
-    + <font color = blue>2D3D-MatchNet：学习匹配 2D 图像和 3D 点云的关键点</font>
-    + 新加坡国立大学
-+ [x] [7] Zubizarreta J, Aguinaga I, Montiel J M M. [**Direct Sparse Mapping**](https://arxiv.org/pdf/1904.06577.pdf)[J]. arXiv preprint arXiv:1904.06577, **2019**.
-    + <font color = blue>直接法稀疏建图</font>
++ [x] **[7]** Zubizarreta J, Aguinaga I, Montiel J M M. [**Direct Sparse Mapping**](https://arxiv.org/pdf/1904.06577.pdf)[J]. arXiv preprint arXiv:1904.06577, **2019**.
+    + <font color = blue>**直接法稀疏建图**</font>
     + 西班牙萨拉戈萨大学 &emsp; [代码开源](https://github.com/jzubizarreta/dsm)（还未放出）
     + 作者 2018 年 ECCV 一篇文章：可变形贴图中 SLAM 的相机跟踪 [Camera Tracking for SLAM in Deformable Maps](http://openaccess.thecvf.com/content_ECCVW_2018/papers/11129/Lamarca_Camera_Tracking_for_SLAM_in_Deformable_Maps_ECCVW_2018_paper.pdf)
++ [ ] **[8]** Feng G, Ma L, Tan X. [**Line Model-Based Drift Estimation Method for Indoor Monocular Localization**](https://ieeexplore.ieee.org/abstract/document/8690676)[C]//2018 IEEE 88th Vehicular Technology Conference (VTC-Fall). IEEE, **2019**: 1-5.
+    + <font color = blue>基于**线模型**的室内单目定位漂移估计方法</font>
+    + 哈工大 &emsp;  VTC 无线通信会议，一年两届
++ [x] **[9]** Castro G, Nitsche M A, Pire T, et al. [**Efficient on-board Stereo SLAM through constrained-covisibility strategies**](https://www.researchgate.net/profile/Gaston_Castro/publication/332147108_Efficient_on-board_Stereo_SLAM_through_constrained-covisibility_strategies/links/5cacb327a6fdccfa0e7c3e4b/Efficient-on-board-Stereo-SLAM-through-constrained-covisibility-strategies.pdf)[J]. Robotics and Autonomous Systems, 2019.
+    + <font color = blue>通过约束-合作策略实现高效双目SLAM</font>
+    + 阿根廷布宜诺斯艾利斯大学博士 &emsp; 双目 PTAM 作者
++ [ ] **[10]** Canovas B, Rombaut M, Nègre A, et al. [**A Coarse and Relevant 3D Representation for Fast and Lightweight RGB-D Mapping**](https://hal.archives-ouvertes.fr/hal-02068740/document)[C]//VISAPP 2019-International Conference on Computer Vision Theory and Applications. 2019.
+    + <font color = blue>应用于快速粗糙的 RGB-D 建图的粗糙的相关 3D 表示</font>
+    + 格勒诺布尔计算机科学实验室
++ [x] **[11]** Ziquan Lan, Zi Jian Yew, Gim Hee Lee. [**Robust Point Cloud Based Reconstruction of Large-Scale Outdoor Scenes**](http://219.216.82.193/cache/5/03/www.cvlibs.net/297109a6b31ef7d288d6637f31249bd2/Barsan2018ICRA.pdf)[C], **ICRA 2019**.
+    + <font color = blue>**鲁棒的室外大场景点云重建**</font>
+    + 苏黎世联邦理工  &emsp; [代码开源](https://github.com/ziquan111/RobustPCLReconstruction)（还未放出）
++ [ ] **[12]** Shi T, Shen S, Gao X, et al. [**Visual Localization Using Sparse Semantic 3D Map**](https://arxiv.org/pdf/1904.03803.pdf)[J]. arXiv preprint arXiv:1904.03803, **2019**.
+    + <font color = blue>利用**稀疏语义三维地图**进行可视化定位</font>
+    + 中国科学院自动化研究所模式识别国家重点实验室
++ [x] **[13]** Yang S, Kuang Z F, Cao Y P, et al. [**Probabilistic Projective Association and Semantic Guided Relocalization for Dense Reconstruction**](https://cg.cs.tsinghua.edu.cn/papers/ICRA-2019-densemapping.pdf)[C]//**ICRA 2019**.
+    + <font color = blue>稠密重建的**概率投影关联**和**语义引导重定位**</font>
+    + 清华大学 &emsp; [谷歌学术](https://scholar.google.com/citations?user=50194vkAAAAJ&hl=zh-CN&oi=sra)
++ [ ] **[14]** Xiao L, Wang J, Qiu X, et al. [**Dynamic-SLAM: Semantic monocular visual localization and mapping based on deep learning in dynamic environment**](https://www.researchgate.net/profile/Linhui_Xiao/publication/332149941_Dynamic-SLAM_Semantic_monocular_visual_localization_and_mapping_based_on_deep_learning_in_dynamic_environment/links/5cb201d04585156cd7949b7b/Dynamic-SLAM-Semantic-monocular-visual-localization-and-mapping-based-on-deep-learning-in-dynamic-environment.pdf)[J]. Robotics and Autonomous Systems, **2019**.
+    + <font color = blue>基于动态环境深度学习的单目 SLAM </font>
+    + 中国科学院电子研究所传感器技术国家重点实验室 &emsp; 期刊 中科院三区 JCR Q2
++ [x] **[15]** Zhou L, Wang S, Ye J, et al. [**Do not Omit Local Minimizer: a Complete Solution for Pose Estimation from 3D Correspondences**](https://arxiv.org/pdf/1904.01759.pdf)[J]. arXiv preprint arXiv:1904.01759, **2019**.
+    + <font color = blue>不要忽略局部最小化：一种完整的 3D 对应姿态估计解决方案</font>
+    + CMU
++ [ ] **[16]** Miraldo P, Saha S, Ramalingam S. [**Minimal Solvers for Mini-Loop Closures in 3D Multi-Scan Alignment**](https://arxiv.org/pdf/1904.03941.pdf)[C]. **CVPR 2019**.
+    + <font color = blue>三维多视角对齐中**微型闭环**的最小求解器</font>
+    + 美国犹他大学
+    + ICRA 2019：[POSEAMM: A Unified Framework for Solving Pose Problems using an Alternating Minimization Method](https://arxiv.org/pdf/1904.04858.pdf)
+    
+---
+
+#### 2. AR/MR 相关
++ [x] **[17]** Piao J C, Kim S D. [**Real-time Visual-Inertial SLAM Based on Adaptive Keyframe Selection for Mobile AR Applications**](https://ieeexplore.ieee.org/abstract/document/8698793)[J]. IEEE Transactions on Multimedia, **2019**.
+    + <font color = blue>基于自适应关键帧选择的**移动增强现实**应用的实时视觉惯性 SLAM</font>
+    + 中国延边大学，韩国延世大学 &emsp; 期刊 中科院二区，JCR Q2，IF 4.368
++ [ ] **[18]** Puigvert J R, Krempel T, Fuhrmann A. [**Localization Service Using Sparse Visual Information Based on Recent Augmented Reality Platforms**](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8699237)[C]//2018 IEEE International Symposium on Mixed and Augmented Reality Adjunct (ISMAR-Adjunct). IEEE, **2019**: 415-416.
+    + <font color = blue>基于最近增强现实平台的稀疏视觉信息定位服务</font>
+    + Cologne Intelligence  &emsp; ISMAR：AR 领域顶级会议
++ [ ] **[19]** Zillner J, Mendez E, Wagner D. [**Augmented Reality Remote Collaboration with Dense Reconstruction**](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8699225)[C]//2018 IEEE International Symposium on Mixed and Augmented Reality Adjunct (ISMAR-Adjunct). IEEE, **2019**: 38-39.
+    + <font color = blue>具有稠密重建的增强现实远程协作</font>
+    + DAQRI 智能眼镜：https://daqri.com/products/smart-glasses/  &emsp; ISMAR：CCF 计算机图形学与多媒体 B 类会议
++ [ ] **[20]** Grandi, Jerônimo & Debarba, Henrique & Maciel, Anderson. [**Characterizing Asymmetric Collaborative Interactions in Virtual and Augmented Realities**](https://www.researchgate.net/profile/Jeronimo_Grandi/publication/332353699_Characterizing_Asymmetric_Collaborative_Interactions_in_Virtual_and_Augmented_Realities/links/5cafa2b492851c8d22e51246/Characterizing-Asymmetric-Collaborative-Interactions-in-Virtual-and-Augmented-Realities.pdf). IEEE Conference on Virtual Reality and 3D User Interfaces. **2019**.
+    + <font color = blue>表征虚拟现实和增强现实中的非对称协作交互</font>
+    + 巴西南里奥格兰德联邦大学 &emsp; [演示视频](https://www.youtube.com/watch?v=6RbXc222spc)
++ [ ] **[21]** Chen Y S, Lin C Y. [**Virtual Object Replacement Based on Real Environments: Potential Application in Augmented Reality Systems**](https://www.mdpi.com/2076-3417/9/9/1797)[J]. Applied Sciences, **2019**, 9(9): 1797.
+    + <font color = blue>基于真实环境的虚拟对象替换：在增强现实系统中的潜在应用</font>
+    + 台湾科技大学 &emsp; Applied Sciences 开源期刊
++ [ ] **[22]** Ferraguti F, Pini F, Gale T, et al. [**Augmented reality based approach for on-line quality assessment of polished surfaces**](https://www.sciencedirect.com/science/article/pii/S0736584518305131)[J]. Robotics and Computer-Integrated Manufacturing, **2019**, 59: 158-167.
+    + <font color = blue>基于**增强现实**的抛光表面在线质量评估方法</font>
+    + 意大利摩德纳大学 &emsp; 中科院二区，JCR Q1，IF 4.031
++ [ ] **[23]** Wang J, Liu H, Cong L, et al. [**CNN-MonoFusion: Online Monocular Dense Reconstruction Using Learned Depth from Single View**](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8699273)[C]//2018 IEEE International Symposium on Mixed and Augmented Reality Adjunct (ISMAR-Adjunct). IEEE, **2019**: 57-62.
+    + <font color = blue>单视图中学习深度的在线单目密集重建</font>
+    + 网易 AR 研究所 &emsp; ISMAR：AR 领域顶级会议，CCF 计算机图形学与多媒体 B 类会议
++ [ ] **[24]** He Z, Rosenberg K T, Perlin K. [**Exploring Configuration of Mixed Reality Spaces for Communication**](http://delivery.acm.org/10.1145/3320000/3312761/LBW0222.pdf?ip=219.216.73.1&id=3312761&acc=OPEN&key=BF85BBA5741FDC6E%2E4183B12E3311CD37%2E4D4702B0C3E38B35%2E6D218144511F3437&__acm__=1557107120_3c56b43468e3911f8111789083753416)[C]//Extended Abstracts of the 2019 CHI Conference on Human Factors in Computing Systems. ACM, **2019**: LBW0222.
+    + <font color = blue>探索混合现实空间的通信配置</font>
+    + 纽约大学 &emsp; CHI：CCF 人机交互与普适计算 A 类会议
+#### 3. learning slam
++ [ ] **[25]** von Stumberg L, Wenzel P, Khan Q, et al. [**GN-Net: The Gauss-Newton Loss for Deep Direct SLAM**](https://arxiv.org/pdf/1904.11932.pdf)[J]. arXiv preprint arXiv:1904.11932, **2019**.
+    + <font color = blue>GN-Net：高斯牛顿损失的深度直接法 SLAM </font>
+    + 慕尼黑工业大学 &emsp; [Google Scholor](https://scholar.google.com/citations?user=jBgFEukAAAAJ&hl=zh-CN&oi=sra)
++ [ ] **[26]** Wang R, Yang N, Stueckler J, et al. [**DirectShape: Photometric Alignment of Shape Priors for Visual Vehicle Pose and Shape Estimation**](https://arxiv.org/pdf/1904.10097.pdf)[J]. arXiv preprint arXiv:1904.10097, 2019.
+    + <font color = blue>DirectShape：视觉车辆姿态形状估计的形状先验光度对准</font>
+    + 慕尼黑工业大学 &emsp; [Google Scholor](https://scholar.google.com/citations?user=buN3yw8AAAAJ&hl=zh-CN&oi=sra)
++ [ ] **[27]** Feng M, Hu S, Ang M, et al. [**2D3D-MatchNet: Learning to Match Keypoints Across 2D Image and 3D Point Cloud**](https://arxiv.org/pdf/1904.09742.pdf)[J]. arXiv preprint arXiv:1904.09742, 2019.
+    + <font color = blue>2D3D-MatchNet：学习匹配 2D 图像和 3D 点云的关键点</font>
+    + 新加坡国立大学
++ [x] **[28]** Wei Y, Liu S, Zhao W, et al. [**Conditional Single-view Shape Generation for Multi-view Stereo Reconstruction**](https://arxiv.org/pdf/1904.06699.pdf)[J]. arXiv preprint arXiv:1904.06699, **2019**.
+    + <font color = blue>多视角立体重建的条件单视图外形生成</font>
+    + 清华大学 &emsp; [代码开源](https://github.com/weiyithu/OptimizeMVS)
++ [ ] **[29]** Behl A, Paschalidou D, Donné S, et al. [**Pointflownet: Learning representations for rigid motion estimation from point clouds**](http://ww.cvlibs.net/publications/Behl2019CVPR.pdf)[C]. **CVPR 2019**.
+    + <font color = blue>Pointflownet：从点云学习刚体运动估计的表示</font>
+    + 图宾根大学 &emsp; 即将[开源代码](https://github.com/aseembehl/pointflownet)（还未放出）
++ [ ] **[30]** Xue F, Wang X, Li S, et al. [**Beyond Tracking: Selecting Memory and Refining Poses for Deep Visual Odometry**](https://arxiv.org/pdf/1904.01892.pdf)[J]. arXiv preprint arXiv:1904.01892, **2019**.
+    + <font color = blue>为深度视觉测距选择记忆和细化位姿</font>
+    + 北京大学
+    
+#### 4. learning others
++ [ ] **[31]** Hou J, Dai A, Nießner M. [**3D-SIC: 3D Semantic Instance Completion for RGB-D Scans**](https://arxiv.org/pdf/1904.12012.pdf)[J]. arXiv preprint arXiv:1904.12012, **2019**.
+    + <font color = blue>RGB-D扫描的 3D 语义实例</font>
+    + 慕尼黑工业大学
++ [ ] **[32]** Phalak A, Chen Z, Yi D, et al. [**DeepPerimeter: Indoor Boundary Estimation from Posed Monocular Sequences**](https://arxiv.org/pdf/1904.11595.pdf)[J]. arXiv preprint arXiv:1904.11595, **2019**.
+    + <font color = blue>DeepPerimeter：单目序列室内边界估计</font>
+    + Magic Leap &emsp; [Google Scholor](https://scholar.google.com/citations?user=ji6BSBoAAAAJ&hl=zh-CN&oi=sra)
++ [ ] **[33]** Yang Z, Liu S, Hu H, et al. [**RepPoints: Point Set Representation for Object Detection**](https://arxiv.org/pdf/1904.11490.pdf)[J]. arXiv preprint arXiv:1904.11490, **2019**.
+    + <font color = blue>RepPoints：目标检测的点集表示</font>
+    + 北京大学
++ [ ] **[34]** Jiang S, Xu T, Li J, et al. [**Foreground Feature Enhancement for Object Detection**](https://ieeexplore.ieee.org/abstract/document/8684952/authors#authors)[J]. IEEE Access, 2019, 7: 49223-49231.
+    + <font color = blue>目标检测的前景特征增强</font>
+    + 北京理工大学
++ [ ] **[35]** Zakharov S, Shugurov I, Ilic S. [**DPOD: 6D Pose Object Detector and Refiner**]()[J]. **2019**.
+    + <font color = blue>DPOD:6 自由度物体姿态检测与细化</font>
+    + 慕尼黑工业大学，西门子
++ [ ] **[36]** Liu C, Yang Z, Xu F, et al. [**Image Generation from Bounding Box-represented Semantic Labels**](https://www.sciencedirect.com/science/article/pii/S0097849319300329)[J]. Computers & Graphics, **2019**.
+    + <font color = blue>从边界框表示的语义标签中生成图像</font>
+    + 清华大学 &emsp; Computers & Graphics 中科院四区，JCR Q3， IF 1.352
++ [ ] **[37]** Qiu Z, Yan F, Zhuang Y, et al. [**Outdoor Semantic Segmentation for UGVs Based on CNN and Fully Connected CRFs**](https://ieeexplore.ieee.org/abstract/document/8620277)[J]. IEEE Sensors Journal, **2019**.
+    + <font color = blue>基于 CNN 和全连通 CRF 的 UGV 室外语义分割</font>
+    + 大连理工大学 &emsp; [点云处理代码](https://pan.baidu.com/s/1AofGdJwUSUcsMwgm9IMC-Q#list/path=%2F) &emsp; 中科院三区，JCR Q2，IF 2.698
++ [ ] **[38]** Ma X, Wang Z, Li H, et al. [**Accurate Monocular 3D Object Detection via Color-Embedded 3D Reconstruction for Autonomous Driving**](https://arxiv.org/pdf/1903.11444.pdf)[J]. arXiv preprint arXiv:1903.11444, **2019**.
+    + <font color = blue>用于自动驾驶的彩色嵌入式三维重建精准单目三维物体检测</font>
+    + 大连理工大学
++ [ ] **[39]** Sindagi V A, Zhou Y, Tuzel O. [**MVX-Net: Multimodal VoxelNet for 3D Object Detection**](https://arxiv.org/pdf/1904.01649.pdf)[J]. arXiv preprint arXiv:1904.01649, **2019**.
+    + <font color = blue>用于**三维物体检测**的多模态 VoxelNet</font>
+    + 美国约翰斯·霍普金斯大学 &emsp; [个人主页](http://www.vishwanathsindagi.com/)
++ [ ] **[40]** Li J, Lee G H. [**USIP: Unsupervised Stable Interest Point Detection from 3D Point Clouds**](https://arxiv.org/pdf/1904.00229.pdf)[J]. arXiv preprint arXiv:1904.00229, **2019**.
+    + <font color = blue>三维点云的无监督稳定兴趣点检测</font>
+    + 新加坡国立大学 &emsp; 即将[开源代码](https://github.com/lijx10/USIP)（还未放出）
+#### 5. event
++ [x] **[41]** Scheerlinck C, Rebecq H, Stoffregen T, et al. [**CED: Color event camera dataset**](https://arxiv.org/pdf/1904.10772.pdf)[J]. arXiv preprint arXiv:1904.10772, **CVPRW 2019**.
+    + <font color = blue>彩色**事件相机**</font>
+    + 苏黎世大学 &emsp; [项目主页](http://rpg.ifi.uzh.ch/CED.html) &emsp; [Google Scholor](https://scholar.google.com/citations?user=zveWLBkAAAAJ&hl=zh-CN&oi=sra)
+    + 基于事件的视觉研究：[Event-based Vision: A Survey](https://arxiv.org/pdf/1904.08405.pdf). CVPR 2019
+    + [Focus is all you need: Loss functions for event-based vision](https://arxiv.org/pdf/1904.07235.pdf). 2019
++ [ ] **[42]** Stoffregen T, Gallego G, Drummond T, et al. [**Event-based motion segmentation by motion compensation**](https://arxiv.org/pdf/1904.01293.pdf)[J]. arXiv preprint arXiv:1904.01293, **2019**.
+    + <font color = blue>基于**事件**的运动补偿运动分割</font>
+    + 澳大利亚机器人视觉中心，苏黎世大学
+    
+#### 6. 传感器融合
++ [ ] **[43]** Xiao Y, Ruan X, Chai J, et al. [**Online IMU Self-Calibration for Visual-Inertial Systems**](https://www.mdpi.com/1424-8220/19/7/1624/htm)[J]. Sensors, **2019**, 19(7): 1624.
+    + <font color = blue>视觉惯性系统 **IMU 在线标定**</font>
+    + 北京工业大学 &emsp; Sensors 开源期刊
++ [x] **[44]** Eckenhoff K, Geneva P, Huang G. [**Closed-form preintegration methods for graph-based visual–inertial navigation**](http://sage.cnpereading.com/paragraph/article/10.1177/0278364919835021)[J]. The International Journal of Robotics Research, 2018.
+    + <font color = blue>基于图的视觉惯性导航的**封闭式预积分**方法</font>
+    + 特拉华大学 &emsp; [代码开源](https://github.com/rpng/cpi)
++ [ ] **[45]** Joshi B, Rahman S, Kalaitzakis M, et al. [**Experimental Comparison of Open Source Visual-Inertial-Based State Estimation Algorithms in the Underwater Domain**](https://arxiv.org/pdf/1904.02215.pdf)[J]. arXiv preprint arXiv:1904.02215, **2019**.
+    + <font color = blue>开源视觉惯导 SLAM 在水下的状态估计比较</font>
+    + 美国南卡罗来纳大学哥伦比亚分校 &emsp; [Google Scholor](https://scholar.google.com/citations?user=Izlp7JsAAAAJ&hl=zh-CN&oi=sra)
++ [ ] **[46]** Xia L, Meng Q, Chi D, et al. [**An Optimized Tightly-Coupled VIO Design on the Basis of the Fused Point and Line Features for Patrol Robot Navigation**](https://www.mdpi.com/1424-8220/19/9/2004/htm)[J]. Sensors, **2019**, 19(9): 2004.
+    + <font color = blue>基于点线特征融合的巡检机器人紧耦合的 VIO </font>
+    + 东北电力大学 &emsp; Sensors 开源期刊
++ [ ] **[47]** Ye H, Chen Y, Liu M. [**Tightly Coupled 3D Lidar Inertial Odometry and Mapping**](https://arxiv.org/pdf/1904.06993.pdf)[J]. arXiv preprint arXiv:1904.06993, 2019.
+    + <font color = blue>紧耦合的**激光惯性**里程计与建图</font>
+    + 香港科技大学 &emsp; [Google Scholor](https://scholar.google.com/citations?user=CdV5LfQAAAAJ&hl=zh-CN&oi=sra)
+    + [Focal loss in 3d object detection](https://arxiv.org/pdf/1809.06065.pdf) [J]IEEE Robotics and Automation Letters 4 (2), 1263-1270, **2019**.
++ [ ] **[48]** Usenko V, Demmel N, Schubert D, et al. [**Visual-Inertial Mapping with Non-Linear Factor Recovery**](https://arxiv.org/pdf/1904.06504.pdf)[J]. arXiv preprint arXiv:1904.06504, **2019**.
+    + <font color = blue>具有非线性因子恢复的**视觉-惯导建图**</font>
+    + 慕尼黑工业大学 &emsp; [Google Scholor](https://scholar.google.com/citations?user=APTNKjoAAAAJ&hl=zh-CN&oi=sra)
++ [ ] **[49]** Qiu X, Zhang H, Fu W, et al. [**Monocular Visual-Inertial Odometry with an Unbiased Linear System Model and Robust Feature Tracking Front-End**](https://www.mdpi.com/1424-8220/19/8/1941/htm)[J]. Sensors, **2019**, 19(8): 1941.
+    + <font color = blue>具有无偏差线性模型和前端鲁棒特征跟踪的**单目视觉惯导里程计**</font>
+    + 多伦多大学 &emsp; [Google Scholor](https://scholar.google.com/citations?user=lSlo1RgAAAAJ&hl=zh-CN&oi=sra) &emsp; Sensors 开源期刊
+
+#### 7. Others
++ [ ] **[50]** Liu Y, Knoll A, Chen G. [**A New Method for Atlanta World Frame Estimation**](https://arxiv.org/pdf/1904.12717.pdf)[J]. arXiv preprint arXiv:1904.12717, **2019**.
+    + <font color = blue>亚特兰大世界框架估计的一种新方法</font>
+    + 慕尼黑工业大学
++ [x] **[51]** Zhao Y, Qi J, Zhang R. [**CBHE: Corner-based Building Height Estimation for Complex Street Scene Images**](https://arxiv.org/pdf/1904.11128.pdf)[J]. arXiv preprint arXiv:1904.11128, **2019**.
+    + <font color = blue>基于角点的复杂街景图像**建筑物高度估计**</font>
+    + 墨尔本大学
 
 ---
 > wuyanminmax@gmail.com    
