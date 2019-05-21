@@ -255,7 +255,10 @@ cd ×××/ElasticFusion-master/GUI/build
 ### :key: 3.2 RVIZ 显示不同的可视化图像
   + Github：https://github.com/PickNikRobotics/rviz_visual_tools
   + 参考资料：https://blog.csdn.net/u013834525/article/details/80447931
-  
+
+### :key: 3.3 .obj 文件加载库
+  + Github：https://github.com/syoyo/tinyobjloader
+
 ---
 ## 4. 优秀作者与实验
 + :+1: **Julian Straub MIT,facebook VR 实验室**
