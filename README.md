@@ -400,7 +400,9 @@ cd ×××/ElasticFusion-master/GUI/build
 ---
 
 ## 6. 近期论文（持续更新）
-### 2019.03.14 更新（13 篇）
+
+### 2019 年 3 月论文更新（13篇）
+
 + [ ] **[1]** Han L, Gao F, Zhou B, et al. [**FIESTA: Fast Incremental Euclidean Distance Fields for Online Motion Planning of Aerial Robots**](https://arxiv.org/abs/1903.02144)[J]. arXiv preprint arXiv:1903.02144, **2019**.
     + 基于快速**增量式欧氏距离场**的飞行器实时运动规划
     + 沈邵劼老师团队
@@ -439,7 +441,11 @@ cd ×××/ElasticFusion-master/GUI/build
 + [ ] **[13]** Grinvald M, Furrer F, Novkovic T, et al. [**Volumetric Instance-Aware Semantic Mapping and 3D Object Discovery**](https://arxiv.org/abs/1903.00268)[J]. arXiv preprint arXiv:1903.00268, **2019**.
     + **语义**感知建图与**三维物体探索**，基于 mask-RCNN
     + 苏黎世联邦理工学院
-### 2019.04.01 更新（17 篇）
+
+---
+
+### 2019 年 4 月论文更新（17篇）
+
 + [x] **[1]** Rambach J, Lesur P, Pagani A, et al. [**SlamCraft: Dense Planar RGB Monocular SLAM**](https://www.researchgate.net/profile/Jason_Rambach/publication/331832804_SlamCraft_Dense_Planar_RGB_Monocular_SLAM/links/5c8f6a9a299bf14e7e82d880/SlamCraft-Dense-Planar-RGB-Monocular-SLAM.pdf)[C]. International Conference on Machine Vision Applications MVA **2019**.
     + SlamCraft：**单目平面稠密** SLAM
     + 德国人工智能研究中心 &emsp;[**作者主页**](https://av.dfki.de/members/rambach/) &emsp;[**谷歌学术**](https://scholar.google.com/citations?user=1l4G16AAAAAJ&hl=zh-CN&authuser=1&oi=sra) &emsp;**增强现实**应用
@@ -496,7 +502,11 @@ cd ×××/ElasticFusion-master/GUI/build
     + 加拿大滑铁卢大学，贝鲁特美国大学； [谷歌学术](https://scholar.google.com/citations?hl=zh-CN&user=4Xy_9NQAAAAJ)
     + Younes G, Asmar D, Shammas E, et al. [Keyframe-based monocular SLAM: design, survey, and future directions](https://www.sciencedirect.com/science/article/pii/S0921889017300647)[J]. Robotics and Autonomous Systems, **2017**, 98: 67-88.
     + 2018：[Fdmo: Feature assisted direct monocular odometry](https://arxiv.org/pdf/1804.05422.pdf)
-### 2019.05.05 论文整理
+
+---
+
+### 2019 年 5 月论文更新（51篇）
+
 #### 1. Geometric SLAM
 + [x] **[1]** Delmas P, Gee T. [**Stereo camera visual odometry for moving urban environments**](https://content.iospress.com/articles/integrated-computer-aided-engineering/ica190598)[J]. Integrated Computer-Aided Engineering, **2019** (Preprint): 1-14.
     + <font color = blue>用于移动城市环境的双目里程计</font>
@@ -670,6 +680,108 @@ cd ×××/ElasticFusion-master/GUI/build
 + [x] **[51]** Zhao Y, Qi J, Zhang R. [**CBHE: Corner-based Building Height Estimation for Complex Street Scene Images**](https://arxiv.org/pdf/1904.11128.pdf)[J]. arXiv preprint arXiv:1904.11128, **2019**.
     + <font color = blue>基于角点的复杂街景图像**建筑物高度估计**</font>
     + 墨尔本大学
+
+---
+
+### 2019 年 6 月论文更新（21篇）
+
+#### 1. Geometric SLAM
+
++ [x] **[1]** [**A Modular Optimization Framework for Localization and Mapping**](https://ingmec.ual.es/~jlblanco/papers/blanco2019mola_rss2019.pdf). [C] RSS **2019**
+    + <font color = blue>用于跟踪与建图的模块化优化框架</font>
+    + 西班牙阿尔梅里亚大学 &emsp; [Google Scholor](https://scholar.google.com/citations?hl=zh-CN&user=bhDtzKgAAAAJ)
+    + [**代码开源**](https://github.com/MOLAorg/mola)（还未放出） &emsp; [演示视频](https://www.youtube.com/watch?v=Bb92aMBJR44)
++ [x] **[2]** Wang C, Guo X. [**Efficient Plane-Based Optimization of Geometry and Texture for Indoor RGB-D Reconstruction**](https://arxiv.org/pdf/1905.08853.pdf)[J]. arXiv preprint arXiv:1905.08853, **2019**.
+    + <font color = blue>用于室内 RGB-D 重建的基于平面的几何和纹理优化</font>
+    + 德克萨斯大学达拉斯分校 &emsp; [Google Scholor](https://scholar.google.com/citations?user=PXm3u3gAAAAJ&hl=zh-CN&oi=sra)
+    + [**代码开源**](https://github.com/chaowang15/plane-opt-rgbd)
++ [x] **[3]** Wang J, Song J, Zhao L, et al. [**A submap joining algorithm for 3D reconstruction using an RGB-D camera based on point and plane features**](https://www.sciencedirect.com/science/article/pii/S0921889018302033)[J]. Robotics and Autonomous Systems, **2019**.
+    + <font color = blue>一种基于点特征和平面特征的RGB-D相机三维重建子地图连接算法</font>
+    + 悉尼科技大学 &emsp; [Google Scholor](https://scholar.google.com/citations?user=rf8d0o4AAAAJ&hl=zh-CN&oi=sra) &emsp; 中科院三区，JCR Q2，IF 2.809
++ [x] **[4]** Joshi N, Sharma Y, Parkhiya P, et al. [**Integrating Objects into Monocular SLAM: Line Based Category Specific Models**](https://arxiv.org/pdf/1905.04698.pdf)[J]. arXiv preprint arXiv:1905.04698, **2019**.
+    + <font color = blue>将物体集成到单目 SLAM 中：基于线的特定类别模型</font>
+    + 印度海德拉巴大学
+    + Parkhiya P, Khawad R, Murthy J K, et al. **Constructing Category-Specific Models for Monocular Object-SLAM**[C]//2018 IEEE International Conference on Robotics and Automation (ICRA). IEEE, 2018: 1-9.
++ [ ] **[5]** Niu J, Qian K. [**A hand-drawn map-based navigation method for mobile robots using objectness measure**](https://journals.sagepub.com/doi/pdf/10.1177/1729881419846339)[J]. International Journal of Advanced Robotic Systems, **2019**, 16(3): 1729881419846339.
+    + <font color = blue>一种基于手绘地图的使用物体度量移动机器人导航方法</font>
+    + 东南大学 &emsp; 期刊：中科院四区， JCR Q4，IF 1.0
++ [x] **[6]** [**Robust Object-based SLAM for High-speed Autonomous Navigation**](http://groups.csail.mit.edu/rrg/papers/OkLiu19icra.pdf). **2019**
+    + <font color = blue>基于鲁棒的物体 SLAM 的高速导航系统</font>
+    + MIT
++ [ ] **[7]** Cheng J, Sun Y, Meng M Q H. [**Robust Semantic Mapping in Challenging Environments**](https://www.cambridge.org/core/journals/robotica/article/robust-semantic-mapping-in-challenging-environments/19F9EA5C806AFC10377F13ABDEDA68EE)[J]. Robotica, 1-15, **2019**.
+    + <font color = blue>具有挑战环境下的鲁棒的语义建图</font>
+    + 香港中文大学，香港科技大学 &emsp; 期刊：中科院四区， JCR Q4，IF 1.267
++ [x] **[8]** Sun B, Mordohai P. [**Oriented Point Sampling for Plane Detection in Unorganized Point Clouds**](https://arxiv.org/pdf/1905.02553.pdf)[J]. arXiv preprint arXiv:1905.02553, **2019**.
+    + <font color = blue>无组织点云中平面检测的定向点采样</font>
+    + 美国史蒂文斯理工学院
++ [x] **[9]** Palazzolo E, Behley J, Lottes P, et al. [**ReFusion: 3D Reconstruction in Dynamic Environments for RGB-D Cameras Exploiting Residuals**](https://arxiv.org/pdf/1905.02082.pdf)[J]. arXiv preprint arXiv:1905.02082, **2019**.
+    + <font color = blue>ReFusion 利用残差的 RGB-D 相机动态环境下的三维重建</font>
+    + 德国波恩大学 &emsp; [**代码开源**](https://github.com/PRBonn/refusion)
+    
+---
+
+#### 2. Learning SLAM
+
++ [x] **[10]** Goldman M, Hassner T, Avidan S. [**Learn Stereo, Infer Mono: Siamese Networks for Self-Supervised, Monocular, Depth Estimation**](https://arxiv.org/pdf/1905.00401.pdf)[J]. arXiv preprint arXiv:1905.00401, **2019**.
+    + <font color = blue>学习双目，推断单目：用于自我监督，单目，深度估计的连体网络</font>
+    + 以色列特拉维夫大学 &emsp; [**代码开源**](https://github.com/mtngld/lsim)（还未放出）
++ [ ] [11] Mukherjee A, Chakaborty S, Saha S K. [**Detection of loop closure in SLAM: A DeconvNet based approach**](https://www.sciencedirect.com/science/article/pii/S1568494619302339)[J]. Applied Soft Computing, **2019**.
+    + <font color = blue>基于 DeconvNet 的 SLAM 闭环检测方法</font>
+    + 印度贾达普大学 &emsp; 期刊：中科院二区，JCR Q1，IF 4.0
+
+---
+
+#### 3. 传感器融合
+
++ [ ] **[12]** Huang K, Xiao J, Stachniss C. [**Accurate Direct Visual-Laser Odometry with Explicit Occlusion Handling and Plane Detection**](http://www.ipb.uni-bonn.de/wp-content/papercite-data/pdf/huang2019icra.pdf)[C]//Proceedings of the IEEE International Conference on Robotics and Automation (**ICRA**). **2019**.
+    + <font color = blue>具有显式遮挡处理和平面检测的精确直接视觉激光测距</font>
+    + 国防科大
++ [x] **[13]** Shan Z, Li R, Schwertfeger S. [**RGBD-Inertial Trajectory Estimation and Mapping for Ground Robots**](https://www.mdpi.com/1424-8220/19/10/2251)[J]. Sensors, **2019**, 19(10): 2251.
+    + <font color = blue>用于地面机器人的 RGBD-惯导轨迹估计与建图</font>
+    + 上海科技大学 &emsp; [Google Scholor](https://scholar.google.com/citations?user=Y2olJ9kAAAAJ&hl=zh-CN&oi=sra)
+    + [代码开源](https://github.com/STAR-Center/VINS-RGBD) &emsp; [演示视频](https://robotics.shanghaitech.edu.cn/datasets/VINS-RGBD) &emsp; 期刊：开源，中科院三区，JCR Q2Q3
++ [ ] **[14]** Xiong X, Chen W, Liu Z, et al. [**DS-VIO: Robust and Efficient Stereo Visual Inertial Odometry based on Dual Stage EKF**](https://arxiv.org/pdf/1905.00684.pdf)[J]. arXiv preprint arXiv:1905.00684, **2019**.
+    + <font color = blue>DS-VIO：基于双重 EKF 的稳健高效的双目视觉惯性测距仪</font>
+    + 哈工大 &emsp; [Google Scholor](https://scholar.google.com/citations?user=Dhnz264AAAAJ&hl=zh-CN&oi=sra)
++ [ ] **[15]** Xing B Y, Pan F, Feng X X, et al. [**Autonomous Landing of a Micro Aerial Vehicle on a Moving Platform Using a Composite Landmark**](https://www.hindawi.com/journals/ijae/2019/4723869/abs/)[J]. International Journal of Aerospace Engineering, 2019, **2019**.
+    + <font color = blue>使用复合路标的在移动平台上自主着陆的微型飞行器</font>
+    + 北京理工大学
+
+---
+
+#### 4. AR & MR & VR
+
++ [x] **[16]** Ozawa T, Nakajima Y, Saito H. [**Simultaneous 3D Tracking and Reconstruction of Multiple Moving Rigid Objects**](https://ieeexplore.ieee.org/abstract/document/8709158)[C]//2019 12th Asia Pacific Workshop on Mixed and Augmented Reality (APMAR). IEEE, **2019**: 1-5.
+    + <font color = blue>多运动刚体运动三维跟踪与重建</font>
+    + 日本庆应义塾大学 &emsp; [Google Scholor](https://scholar.google.com/citations?user=lX5lY8YAAAAJ&hl=zh-CN&oi=sra)
++ [ ] **[17]** Ens B, Lanir J, Tang A, et al. [**Revisiting Collaboration through Mixed Reality: The Evolution of Groupware**](https://www.sciencedirect.com/science/article/pii/S1071581919300606)[J]. International Journal of Human-Computer Studies, **2019**.
+    + <font color = blue>通过混合现实重温协作:群件的发展</font>
+    + 澳大利亚莫纳什大学，以色列海法大学，加拿大卡尔加里大学 &emsp; 期刊：中科院三区，JCR Q1Q2，IF 2.3
+
+---
+
+#### 5. Learning others
+
++ [x] **[18]** Song S, Yu F, Zeng A, et al. [**Semantic scene completion from a single depth image**](http://openaccess.thecvf.com/content_cvpr_2017/papers/Song_Semantic_Scene_Completion_CVPR_2017_paper.pdf)[C]//Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. **CVPR 2017**: 1746-1754.
+    + <font color = blue>从单个深度图像完成语义场景理解</font>
+    + 普林斯顿大学 &emsp; [Google Scholor](https://scholar.google.com/citations?user=5031vK4AAAAJ&hl=zh-CN&oi=sra)
+    + [**代码开源**](https://github.com/shurans/sscnet) &emsp;[项目主页](http://sscnet.cs.princeton.edu/)
+    + Wang H, Sridhar S, Huang J, et al. [**Normalized Object Coordinate Space for Category-Level 6D Object Pose and Size Estimation**](https://arxiv.org/pdf/1901.02970.pdf)[J]. arXiv preprint arXiv:1901.02970, **2019**.
+    + [**A Survey of 3D Indoor Scene Synthesis**](https://www.researchgate.net/publication/333135099_A_Survey_of_3D_Indoor_Scene_Synthesis)[J]. Journal of Computer Science and Technology 34(3):594-608 · May **2019**
++ [ ] **[19]** Howard-Jenkins H, Li S, Prisacariu V. [**Thinking Outside the Box: Generation of Unconstrained 3D Room Layouts**](https://arxiv.org/pdf/1905.03105.pdf)[C]//Asian Conference on Computer Vision. Springer, Cham, **ACCV2018**: 432-448.
+    + <font color = blue>跳出边界框的思考：无约束 3D 房间布局的生成</font>
+    + 牛津大学
+
+---
+
+#### 6. Others
+
++ [ ] **[20]** Qian Y, Ramalingam S, Elder J H. [**LS3D: Single-View Gestalt 3D Surface Reconstruction from Manhattan Line Segments**](http://www.elderlab.yorku.ca/wp-content/uploads/2018/12/LS3DACCV18.pdf)[C]//Asian Conference on Computer Vision. Springer, Cham, **ACCV 2018**: 399-416.
+    + <font color = blue>LS3D: 单视图格式塔三维表面重建曼哈顿线段</font>
+    + 英国约克大学，美国犹他大学  &emsp; [Google Scholor](https://scholar.google.com/citations?user=gmpm0a8AAAAJ&hl=zh-CN&oi=sra)  &emsp; 会议 ACCV：CCF 人工智能 C 类会议
++ [ ] **[21]** Deng X, Mousavian A, Xiang Y, et al. [**PoseRBPF: A Rao-Blackwellized Particle Filter for 6D Object Pose Tracking**](https://arxiv.org/pdf/1905.09304.pdf)[J]. arXiv preprint arXiv:1905.09304, **2019**.
+    + <font color = blue>一种用于6D目标姿态跟踪的 Rao-Blackwellized 粒子滤波器</font>
+    + 英伟达，华盛顿大学，斯坦福大学  &emsp; [演示视频](https://www.youtube.com/watch?v=lE5gjzRKWuA&feature=youtu.be)
 
 ---
 > wuyanminmax@gmail.com    
