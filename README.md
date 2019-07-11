@@ -793,4 +793,146 @@ cd ×××/ElasticFusion-master/GUI/build
     + 英伟达，华盛顿大学，斯坦福大学  &emsp; [演示视频](https://www.youtube.com/watch?v=lE5gjzRKWuA&feature=youtu.be)
 
 ---
+
+### 2019 年 7 月论文更新（36篇）
+
+#### 1. Geometric SLAM
+
++ [x] **[1]** Schenk F, Fraundorfer F. [**RESLAM: A real-time robust edge-based SLAM system**](https://pure.tugraz.at/ws/portalfiles/portal/23662547/schenk_icra_2019.pdf)[C]//IEEE International Conference on Robotics and Automation(**ICRA**) 2019. **2019**.
+    + <font color = blue>一种实时稳健的基于边缘的SLAM系统</font>
+    + 奥地利格拉茨科技大学 &emsp;[Google Scholar](https://scholar.google.com/citations?user=IbK5KvYAAAAJ&hl=zh-CN&oi=sra)
+    + [**代码开源**](https://github.com/fabianschenk/RESLAM)  &emsp; [项目主页](https://graz.pure.elsevier.com/en/publications/reslam-a-real-time-robust-edge-based-slam-system)
++ [ ] **[2]** Christensen K, Hebert M. [**Edge-Direct Visual Odometry**](https://arxiv.org/pdf/1906.04838.pdf)[J]. arXiv preprint arXiv:1906.04838, **2019**.
+    + <font color = blue>边缘直接法视觉里程计</font>
+    + CMU
++ [ ] **[3]** Dong E, Xu J, Wu C, et al. [**Pair-Navi: Peer-to-Peer Indoor Navigation with Mobile Visual SLAM**](https://ieeexplore.ieee.org/abstract/document/8737640)[C]//IEEE **INFOCOM** 2019-IEEE Conference on Computer Communications. IEEE, **2019**: 1189-1197.
+    + <font color = blue>使用移动视觉 SLAM 进行点对点室内导航</font>
+    + 清华大学 &emsp; [Google Scholar](https://scholar.google.com/citations?user=ZbqGJ_YAAAAJ&hl=zh-CN&oi=sra)
+    + 会议：IEEE INFOCOM：CCF 计算机网络 **A 类会议**
++ [ ] **[4]** Zhou H, Fan H, Peng K, et al. [**Monocular Visual Odometry Initialization With Points and Line Segments**](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8728034)[J]. IEEE Access, **2019**, 7: 73120-73130.
+    + <font color = blue>利用点线初始化的单目视觉里程计</font>
+    + 国防科大、清华大学、港中文
+    + IEEE Access：开源期刊
++ [ ] **[5]** He M, Zhu C, Huang Q, et al. [**A review of monocular visual odometry**](https://link.springer.com/article/10.1007/s00371-019-01714-6)[J]. The Visual Computer, **2019**: 1-13.
+    + <font color = blue>单目视觉里程计综述</font>
+    + 河海大学
+    + 期刊 The Visual Computer：中科院四区，JCR  Q3，IF 1.39
++ [ ] **[6]** Bujanca M, Gafton P, Saeedi S, et al. [**SLAMBench 3.0: Systematic Automated Reproducible Evaluation of SLAM Systems for Robot Vision Challenges and Scene Understanding**](https://www.sajad-saeedi.ca/uploads/3/8/5/9/38597021/sb3.pdf)[C]//IEEE International Conference on Robotics and Automation (**ICRA**). **2019**.
+    + <font color = blue>用于机器人视觉挑战和场景理解的 SLAM 系统自动可重复性评估</font>
+    + 爱丁堡大学，伦敦帝国理工学院
++ [ ] **[7]** Wang Y, Zell A. [**Improving Feature-based Visual SLAM by Semantics**](https://ieeexplore.ieee.org/abstract/document/8708875)[C]//2018 IEEE International Conference on Image Processing, Applications and Systems (IPAS). IEEE, **2018**: 7-12.
+    + <font color = blue>利用语义信息提高特征点法的 SLAM</font>
+    + 图宾根大学
++ [x] **[8]** Mo J, Sattar J. [**Extending Monocular Visual Odometry to Stereo Camera System by Scale Optimization**](https://arxiv.org/pdf/1905.12723.pdf)[C]. International Conference on Intelligent Robots and Systems (**IROS**), **2019**.
+    + <font color = blue>通过尺度优化将单目视觉里程计扩展到双目相机系统</font>
+    + [牛津大学交互式机器人和视觉实验室](http://irvlab.cs.umn.edu/publication)
+    + [**代码开源**](https://github.com/jiawei-mo/scale_optimization)
++ [ ] **[9]** [**A Modular Optimization framework for Localization and mApping (MOLA)**](http://ingmec.ual.es/~jlblanco/papers/blanco2019mola_rss2019.pdf). **2019**
+    + <font color = blue>用于定位和建图的模块化优化框架</font>
+    + 西班牙阿尔梅利亚大学
+    + [**代码开源**](https://github.com/MOLAorg/mola)
++ [ ] **[10]** Ye W, Zhao Y, Vela P A. [**Characterizing SLAM Benchmarks and Methods for the Robust Perception Age**](https://arxiv.org/pdf/1905.07808.pdf)[J]. arXiv preprint arXiv:1905.07808, **2019**.
+    + <font color = blue>表征鲁棒感知时代的 SLAM 基准和方法</font>
+    + 乔治亚理工学院
++ [ ] **[11]** Bürki M, Cadena C, Gilitschenski I, et al. [**Appearance‐based landmark selection for visual localization**](https://onlinelibrary.wiley.com/doi/full/10.1002/rob.21870)[J]. Journal of Field Robotics. **2019**
+    + <font color = blue>基于外观的用于视觉定位的路标选择</font>
+    + ETH，MIT &emsp; 期刊：中科院二区，JCR  Q1，IF 5.0
++ [ ] **[12]** Hsiao M, Kaess M. [**MH-iSAM2: Multi-hypothesis iSAM using Bayes Tree and Hypo-tree**](http://www.cs.cmu.edu/~kaess/pub/Hsiao19icra.pdf)[J]. **2019**.
+    + <font color = blue>MH-iSAM2：使用贝叶树和 Hypo 树的多假设 iSAM</font>
+    + CMU &emsp; [**代码开源**](https://bitbucket.org/rpl_cmu/mh-isam2_lib/src/master/)
++ [x] **[13]** Schops T, Sattler T, Pollefeys M. [**BAD SLAM: Bundle Adjusted Direct RGB-D SLAM**](http://openaccess.thecvf.com/content_CVPR_2019/papers/Schops_BAD_SLAM_Bundle_Adjusted_Direct_RGB-D_SLAM_CVPR_2019_paper.pdf)[C]//Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. **2019**: 134-144.
+    + <font color = blue>直接法 RGB-D SLAM 中的 BA</font>
+    + ETH 
+    + [**代码开源**](https://github.com/ETH3D) &emsp; [**项目主页**](https://www.eth3d.net/) 
++ [x] **[14]** Wang K, Gao F, Shen S. [**Real-time Scalable Dense Surfel Mapping**](https://wang-kx.github.io/al-folio/assets/pdf/icra2019.pdf)[C]//Proc. of the IEEE Intl. Conf. on Robot. and Autom.(**ICRA**). **2019**.
+    + <font color = blue>实时可拓展的表面重建</font>
+    + 港科大沈邵劼课题组
+    + [**代码开源**](https://github.com/HKUST-Aerial-Robotics/DenseSurfelMapping) 
++ [ ] **[15]** Zhao Y, Xu S, Bu S, et al. [**GSLAM: A General SLAM Framework and Benchmark**](https://arxiv.org/pdf/1902.07995.pdf)[J]. arXiv preprint arXiv:1902.07995, **2019**.
+    + <font color = blue>通用SLAM框架和基准</font>
+    + 西北工业大学，自动化所 &emsp; [**代码开源**](https://github.com/zdzhaoyong/GSLAM)
++ [ ] **[16]** Nellithimaru A K, Kantor G A. [**ROLS: Robust Object-Level SLAM for Grape Counting**](http://openaccess.thecvf.com/content_CVPRW_2019/papers/CVPPP/Nellithimaru_ROLS__Robust_Object-Level_SLAM_for_Grape_Counting_CVPRW_2019_paper.pdf)[C]//Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition Workshops. **CVPR2019**: 0-0.
+    + <font color = blue>用于葡萄计数的鲁棒的物体级 SLAM</font>
+    + CMU
++ [ ] **[17]** Nejad Z Z, Ahmadabadian A H. [**ARM-VO: an efficient monocular visual odometry for ground vehicles on ARM CPUs**](https://link.springer.com/article/10.1007/s00138-019-01037-5)[J]. Machine Vision and Applications, **2019**: 1-10.
+    + <font color = blue>ARM CPU上地面车辆的高效单目视觉里程计</font>
+    + 伊朗德黑兰托西技术大学 
+    + [**代码开源**](https://github.com/zanazakaryaie/ARM-VO) &emsp; 期刊：中科院四区，JCR  Q2Q3，IF 1.3
++ [ ] **[18]** Aloise I, Della Corte B, Nardi F, et al. [**Systematic Handling of Heterogeneous Geometric Primitives in Graph-SLAM Optimization**](http://rss2019.informatik.uni-freiburg.de/papers/0285_FI.pdf)[J]. IEEE Robotics and Automation Letters, **2019**, 4(3): 2738-2745.
+    + <font color = blue>SLAM 图优化中异构几何基元的系统处理</font>
+    + 罗马大学
+    + [**代码开源**](https://srrg.gitlab.io/sashago-website/index.html)
++ [ ] **[19]** Guo R, Peng K, Fan W, et al. [**RGB-D SLAM Using Point–Plane Constraints for Indoor Environments**](https://www.mdpi.com/1424-8220/19/12/2721)[J]. Sensors, **2019**, 19(12): 2721.
+    + <font color = blue>室内环境中使用点-平面约束的 RGB-D SLAM</font>
+    + 国防科大 &emsp; 期刊：开源期刊，中科院三区，JCR Q2Q3，IF 3.0
++ [ ] **[20]** Laidlow T, Czarnowski J, Leutenegger S. [**DeepFusion: Real-Time Dense 3D Reconstruction for Monocular SLAM using Single-View Depth and Gradient Predictions**](https://www.imperial.ac.uk/media/imperial-college/research-centres-and-groups/dyson-robotics-lab/tlaidlow_etal_icra2019.pdf)[J].**2019**.
+    + <font color = blue>DeepFusion：使用单视图深度和梯度预测的单眼SLAM实时密集三维重建</font>
+    + [帝国理工学院的戴森机器人实验室](https://www.imperial.ac.uk/dyson-robotics-lab/publications/)
++ [x] **[21]** Saeedi S, Carvalho E, Li W, et al. [**Characterizing Visual Localization and Mapping Datasets**](https://www.sajad-saeedi.ca/uploads/3/8/5/9/38597021/saeedi_icra2019.pdf)[C]//2019 IEEE International Conference on Robotics and Automation (**ICRA**). **2019**.
+    + <font color = blue>描述可视化定位于建图的数据集</font>
+    + [帝国理工学院计算机系](https://www.imperial.ac.uk/computing/research/visual-computing/) &emsp; [数据集地址](http://wbli.me/lmdata/)
++ [ ] **[22]** Sun T, Sun Y, Liu M, et al. [**Movable-Object-Aware Visual SLAM via Weakly Supervised Semantic Segmentation**](https://arxiv.org/pdf/1906.03629.pdf)[J]. arXiv preprint arXiv:1906.03629, **2019**.
+    + <font color = blue>通过弱监督语义分割的可移动对象感知视觉SLAM</font>
+    + 港科大
++ [x] **[23]** Ghaffari M, Clark W, Bloch A, et al. [**Continuous Direct Sparse Visual Odometry from RGB-D Images**](https://arxiv.org/pdf/1904.02266.pdf)[J]. arXiv preprint arXiv:1904.02266, **2019**.
+    + <font color = blue>RGB-D图像连续直接稀疏视觉里程计</font>
+    + 密歇根大学 &emsp; [**代码开源**](https://github.com/MaaniGhaffari/cvo-rgbd)
++ [ ] **[24]** Houseago C, Bloesch M, Leutenegger S. [**KO-Fusion: Dense Visual SLAM with Tightly-Coupled Kinematic and Odometric Tracking**](https://www.imperial.ac.uk/media/imperial-college/research-centres-and-groups/dyson-robotics-lab/chouseago_etal_icra2019.pdf)[J]. **2019**
+    + <font color = blue>KO-Fusion：具有紧耦合运动和测距跟踪的稠密视觉SLAM</font>
+    + 帝国理工学院戴森机器人实验室
++ [x] **[25]** Iqbal A, Gans N R. [**Localization of Classified Objects in SLAM using Nonparametric Statistics and Clustering**](http://comoros.cs.columbia.edu:8080/IROS_2018_proceedings/media/files/1203.pdf)[C]//2018 IEEE/RSJ International Conference on Intelligent Robots and Systems (**IROS**). IEEE, **2018**: 161-168.
+    + <font color = blue>在非参数和聚类的 SLAM 中使用类别物体进行定位</font>
+    + 德克萨斯大学计算机工程学院
++ [x] **[26]** [**Semantic Mapping for View-Invariant Relocalization**](http://www.cim.mcgill.ca/~jimmyli/pubs/li2019icra.pdf). **2019**
+    + <font color = blue>用于视角不变重定位的语义地图</font>
+    + 加拿大蒙特利尔麦吉尔大学
++ [ ] **[27]** Hou Z, Ding Y, Wang Y, et al. [**Visual Odometry for Indoor Mobile Robot by Recognizing Local Manhattan Structures**](https://link.springer.com/chapter/10.1007/978-3-030-20873-8_11)[C]//Asian Conference on Computer Vision. Springer, Cham, **ACCV2018**: 168-182.
+    + <font color = blue>通过识别曼哈顿结构的室内机器人视觉里程计</font>
+    + 南京理工大学
+    
+---
+
+#### 2. Learning SLAM
+
++ [ ] [28] Guclu O, Caglayan A, Burak Can A. [**RGB-D Indoor Mapping Using Deep Features**](http://openaccess.thecvf.com/content_CVPRW_2019/papers/WAD/Guclu_RGB-D_Indoor_Mapping_Using_Deep_Features_CVPRW_2019_paper.pdf)[C]//Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition Workshops. **CVPR 2019**: 0-0.
+    + <font color = blue>使用深度特征的 RGB-D 室内建图</font>
+    + 土耳其 Ahi Evran University
++ [x] [29] Sualeh M, Kim G W. [**Simultaneous Localization and Mapping in the Epoch of Semantics: A Survey**](https://link.springer.com/content/pdf/10.1007%2Fs12555-018-0130-x.pdf)[J]. International Journal of Control, Automation and Systems, **2019**, 17(3): 729-742.
+    + <font color = blue>语义时代的 SLAM 综述</font>
+    + 韩国忠北国立大学
+    
+---
+
+#### 3. AR & MR & VR
+
++ [ ] [30] Guerra W, Tal E, Murali V, et al. FlightGoggles: Photorealistic Sensor Simulation for Perception-driven Robotics using Photogrammetry and Virtual Reality[J]. arXiv preprint arXiv:1905.11377, 2019.
+    + <font color = blue>使用摄影测量和虚拟现实感知驱动机器人的逼真传感器模拟</font>
+    + MIT  &emsp;[**代码开源**](https://github.com/mit-fast/FlightGoggles) &emsp; [项目主页](https://flightgoggles.mit.edu/)
++ [ ] [31] Stotko P, Krumpen S, Hullin M B, et al. [**SLAMCast: Large-Scale, Real-Time 3D Reconstruction and Streaming for Immersive Multi-Client Live Telepresence**](https://arxiv.org/pdf/1805.03709.pdf)[J]. IEEE transactions on visualization and computer graphics, **2019**, 25(5): 2102-2112.
+    + <font color = blue>SLAMCast：用于沉浸式多客户端实时远程呈现的大规模实时3D重建和流媒体</font>
+    + 波恩大学 &emsp; [Google Scholar](https://scholar.google.com/citations?user=nMLx_s0AAAAJ&hl=zh-CN&oi=sra)
+
+---
+
+#### 4. Learning others
+
++ [ ] [32] Jörgensen E, Zach C, Kahl F. [**Monocular 3D Object Detection and Box Fitting Trained End-to-End Using Intersection-over-Union Loss**](https://arxiv.org/pdf/1906.08070.pdf)[J]. arXiv preprint arXiv:1906.08070, **2019**.
+    + <font color = blue>单目三维物体检测和使用交叉联合损失的端到端立方框拟合</font>
+    + 瑞典查尔姆斯理工大学 &emsp;[演示视频](https://www.youtube.com/watch?v=G3Aqhd5K2GE&list=PL4jJwJr7UjMb4bzLwUGHdVmhfNS2Ads_x)
++ [ ] [33] Wang B H, Chao W L, Wang Y, et al. [**LDLS: 3-D Object Segmentation Through Label Diffusion From 2-D Images**](https://ieeexplore.ieee.org/abstract/document/8735751)[J]. IEEE Robotics and Automation Letters, **2019**, 4(3): 2902-2909.
+    + <font color = blue>通过二维图像的标签扩散进行三维物体分割</font>
+    + 康奈尔大学
+    + [**代码开源**](https://github.com/brian-h-wang/LDLS) &emsp; 期刊：IEEE Robotics and Automation 中科院二区 ，JCR Q1Q2 ，IF 4.8
++ [x] [34] Yang B, Wang J, Clark R, et al. [**Learning Object Bounding Boxes for 3D Instance Segmentation on Point Clouds**](https://arxiv.org/pdf/1906.01140.pdf)[J]. arXiv preprint arXiv:1906.01140, **2019**.
+    + <font color = blue>学习点云上三维实例分割的目标 3D 边界框</font>
+    + 牛津大学 &emsp; [Google Scholar](https://scholar.google.com/citations?user=VqUAqz8AAAAJ&hl=zh-CN&oi=sra)
+    + [**代码开源**](https://github.com/Yang7879/3D-BoNet) 
++ [ ] [35] Ahmed, Mariam. (**2019**). [**Pushing Boundaries with 3D Boundaries for Object Recognition**](https://www.researchgate.net/publication/333676944_Pushing_Boundaries_with_3D_Boundaries_for_Object_Recognition). 10.13140/RG.2.2.33079.98728. 
+    + <font color = blue>利用三维边界框推动边界进行物体检测</font>
+    + 新加坡国立大学
++ [ ] [36] Wu D, Zhuang Z, Xiang C, et al. [**6D-VNet: End-To-End 6-DoF Vehicle Pose Estimation From Monocular RGB Images**](http://openaccess.thecvf.com/content_CVPRW_2019/papers/WAD/Wu_6D-VNet_End-To-End_6-DoF_Vehicle_Pose_Estimation_From_Monocular_RGB_Images_CVPRW_2019_paper.pdf)[C]//Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition Workshops. **CVPR2019**: 0-0.
+    + <font color = blue>6D-VNet：单目 RGB 图像的端到端 6 自由度车辆姿态估计</font>
+    + 深圳大学 &emsp; [**代码开源**](https://github.com/stevenwudi/6DVNET)
+
+---
 > wuyanminmax@gmail.com    
