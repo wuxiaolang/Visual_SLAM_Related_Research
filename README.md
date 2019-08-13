@@ -10,8 +10,7 @@
 `3. 工具` ：论文或实验用到的一些工具    
 `4. 优秀作者与团队` ：在自己感兴趣领域比较**优秀的值得关注的团队或个人**    
 `5. 资料` ：可供参考的资料或备忘    
-`6. 论文` ：自己感兴趣方向的**最新论文**，大概一个月一更新    
-
+`6. 论文` ：自己感兴趣方向的**最新论文**，大概一个月一更新      
 &emsp;&emsp;本仓库于 2019 年 3 月开始整理（私密）。
 
 ## 目录
@@ -32,7 +31,7 @@
   + [2019 年 5 月论文更新（51篇）](https://github.com/wuxiaolang/Visual_SLAM_Related_Research/blob/master/README.md#2019-%E5%B9%B4-5-%E6%9C%88%E8%AE%BA%E6%96%87%E6%9B%B4%E6%96%B051%E7%AF%87)
   + [2019 年 6 月论文更新（21篇）](https://github.com/wuxiaolang/Visual_SLAM_Related_Research/blob/master/README.md#2019-%E5%B9%B4-6-%E6%9C%88%E8%AE%BA%E6%96%87%E6%9B%B4%E6%96%B021%E7%AF%87)
   + [2019 年 7 月论文更新（36篇）](https://github.com/wuxiaolang/Visual_SLAM_Related_Research#2019-%E5%B9%B4-7-%E6%9C%88%E8%AE%BA%E6%96%87%E6%9B%B4%E6%96%B036%E7%AF%87)
-  + [2019 年 8 月论文更新（26篇）](https://github.com/wuxiaolang/Visual_SLAM_Related_Research#2019-%E5%B9%B4-8-%E6%9C%88%E8%AE%BA%E6%96%87%E6%9B%B4%E6%96%B036%E7%AF%87)
+  + [2019 年 8 月论文更新（26篇）](https://github.com/wuxiaolang/Visual_SLAM_Related_Research#2019-%E5%B9%B4-8-%E6%9C%88%E8%AE%BA%E6%96%87%E6%9B%B4%E6%96%B026%E7%AF%87)
   
 ---
 
