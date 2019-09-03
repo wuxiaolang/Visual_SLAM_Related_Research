@@ -270,6 +270,9 @@ cd ×××/ElasticFusion-master/GUI/build
 ### :key: 3.3 .obj 文件加载库
   + Github：https://github.com/syoyo/tinyobjloader
 
+### :key: 3.4 .三维点云数据处理库
+  + Github：http://geometryhub.net/bgl
+
 ---
 ## 4. 优秀作者与实验
 + :+1: **Julian Straub MIT,facebook VR 实验室**
