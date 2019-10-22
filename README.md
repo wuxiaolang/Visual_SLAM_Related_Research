@@ -4,14 +4,14 @@
 
 ## 前言
 &emsp;&emsp;以下收集的论文、代码等资料主要与本人的学习方向 **视觉 SLAM、增强现实** 相关。    
-&emsp;&emsp;目前（2019年3月至今）**重点关注前端、语义 SLAM**，传感器融合、稠密建图也略有关注，所以资料的收集范围也与自己的兴趣比较一致，无法涵盖视觉 SLAM 的所有研究，请谨慎参考。   
-`1. 论文（开源代码）` ：**代码开源**的相关论文    
-`2. 算法、知识点与代码` ：一些零散的知识点和算法    
+&emsp;&emsp;目前（2019年3月至今）**重点关注 VO、语义 SLAM**， 传感器融合、稠密建图也略有关注，所以资料的收集范围也与自己的兴趣比较一致，无法涵盖视觉 SLAM 的所有研究，**请谨慎参考**。   
+`1. 开源代码` ：经典、优秀的开源工程    
+`2. 算法与知识点` ：一些零散的知识点和算法    
 `3. 工具` ：论文或实验用到的一些工具    
 `4. 优秀作者与团队` ：在自己感兴趣领域比较**优秀的值得关注的团队或个人**    
 `5. 资料` ：可供参考的资料或备忘    
-`6. 论文` ：自己感兴趣方向的**最新论文**，大概一个月一更新      
-&emsp;&emsp;本仓库于 2019 年 3 月开始整理（私密）。
+`6. 论文` ：自己感兴趣方向的**最新论文**，大概**一个月一更新**（论文不一定好，主要以对现阶段的工作可能有用为收录原则，请谨慎参考）      
+&emsp;&emsp;本仓库于 2019 年 3 月（研一下）开始整理（私密）。
 
 ## 目录
 + [**1.论文（开源代码）**](https://github.com/wuxiaolang/Mark/blob/master/README.md#1-%E8%AE%BA%E6%96%87%E5%8F%8A%E4%BB%A3%E7%A0%81)
@@ -26,13 +26,15 @@
 + [**4. 优秀作者与团队**](https://github.com/wuxiaolang/Mark/blob/master/README.md#4-%E4%BC%98%E7%A7%80%E4%BD%9C%E8%80%85%E4%B8%8E%E5%AE%9E%E9%AA%8C)
 + [**5. 资料**](https://github.com/wuxiaolang/Mark/blob/master/README.md#5-%E8%B5%84%E6%96%99)
 + [**6. 论文（近期论文）**](https://github.com/wuxiaolang/Mark/blob/master/README.md#6-%E8%BF%91%E6%9C%9F%E8%AE%BA%E6%96%87%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0)
-  + [2019 年 3 月论文更新（13 篇）](https://github.com/wuxiaolang/Visual_SLAM_Related_Research/blob/master/README.md#2019-%E5%B9%B4-3-%E6%9C%88%E8%AE%BA%E6%96%87%E6%9B%B4%E6%96%B013%E7%AF%87)
-  + [2019 年 4 月论文更新（17 篇）](https://github.com/wuxiaolang/Visual_SLAM_Related_Research/blob/master/README.md#2019-%E5%B9%B4-4-%E6%9C%88%E8%AE%BA%E6%96%87%E6%9B%B4%E6%96%B017%E7%AF%87)
-  + [2019 年 5 月论文更新（51 篇）](https://github.com/wuxiaolang/Visual_SLAM_Related_Research/blob/master/README.md#2019-%E5%B9%B4-5-%E6%9C%88%E8%AE%BA%E6%96%87%E6%9B%B4%E6%96%B051%E7%AF%87)
-  + [2019 年 6 月论文更新（21 篇）](https://github.com/wuxiaolang/Visual_SLAM_Related_Research/blob/master/README.md#2019-%E5%B9%B4-6-%E6%9C%88%E8%AE%BA%E6%96%87%E6%9B%B4%E6%96%B021%E7%AF%87)
-  + [2019 年 7 月论文更新（36 篇）](https://github.com/wuxiaolang/Visual_SLAM_Related_Research#2019-%E5%B9%B4-7-%E6%9C%88%E8%AE%BA%E6%96%87%E6%9B%B4%E6%96%B036%E7%AF%87)
-  + [2019 年 8 月论文更新（26 篇）](https://github.com/wuxiaolang/Visual_SLAM_Related_Research#2019-%E5%B9%B4-8-%E6%9C%88%E8%AE%BA%E6%96%87%E6%9B%B4%E6%96%B026%E7%AF%87)
-  
+  + [2019 年 03 月论文更新（13 篇）](https://github.com/wuxiaolang/Visual_SLAM_Related_Research/blob/master/README.md#2019-%E5%B9%B4-3-%E6%9C%88%E8%AE%BA%E6%96%87%E6%9B%B4%E6%96%B013%E7%AF%87)
+  + [2019 年 04 月论文更新（17 篇）](https://github.com/wuxiaolang/Visual_SLAM_Related_Research/blob/master/README.md#2019-%E5%B9%B4-4-%E6%9C%88%E8%AE%BA%E6%96%87%E6%9B%B4%E6%96%B017%E7%AF%87)
+  + [2019 年 05 月论文更新（51 篇）](https://github.com/wuxiaolang/Visual_SLAM_Related_Research/blob/master/README.md#2019-%E5%B9%B4-5-%E6%9C%88%E8%AE%BA%E6%96%87%E6%9B%B4%E6%96%B051%E7%AF%87)
+  + [2019 年 06 月论文更新（21 篇）](https://github.com/wuxiaolang/Visual_SLAM_Related_Research/blob/master/README.md#2019-%E5%B9%B4-6-%E6%9C%88%E8%AE%BA%E6%96%87%E6%9B%B4%E6%96%B021%E7%AF%87)
+  + [2019 年 07 月论文更新（36 篇）](https://github.com/wuxiaolang/Visual_SLAM_Related_Research#2019-%E5%B9%B4-7-%E6%9C%88%E8%AE%BA%E6%96%87%E6%9B%B4%E6%96%B036%E7%AF%87)
+  + [2019 年 08 月论文更新（26 篇）](https://github.com/wuxiaolang/Visual_SLAM_Related_Research#2019-%E5%B9%B4-8-%E6%9C%88%E8%AE%BA%E6%96%87%E6%9B%B4%E6%96%B026%E7%AF%87)
+  + [2019 年 09 月论文更新（24 篇）](https://github.com/wuxiaolang/Visual_SLAM_Related_Research/blob/master/README.md#2019-%E5%B9%B4-9-%E6%9C%88%E8%AE%BA%E6%96%87%E6%9B%B4%E6%96%B024-%E7%AF%87)
+  + [2019 年 10 月论文更新（22 篇）](https://github.com/wuxiaolang/Visual_SLAM_Related_Research/blob/master/README.md#2019-%E5%B9%B4-10-%E6%9C%88%E8%AE%BA%E6%96%87%E6%9B%B4%E6%96%B022-%E7%AF%87)
+
 ---
 
 ## 1. 论文（及代码）
