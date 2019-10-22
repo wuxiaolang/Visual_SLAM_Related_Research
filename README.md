@@ -1158,14 +1158,14 @@ cd ×××/ElasticFusion-master/GUI/build
 
 #### 1. Geometric SLAM
 
-+ [x] **[1]** Sumikura S, Shibuya M, Sakurada K. [**OpenVSLAM: A Versatile Visual SLAM Framework**]()[J]. arXiv preprint arXiv:1910.01122, **2019**.
++ [x] **[1]** Sumikura S, Shibuya M, Sakurada K. [**OpenVSLAM: A Versatile Visual SLAM Framework**](https://arxiv.org/pdf/1910.01122.pdf)[J]. arXiv preprint arXiv:1910.01122, **2019**.
     + <font color = blue>**OpenVSLAM: 通用的视觉 SLAM 框架**</font>
     + [代码开源](https://github.com/xdspacelab/openvslam)
     + 日本国家先进工业科学技术研究所，其他工作：Yokozuka M, Oishi S, Simon T, et al. [**VITAMIN-E: VIsual Tracking And Mapping with Extremely Dense Feature Points**](https://arxiv.org/pdf/1904.10324.pdf)[J]. arXiv preprint arXiv:1904.10324, **2019**.
 + [x] **[2]** Chen Y, Huang S, Fitch R, et al. [**On-line 3D active pose-graph SLAM based on key poses using graph topology and sub-maps**](https://ieeexplore.ieee.org/abstract/document/8793632)[C]//2019 International Conference on Robotics and Automation (**ICRA**). IEEE, **2019**: 169-175.
     + <font color = blue>**使用图形拓扑和子图的基于关键姿势的在线 3D 活跃位姿图SLAM**</font>
     + 悉尼科技大学
-+ [ ] **[3]** Pfrommer B, Daniilidis K. [**TagSLAM: Robust SLAM with Fiducial Markers**]()[J]. arXiv preprint arXiv:1910.00679, **2019**.
++ [ ] **[3]** Pfrommer B, Daniilidis K. [**TagSLAM: Robust SLAM with Fiducial Markers**](https://arxiv.org/pdf/1910.00679.pdf)[J]. arXiv preprint arXiv:1910.00679, **2019**.
     + <font color = blue>**TagSLAMM：具有基准标记的鲁棒 SLAM**</font>
     + 宾夕法尼亚大学通用机器人，自动化，感应和感知实验室，[项目主页](https://berndpfrommer.github.io/tagslam_web/)
 + [ ] **[4]** Lin T Y, Clark W, Eustice R M, et al. [**Adaptive Continuous Visual Odometry from RGB-D Images**](https://arxiv.org/pdf/1910.00713.pdf)[J]. arXiv preprint arXiv:1910.00713, **2019**.
