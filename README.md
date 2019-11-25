@@ -34,7 +34,8 @@
   + [2019 年 08 月论文更新（26 篇）](https://github.com/wuxiaolang/Visual_SLAM_Related_Research#2019-%E5%B9%B4-8-%E6%9C%88%E8%AE%BA%E6%96%87%E6%9B%B4%E6%96%B026%E7%AF%87)
   + [2019 年 09 月论文更新（24 篇）](https://github.com/wuxiaolang/Visual_SLAM_Related_Research/blob/master/README.md#2019-%E5%B9%B4-9-%E6%9C%88%E8%AE%BA%E6%96%87%E6%9B%B4%E6%96%B024-%E7%AF%87)
   + [2019 年 10 月论文更新（22 篇）](https://github.com/wuxiaolang/Visual_SLAM_Related_Research/blob/master/README.md#2019-%E5%B9%B4-10-%E6%9C%88%E8%AE%BA%E6%96%87%E6%9B%B4%E6%96%B022-%E7%AF%87)
-
+  + [2019 年 11 月论文更新（17 篇）](https://github.com/wuxiaolang/Visual_SLAM_Related_Research/blob/master/README.md#2019-%E5%B9%B4-11-%E6%9C%88%E8%AE%BA%E6%96%87%E6%9B%B4%E6%96%B017-%E7%AF%87)
+ 
 ---
 
 ## 1. 论文（及代码）
@@ -1240,6 +1241,71 @@ cd ×××/ElasticFusion-master/GUI/build
 + [ ] **[22]** Sjanic Z. [**Particle Filtering Approach for Data Association**](http://users.isy.liu.se/en/rt/zoran/Publ/fusion2019.pdf)[C]//22nd International Conference on Information Fusion. **2019**.
     + <font color = blue>粒子滤波算法用于数据关联</font>
     + 上交邹丹平老师，期刊：中科院三区 JCR Q1Q2 IF2.98
+
+---
+
+### 2019 年 11 月论文更新（17 篇）
+
+#### 1. Geometric SLAM
+
++ [x] **[1]** Jatavallabhula K M, Iyer G, Paull L. [**gradSLAM: Dense SLAM meets Automatic Differentiation**](https://arxiv.org/pdf/1910.10672.pdf)[J]. arXiv preprint arXiv:1910.10672, **2019**.
+    + <font color = blue>**自动区分的稠密 SLAM**</font>
+    + [项目主页](http://montrealrobotics.ca/gradSLAM/)，[演示视频](https://www.youtube.com/watch?v=2ygtSJTmo08&feature=youtu.be)，[**代码开源**](https://github.com/montrealrobotics/gradSLAM)（还未放出）
+    + 加拿大蒙特卡尔大学（[实验室主页](http://montrealrobotics.ca/)），CMU
++ [x] **[2]** Lee S J, Hwang S S. [**Elaborate Monocular Point and Line SLAM With Robust Initialization**](http://openaccess.thecvf.com/content_ICCV_2019/papers/Lee_Elaborate_Monocular_Point_and_Line_SLAM_With_Robust_Initialization_ICCV_2019_paper.pdf)[C]//**ICCV 2019**: 1121-1129.
+    + <font color = blue>**具有鲁棒初始化的单目点线 SLAM**</font>
+    + 韩国韩东国际大学
++ [ ] **[3]** Wen F, Ying R, Gong Z, et al. [**Efficient Algorithms for Maximum Consensus Robust Fitting**](https://ieeexplore.ieee.org/abstract/document/8870243)[J]. IEEE Transactions on Robotics, **2019**.
+    + <font color = blue>最大一致性稳健拟合的有效算法</font>
+    + 期刊 中科院二区，JCRQ1，IF 1.038，[代码开源](https://github.com/FWen/emc)
+    + 上海交通大学电子工程系/脑启发式应用技术中心
++ [ ] **[4]** Civera J, Lee S H. [**RGB-D Odometry and SLAM**](https://link.springer.com/chapter/10.1007/978-3-030-28603-3_6#citeas)[M]//RGB-D Image Analysis and Processing. Springer, Cham, **2019**: 117-144.
+    + <font color = blue>RGB-D SLAM 与里程计</font>
+    + 专著
++ [ ] **[5]** Wang H, Li J, Ran M, et al. [**Fast Loop Closure Detection via Binary Content**](https://ieeexplore.ieee.org/abstract/document/8899937)[C]//2019 IEEE 15th International Conference on Control and Automation (**ICCA**). IEEE, **2019**: 1563-1568.
+    + <font color = blue>通过二进制内容进行快速闭环检测</font>
+    + 南洋理工大学，ICCV 会议 
++ [ ] **[6]** Liu W, Wu S, Wu Z, et al. [**Incremental Pose Map Optimization for Monocular Vision SLAM Based on Similarity Transformation**](https://www.mdpi.com/1424-8220/19/22/4945/htm)[J]. Sensors, **2019**, 19(22): 4945.
+    + <font color = blue>基于相似度变换的单目 SLAM 增量式位姿图优化</font>
+    + 北航，开源期刊
++ [ ] **[7]** Wang S, Yue J, Dong Y, et al. [**A synthetic dataset for Visual SLAM evaluation**](https://www.sciencedirect.com/science/article/pii/S0921889019301009#appSB)[J]. Robotics and Autonomous Systems, **2019**: 103336.
+    + <font color = blue>用于视觉 SLAM 评估的合成数据集</font>
+    + 同济大学，期刊中科院三区， JCR Q2， IF 2.809
++ [ ] **[8]** Han B, Li X, Yu Q, et al. [**A Novel Visual Odometry Aided by Vanishing Points in the Manhattan World**](https://www.researchgate.net/profile/Huimin_Lu/publication/336605825_A_Novel_Visual_Odometry_Aided_by_Vanishing_Points_in_the_Manhattan_World/links/5da85553a6fdccdad54c40ae/A-Novel-Visual-Odometry-Aided-by-Vanishing-Points-in-the-Manhattan-World.pdf)[J].
+    + <font color = blue>曼哈顿世界消失点辅助的新型视觉里程计</font>
+    + 国防科大，作者 [Google Scholar](https://scholar.google.com/citations?user=cp-6u7wAAAAJ&hl=zh-CN&oi=sra)
++ [ ] **[9]** Yuan Z, Zhu D, Chi C, et al. [**Visual-Inertial State Estimation with Pre-integration Correction for Robust Mobile Augmented Reality**](http://delivery.acm.org/10.1145/3360000/3351079/p1410-yuan.pdf?ip=219.216.73.1&id=3351079&acc=ACTIVE%20SERVICE&key=BF85BBA5741FDC6E%2E4183B12E3311CD37%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35&__acm__=1574657773_86a30bc436c42e34852cca493a18c66c)[C]//Proceedings of the 27th ACM International Conference on Multimedia. ACM, **2019**: 1410-1418.
+    + <font color = blue>用于鲁棒的移动增强现实中基于预积分校正的视觉惯性状态估计</font>
+    + 华中科大，会议 ACM MM：CCF A 类会议
++ [ ] **[10]** Zhong D, Han L, Fang L. [**iDFusion: Globally Consistent Dense 3D Reconstruction from RGB-D and Inertial Measurements**](https://dl.acm.org/citation.cfm?id=3351085)[C]//Proceedings of the 27th ACM International Conference on Multimedia. ACM, **2019**: 962-970.
+    + <font color = blue>iDFusion：RGB-D 和惯导的全局一致性稠密三维建图</font>
+    + 清华大学、港科，会议 ACM MM：CCF A 类会议，[Google Scholar](https://scholar.google.com/citations?user=fI5pZ_cAAAAJ&hl=zh-CN&oi=sra)
++ [ ] **[11]** Duhautbout T, Moras J, Marzat J. [**Distributed 3D TSDF Manifold Mapping for Multi-Robot Systems**](https://ieeexplore.ieee.org/abstract/document/8870930)[C]//2019 European Conference on Mobile Robots (**ECMR**). IEEE, **2019**: 1-8.
+    + <font color = blue>多机器人系统的分布式三维 TSDF 流形建图</font>
+    + TSDF 开源库：https://github.com/personalrobotics/OpenChisel
+
+---
+
+#### 2. Semantic/Learning SLAM
+
++ [x] **[12]** Schorghuber M, Steininger D, Cabon Y, et al. [**SLAMANTIC-Leveraging Semantics to Improve VSLAM in Dynamic Environments**](http://openaccess.thecvf.com/content_ICCVW_2019/papers/DL4VSLAM/Schorghuber_SLAMANTIC_-_Leveraging_Semantics_to_Improve_VSLAM_in_Dynamic_Environments_ICCVW_2019_paper.pdf)[C]//**ICCV Workshops**. **2019**: 0-0.
+    + <font color = blue>**SLAMANTIC：在动态环境中利用语义来改善VSLAM**</font>
+    + 奥地利理工学院, [**代码开源**](https://github.com/mthz/slamantic)
++ [ ] **[13]** Lee C Y, Lee H, Hwang I, et al. [**Spatial Perception by Object-Aware Visual Scene Representation**](http://openaccess.thecvf.com/content_ICCVW_2019/papers/DL4VSLAM/Lee_Spatial_Perception_by_Object-Aware_Visual_Scene_Representation_ICCVW_2019_paper.pdf)[C]//**ICCV Workshops 2019**: 0-0.
+    + <font color = blue>由物体视觉场景表示的空间感知</font>
+    + 首尔大学
++ [ ] **[14]** Peng J, Shi X, Wu J, et al. [**An Object-Oriented Semantic SLAM System towards Dynamic Environments for Mobile Manipulation**](https://ieeexplore.ieee.org/abstract/document/8868371)[C]//2019 IEEE/ASME International Conference on Advanced Intelligent Mechatronics (**AIM**). IEEE, **2019**: 199-204.
+    + <font color = blue>用于动态环境移动操作的物体级语义 SLAM 系统</font>
+    + 上海交大，AIM：CCF 人工智能 C 类会议
++ [ ] **[15]** Cui L, Ma C. [**SOF-SLAM: A semantic visual SLAM for Dynamic Environments**](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8894002)[J]. IEEE Access, **2019**.
+    + <font color = blue>一种用于动态环境的语义视觉里程计</font>
+    + 北航，IEEE Access 开源期刊
++ [ ] **[16]** Zheng L, Tao W. [**Semantic Object and Plane SLAM for RGB-D Cameras**](https://link.springer.com/chapter/10.1007/978-3-030-31726-3_12)[C]//Chinese Conference on Pattern Recognition and Computer Vision (**PRCV**). Springer, Cham, **2019**: 137-148.
+    + <font color = blue>RGB-D 物体语义与平面级 SLAM</font>
+    + 水文，平面分割采用 [PEAC](https://github.com/symao/PEAC)，PRCV 第二届今年在西安举办的那个
+    + 华中科大
++ [ ] **[17]** Kim U H, Kim S H, Kim J H. [**SimVODIS: Simultaneous Visual Odometry, Object Detection, and Instance Segmentation**](https://arxiv.org/abs/1911.05939)[J]. arXiv preprint arXiv:1911.05939, **2019**.
+    + <font color = blue>SimVODIS：同时进行视觉里程计、目标检测和实例分割</font>
 
 ---
 > wuyanminmax@gmail.com    
