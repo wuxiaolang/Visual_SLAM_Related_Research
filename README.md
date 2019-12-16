@@ -1105,7 +1105,6 @@ cd ×××/ElasticFusion-master/GUI/build
 
 + [x] **[14]** Zhang J, Gui M, Wang Q, et al. [**Hierarchical Topic Model Based Object Association for Semantic SLAM**](https://ieeexplore.ieee.org/abstract/document/8794595)[J]. IEEE transactions on visualization and computer graphics, **2019**.
     + <font color = blue>**基于层次主题模型的语义 SLAM 对象关联** </font>
-    + 西班牙萨拉戈萨大学，**ORB-SLAM 作者**
     + 期刊：中科院三区， JCR Q1，IF 3.78
 + [ ] **[15]** Gählert N, Wan J J, Weber M, et al. [**Beyond Bounding Boxes: Using Bounding Shapes for Real-Time 3D Vehicle Detection from Monocular RGB Images**](https://ieeexplore.ieee.org/abstract/document/8814036)[C]//2019 IEEE Intelligent Vehicles Symposium (IV). IEEE, **2019**: 675-682.
     + <font color = blue>超越边界框：使用边界形状从单目 RGB 图像中进行实时 3D 车辆检测</font>
