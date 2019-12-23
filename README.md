@@ -35,6 +35,7 @@
   + [2019 年 09 月论文更新（24 篇）](https://github.com/wuxiaolang/Visual_SLAM_Related_Research/blob/master/README.md#2019-%E5%B9%B4-9-%E6%9C%88%E8%AE%BA%E6%96%87%E6%9B%B4%E6%96%B024-%E7%AF%87)
   + [2019 年 10 月论文更新（22 篇）](https://github.com/wuxiaolang/Visual_SLAM_Related_Research/blob/master/README.md#2019-%E5%B9%B4-10-%E6%9C%88%E8%AE%BA%E6%96%87%E6%9B%B4%E6%96%B022-%E7%AF%87)
   + [2019 年 11 月论文更新（17 篇）](https://github.com/wuxiaolang/Visual_SLAM_Related_Research/blob/master/README.md#2019-%E5%B9%B4-11-%E6%9C%88%E8%AE%BA%E6%96%87%E6%9B%B4%E6%96%B017-%E7%AF%87)
+  + [2019 年 12 月论文更新（23 篇）](https://github.com/wuxiaolang/Visual_SLAM_Related_Research/blob/master/README.md#2019-%E5%B9%B4-12-%E6%9C%88%E8%AE%BA%E6%96%87%E6%9B%B4%E6%96%B023-%E7%AF%87)
  
 ---
 
@@ -1305,6 +1306,104 @@ cd ×××/ElasticFusion-master/GUI/build
     + 华中科大
 + [ ] **[17]** Kim U H, Kim S H, Kim J H. [**SimVODIS: Simultaneous Visual Odometry, Object Detection, and Instance Segmentation**](https://arxiv.org/abs/1911.05939)[J]. arXiv preprint arXiv:1911.05939, **2019**.
     + <font color = blue>SimVODIS：同时进行视觉里程计、目标检测和实例分割</font>
+
+---
+
+### 2019 年 12 月论文更新（23 篇）
+> **本期 23 篇论文，其中 5 项开源工作；     
+比较有意思的有 TextSLAM、VersaVIS 和单目 3D 目标检测。**
+
+#### 1. Geometric SLAM
+
++ [x] **[1]** Tanke J, Kwon O H, Stotko P, et al. [**Bonn Activity Maps: Dataset Description**](https://arxiv.org/pdf/1912.06354.pdf)[J]. arXiv preprint arXiv:1912.06354, **2019**.
+    + <font color = blue>**包含人体跟踪、姿态和环境语义三维重建的数据集**</font>
+    + 波恩大学，[项目、数据集主页](https://github.com/bonn-activity-maps/bonn_activity_maps)
++ [x] **[2]** An S, Che G, Zhou F, et al. [**Fast and Incremental Loop Closure Detection Using Proximity Graphs**](https://arxiv.org/pdf/1911.10752.pdf)[J]. arXiv preprint arXiv:1911.10752, **2019**.
+    + <font color = blue>**使用邻近图的快速增量式闭环检测**</font>
+    + 京东、北航，[代码开源](https://github.com/AnshanTJU/FILD)
++ [x] **[3]** Li B, Zou D, Sartori D, et al. [**TextSLAM: Visual SLAM with Planar Text Features**](https://arxiv.org/pdf/1912.05002.pdf)[J]. arXiv preprint arXiv:1912.05002, 2019.
+    + <font color = blue>**TextSLAM：基于平面文本的视觉 SLAM**</font>
+    + 上交邹丹平老师
++ [x] **[4]** [Bundle Adjustment Revisited](https://arxiv.org/pdf/1912.03858.pdf)
+    + <font color = blue>**再谈 BA**</font>
+    + 北京大学
++ [ ] **[5]** Lange M, Raisch C, Schilling A. [LVO: Line only stereo Visual Odometry](https://ieeexplore.ieee.org/abstract/document/8911808)[C]//2019 International Conference on Indoor Positioning and Indoor Navigation (IPIN). IEEE, 1-8.
+    + <font color = blue>双目线 VO</font>
+    + 图宾根大学
+    + 相关论文：Vakhitov A, Lempitsky V. [**Learnable Line Segment Descriptor for Visual SLAM**](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8651490)[J]. IEEE Access, 2019, 7: 39923-39934. [代码开源](https://github.com/alexandervakhitov/lld-slam)
++ [ ] **[6]** Liu W, Mo Y, Jiao J. [**An efficient edge-feature constraint visual SLAM**](https://dl.acm.org/citation.cfm?id=3371455)[C]//Proceedings of the International Conference on Artificial Intelligence, Information Processing and Cloud Computing. ACM, **2019**: 13.
+    + <font color = blue>一种高效的基于边缘约束的视觉 SLAM</font>
+    + 北邮，论文里好像没看到什么边缘信息啊？？慎读
++ [ ] **[7]** Pan L, Wang P, Cao J, et al. [**Dense RGB-D SLAM with Planes Detection and Mapping**](https://ieeexplore.ieee.org/abstract/document/8927657)[C]//IECON 2019-45th Annual Conference of the IEEE Industrial Electronics Society. IEEE, **2019**, 1: 5192-5197.
+    + <font color = blue>使用平面检测与建图的稠密 RGB-D SLAM</font>
+    + 新加坡国立大学
++ [ ] **[8]** Ji S, Qin Z, Shan J, et al. [**Panoramic SLAM from a multiple fisheye camera rig**](https://www.sciencedirect.com/science/article/pii/S0924271619302758)[J]. ISPRS Journal of Photogrammetry and Remote Sensing, **2020**, 159: 169-183.
+    + <font color = blue>多鱼眼相机的全景 SLAM</font>
+    + 武汉大学
++ [ ] **[9]** Lecrosnier L, Boutteau R, Vasseur P, et al. [**Vision based vehicle relocalization in 3D line-feature map using Perspective-n-Line with a known vertical direction**]()[C]//2019 IEEE Intelligent Transportation Systems Conference (ITSC). IEEE, **2019**: 1263-1269.
+    + <font color = blue>使用具有已知垂直方向的透视线在 3D 线特征图中进行基于视觉的车辆重定位</font>
+    + 诺曼底大学
++ [x] **[10]** de Souza Muñoz M E, Menezes M C, de Freitas E P, et al. [**A Parallel RatSlam C++ Library Implementation**](https://link.springer.com/chapter/10.1007/978-3-030-36636-0_13)[C]//Latin American Workshop on Computational Neuroscience. Springer, Cham, **2019**: 173-183.
+    + <font color = blue>并行 Rat SLAM C++ 库的实现</font>
+    
+---
+
+#### 2. 传感器融合
+
++ [x] **[11]** Tschopp F, Riner M, Fehr M, et al. [**VersaVIS: An Open Versatile Multi-Camera Visual-Inertial Sensor Suite**](https://arxiv.org/pdf/1912.02469.pdf)[J]. arXiv preprint arXiv:1912.02469, **2019**.
+    + <font color = blue>**VersaVIS：开源多功能多相机的视觉惯性传感器套件**</font>
+    + 苏黎世联邦理工学院，[**代码开源**](https://github.com/ethz-asl/versavis)
++ [x] **[12]** Geneva P, Eckenhoff K, Lee W, et al. [**Openvins: A research platform for visual-inertial estimation**](https://pdfs.semanticscholar.org/cb63/60f21255834297e32826bff6366a769b49e9.pdf)[C]//IROS 2019 Workshop on Visual-Inertial Navigation: Challenges and Applications, Macau, China. **IROS 2019**.
+    + <font color = blue>**Openvins：用于视觉惯性估计的研究平台**</font>
+    + 特拉华大学，[**代码开源**](https://github.com/rpng/open_vins)
++ [ ] **[13]** Barrau A, Bonnabel S. [**A Mathematical Framework for IMU Error Propagation with Applications to Preintegration**](https://hal-mines-paristech.archives-ouvertes.fr/hal-02394774/document)[J]. **2019**.
+    + <font color = blue>IMU错误传播的数学框架及其在预积分中的应用</font>
+    + PSL Research University
++ [ ] **[14]** Ke T, Wu K J, Roumeliotis S I. RISE-SLAM: A Resource-aware Inverse Schmidt Estimator for SLAM[C]. **IROS 2019**.
+    + <font color = blue>用于 SLAM 的资源感知的逆施密特估计器</font>
+    
+---
+
+#### 3. Semantic/Learning SLAM
+
++ [x] **[15]** Dong Y, Wang S, Yue J, et al. [**A Novel Texture-Less Object Oriented Visual SLAM System**](https://ieeexplore.ieee.org/abstract/document/8901152)[J]. IEEE Transactions on Intelligent Transportation Systems, **2019**.
+    + <font color = blue>**一种新型的面向低纹理物体的视觉 SLAM 系统**</font>
+    + 同济大学，期刊 中科院二区，JCR Q1，IF 6
++ [x] **[16]** Peng J, Shi X, Wu J, et al. [**An Object-Oriented Semantic SLAM System towards Dynamic Environments for Mobile Manipulation**](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8868371)[C]//2019 IEEE/ASME International Conference on Advanced Intelligent Mechatronics (**AIM**). IEEE, **2019**: 199-204.
+    + <font color = blue>**用于动态环境中移动机器人抓取的面向物体的语义 SLAM**</font>
+    + 上海交大机械学院，AIM：CCF 人工智能 C 类会议
++ [ ] **[17]** Kim U H, Kim S H, Kim J H. [**SimVODIS: Simultaneous Visual Odometry, Object Detection, and Instance Segmentation**](https://arxiv.org/pdf/1911.05939.pdf)[J]. arXiv preprint arXiv:1911.05939, **2019**.
+    + <font color = blue>SimVODIS：同时进行视觉里程计、目标检测和语义分割</font>
+    + 韩国高等科学技术院
++ [ ] **[18]** Howard Mahe, Denis Marraud, Andrew I. Comport. [**Real-time RGB-D semantic keyframe SLAM based on image segmentation learning from industrial CAD models**](https://hal.archives-ouvertes.fr/hal-02391499/file/ICAR19_0187_FI.pdf). International Conference on Advanced Robotics, Dec 2019, Belo Horizonte, Brazil. ffhal-02391499
+    + <font color = blue>基于工业 CAD 模型图像分割学习的实时 RGB-D 语义关键帧 SLAM</font>
+    + 相关工作：**基于稠密类级别分割的仅使用语义的视觉里程表** Mahé H, Marraud D, Comport A I. [**Semantic-only Visual Odometry based on dense class-level segmentation**](https://hal.archives-ouvertes.fr/hal-01874544/document)[C]//2018 24th International Conference on Pattern Recognition (ICPR). IEEE, **2018**: 1989-1995.
+
+---
+
+#### 4. AR/VR/MR
+
++ [x] **[19]** Chandu S, Bhavan Jasani G J, Manglik A. [**Deleting 3D Objects in Augmented Reality using RGBD-SLAM**](https://bhavanj.github.io/files/SLAM_Final_Report.pdf)[J].**2019**
+    + <font color = blue>使用 RGBD-SLAM 在增强现实中删除 3D 对象</font>
+    + 亚马逊
++ [x] **[20]** Sartipi K, DuToit R C, Cobar C B, et al. [**Decentralized visual-inertial localization and mapping on mobile devices for augmented reality**](http://mars.cs.umn.edu/tr/decentralizedvi19.pdf)[R]. Google, Tech. Rep., Aug. **2019**.[Online]. Available: http://mars. cs. umn. edu/tr/decentralizedvi19. pdf.
+    + <font color = blue>用于移动设备增强现实的分布式视觉惯导定位与建图</font>
+    + 明尼苏达大学
+
+---
+
+#### 5. Others
+
++ [x] **[21]** Yan Z, Zha H. [**Flow-based SLAM: From geometry computation to learning**](https://www.sciencedirect.com/science/article/pii/S2096579619300622)[J]. Virtual Reality & Intelligent Hardware, **2019**, 1(5): 435-460.
+    + <font color = blue>**基于流的 SLAM：从几何计算到学习的方法**</font>
+    + 北京大学，[Google Scholar](https://scholar.google.com/citations?user=Rawfmp4AAAAJ&hl=zh-CN&oi=sra)
++ [ ] **[22]** Li J, Liu Y, Yuan X, et al. [**Depth Based Semantic Scene Completion With Position Importance Aware Loss**](https://ieeexplore.ieee.org/abstract/document/8902045)[J]. IEEE Robotics and Automation Letters, **2019**, 5(1): 219-226.
+    + <font color = blue>具有位置重要性感知损失的基于深度的语义场景理解</font>
+    + 南京大学，[**代码开源**](https://github.com/UniLauX/PALNet)，[演示视频](https://www.youtube.com/watch?v=j-LAMcMh0yg&feature=youtu.be)
++ [x] **[23]** Simonelli A, Bulò S R R, Porzi L, et al. [**Disentangling Monocular 3D Object Detection**](https://arxiv.org/pdf/1905.12365.pdf)[J]. arXiv preprint arXiv:1905.12365, **2019**.
+    + <font color = blue>**揭秘单目 3D 目标检测**</font>
+    + 意大利特伦托大学，作者其他论文
+        + 使用虚拟相机进行单阶段单目 3D 目标检测：Simonelli A, Bulò S R, Porzi L, et al. [**Single-Stage Monocular 3D Object Detection with Virtual Cameras**](https://arxiv.org/pdf/1912.08035.pdf)[J]. arXiv preprint arXiv:1912.08035, **2019**.
 
 ---
 > wuyanminmax@gmail.com    
