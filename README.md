@@ -408,7 +408,13 @@ cd ×××/ElasticFusion-master/GUI/build
     + ICRA 2019：[Efficient Constellation-Based Map-Merging for Semantic SLAM](https://arxiv.org/pdf/1809.09646.pdf)    
     + IJRR 2018：[Reliable Graphs for SLAM](http://web.mit.edu/~mrrobot/filez/ijrr17.pdf)    
     + [Resource-aware collaborative SLAM](http://acl.mit.edu/projects/resource-aware-collaborative-slam)    
-    
+
++ :+1: **约翰·霍普金斯大学计算机系博士 Long Qian**
+  + 主要研究：增强现实、医疗机器人
+  + [个人主页](http://longqian.me/aboutme/)，[project](http://longqian.me/projects/)
+  + 主要文章：
+    + Long Qian, Anton Deguet, Zerui Wang, Yun-Hui Liu and Peter Kazanzides. [Augmented Reality Assisted Instrument Insertion and Tool Manipulation for the First Assistant in Robotic Surgery](https://ieeexplore.ieee.org/abstract/document/8794263/). **2019 ICRA**
+
 ---
 
 ## 5. 资料
