@@ -415,6 +415,11 @@ cd ×××/ElasticFusion-master/GUI/build
   + 主要文章：
     + Long Qian, Anton Deguet, Zerui Wang, Yun-Hui Liu and Peter Kazanzides. [Augmented Reality Assisted Instrument Insertion and Tool Manipulation for the First Assistant in Robotic Surgery](https://ieeexplore.ieee.org/abstract/document/8794263/). **2019 ICRA**
 
++ :+1: **佐治亚理工学院机器人与机器智能研究所**
+  + 主要研究：SLAM、机器人导航、受生物启发的机器人运动
+  + [实验室主页](http://ivalab.gatech.edu/)
+  + 相关博士生：[Yipu Zhao](https://sites.google.com/site/zhaoyipu/home?authuser=0)
+
 ---
 
 ## 5. 资料
