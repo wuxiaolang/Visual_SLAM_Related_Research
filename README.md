@@ -4,17 +4,18 @@
 
 ## 前言
 &emsp;&emsp;以下收集的论文、代码等资料主要与本人的学习方向 **视觉 SLAM、增强现实** 相关。    
-&emsp;&emsp;目前**重点关注 VO、多路标/物体级 SLAM**， 对传感器融合、稠密建图也略有关注，所以资料的收集范围也与自己的兴趣比较一致，无法涵盖视觉 SLAM 的所有研究，**请谨慎参考**。   
+&emsp;&emsp;目前**重点关注 VO、多路标/物体级 SLAM**， 对传感器融合、稠密建图也略有关注，所以资料的收集范围也与自己的兴趣比较一致，无法涵盖视觉 SLAM 的所有研究，**请谨慎参考**。主要内容包括：   
 `1. 开源代码` ：经典、优秀的开源工程    
 `2. 优秀作者与实验室` ：在自己感兴趣领域比较**优秀的值得关注的团队或个人**    
 `3. 算法与知识点` ：一些零散的知识点和算法    
 `4. 工具` ：论文或实验用到的一些工具        
 `5. 资料` ：可供参考的资料或备忘    
-`6. 近期论文` ：自己感兴趣方向的**最新论文**，大概**一个月一更新**（部分论文质量无法保证，主要以对现阶段的工作可能有用为收录原则，请谨慎参考）      
+`6. 近期论文` ：自己感兴趣方向的**最新论文**，大概**一个月一更新**（部分论文质量无法保证，主要以对现阶段的工作可能有用为收录原则，请谨慎参考）。部分论文的详/泛读笔记放在我的[博客](https://www.wuxiaolang.cn/post/)上。      
 &emsp;&emsp;本仓库于 2019 年 3 月（研一下）开始整理（私密）。    
-&emsp;&emsp;本仓库于 2020 年 3 月（研二下）公开。		
+&emsp;&emsp;本仓库于 2020 年 3 月（研二下）公开，正好一周年 😄。		
 
 ## 目录
+> <small>推荐使用 [GayHub](https://github.com/jawil/GayHub) 插件自动在侧栏展开目录</small>
 + [**1.开源代码**](https://github.com/wuxiaolang/Visual_SLAM_Related_Research#1-%E5%BC%80%E6%BA%90%E4%BB%A3%E7%A0%81)
   + [**1.1 Geometric SLAM**](https://github.com/wuxiaolang/Visual_SLAM_Related_Research#smile-11-geometric-slam)
   + [**1.2 Semantic / Learning SLAM**](https://github.com/wuxiaolang/Visual_SLAM_Related_Research#smile-12-semantic--learning-slam)
@@ -23,7 +24,7 @@
   + [**1.5 Dynamic SLAM**](https://github.com/wuxiaolang/Visual_SLAM_Related_Research#smile-15-dynamic-slam)
   + [**1.6 Mapping**](https://github.com/wuxiaolang/Visual_SLAM_Related_Research#smile-16-mapping)
   + [**1.7 Optimization**](https://github.com/wuxiaolang/Visual_SLAM_Related_Research#smile-17-optimization)
-+ [**2. 优秀作者与实验室**](https://github.com/wuxiaolang/Visual_SLAM_Related_Research#2-%E4%BC%98%E7%A7%80%E4%BD%9C%E8%80%85%E4%B8%8E%E5%AE%9E%E9%AA%8C)
++ [**2. 优秀作者与实验室**](https://github.com/wuxiaolang/Visual_SLAM_Related_Research#2-%E4%BC%98%E7%A7%80%E4%BD%9C%E8%80%85%E4%B8%8E%E5%AE%9E%E9%AA%8C%E5%AE%A4)
 + [**3. 算法、知识点与代码**](https://github.com/wuxiaolang/Visual_SLAM_Related_Research#3-%E7%AE%97%E6%B3%95%E7%9F%A5%E8%AF%86%E7%82%B9%E4%B8%8E%E5%BC%80%E6%BA%90%E5%BA%93)
 + [**4. 工具**](https://github.com/wuxiaolang/Visual_SLAM_Related_Research#4-%E5%B7%A5%E5%85%B7)
 + [**5. 资料**](https://github.com/wuxiaolang/Visual_SLAM_Related_Research#5-%E8%B5%84%E6%96%99)
@@ -719,8 +720,6 @@
 ---
 
 ## 6. 近期论文（持续更新）
-
----
 
 ### 2020 年 1 月论文更新（26 篇）
 > **本期 26 篇论文，其中 7 项开源工作，1 项开放数据集；     
