@@ -29,8 +29,8 @@
 + [**4. 工具**](https://github.com/wuxiaolang/Visual_SLAM_Related_Research#4-%E5%B7%A5%E5%85%B7)
 + [**5. 资料**](https://github.com/wuxiaolang/Visual_SLAM_Related_Research#5-%E8%B5%84%E6%96%99)
 + [**6. 近期论文更新**](https://github.com/wuxiaolang/Mark/blob/master/README.md#6-%E8%BF%91%E6%9C%9F%E8%AE%BA%E6%96%87%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0)
-  + [2020 年 03 月论文更新（23 篇）](https://github.com/wuxiaolang/Visual_SLAM_Related_Research#2020-%E5%B9%B4-3-%E6%9C%88%E8%AE%BA%E6%96%87%E6%9B%B4%E6%96%B026-%E7%AF%87)
-  + [2020 年 02 月论文更新（17 篇）](https://github.com/wuxiaolang/Visual_SLAM_Related_Research#2020-%E5%B9%B4-2-%E6%9C%88%E8%AE%BA%E6%96%87%E6%9B%B4%E6%96%B026-%E7%AF%87)
+  + [2020 年 03 月论文更新（23 篇）](https://github.com/wuxiaolang/Visual_SLAM_Related_Research#2020-%E5%B9%B4-3-%E6%9C%88%E8%AE%BA%E6%96%87%E6%9B%B4%E6%96%B023-%E7%AF%87)
+  + [2020 年 02 月论文更新（17 篇）](https://github.com/wuxiaolang/Visual_SLAM_Related_Research#2020-%E5%B9%B4-2-%E6%9C%88%E8%AE%BA%E6%96%87%E6%9B%B4%E6%96%B017-%E7%AF%87)
   + [2020 年 01 月论文更新（26 篇）](https://github.com/wuxiaolang/Visual_SLAM_Related_Research#2020-%E5%B9%B4-1-%E6%9C%88%E8%AE%BA%E6%96%87%E6%9B%B4%E6%96%B026-%E7%AF%87)
   + -- ↑ 2020年 ↑ === ↓ 2019年 ↓ --
   + [2019 年 12 月论文更新（23 篇）](https://github.com/wuxiaolang/Visual_SLAM_Related_Research#2019-%E5%B9%B4-12-%E6%9C%88%E8%AE%BA%E6%96%87%E6%9B%B4%E6%96%B023-%E7%AF%87)
@@ -723,7 +723,7 @@
 
 ## 6. 近期论文（持续更新）
 
-### 2020 年 3 月论文更新（25 篇）
+### 2020 年 3 月论文更新（23 篇）
 > **本期 23 篇论文，其中 7 项开源工作；     
 1、2 多相机 SLAM 系统       
 9、10 VIO        
