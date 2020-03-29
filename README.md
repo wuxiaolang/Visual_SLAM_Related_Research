@@ -18,7 +18,7 @@
 > <small>推荐使用 [GayHub](https://github.com/jawil/GayHub) 插件自动在侧栏展开目录</small>
 + [**1.开源代码**](https://github.com/wuxiaolang/Visual_SLAM_Related_Research#1-%E5%BC%80%E6%BA%90%E4%BB%A3%E7%A0%81)
   + [**1.1 Geometric SLAM**](https://github.com/wuxiaolang/Visual_SLAM_Related_Research#smile-11-geometric-slam)
-  + [**1.2 Semantic / Learning SLAM**](https://github.com/wuxiaolang/Visual_SLAM_Related_Research#smile-12-semantic--learning-slam)
+  + [**1.2 Semantic / Deep SLAM**](https://github.com/wuxiaolang/Visual_SLAM_Related_Research#smile-12-semantic--deep-slam)
   + [**1.3 Multi-Landmarks / Object SLAM**](https://github.com/wuxiaolang/Visual_SLAM_Related_Research#smile-13-multi-landmarks--object-slam)
   + [**1.4 VIO / VISLAM**](https://github.com/wuxiaolang/Visual_SLAM_Related_Research#smile-14-vio--vislam)
   + [**1.5 Dynamic SLAM**](https://github.com/wuxiaolang/Visual_SLAM_Related_Research#smile-15-dynamic-slam)
@@ -173,7 +173,7 @@
 + **论文**：Ghaffari M, Clark W, Bloch A, et al. [**Continuous Direct Sparse Visual Odometry from RGB-D Images**](https://arxiv.org/pdf/1904.02266.pdf)[J]. arXiv preprint arXiv:1904.02266, **2019**.
 + **代码**：https://github.com/MaaniGhaffari/cvo-rgbd
 
-### :smile: 1.2 Semantic / Learning SLAM
+### :smile: 1.2 Semantic / Deep SLAM
 
 #### 1. MsakFusion
 
