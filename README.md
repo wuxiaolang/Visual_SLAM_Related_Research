@@ -20,7 +20,7 @@
   + [**1.1 Geometric SLAM**](https://github.com/wuxiaolang/Visual_SLAM_Related_Research#smile-11-geometric-slam)
   + [**1.2 Semantic / Deep SLAM**](https://github.com/wuxiaolang/Visual_SLAM_Related_Research#smile-12-semantic--deep-slam)
   + [**1.3 Multi-Landmarks / Object SLAM**](https://github.com/wuxiaolang/Visual_SLAM_Related_Research#smile-13-multi-landmarks--object-slam)
-  + [**1.4 VIO / VISLAM**](https://github.com/wuxiaolang/Visual_SLAM_Related_Research#smile-14-vio--vislam)
+  + [**1.4 Sensor Fusion**](https://github.com/wuxiaolang/Visual_SLAM_Related_Research#smile-14-sensor-fusion)
   + [**1.5 Dynamic SLAM**](https://github.com/wuxiaolang/Visual_SLAM_Related_Research#smile-15-dynamic-slam)
   + [**1.6 Mapping**](https://github.com/wuxiaolang/Visual_SLAM_Related_Research#smile-16-mapping)
   + [**1.7 Optimization**](https://github.com/wuxiaolang/Visual_SLAM_Related_Research#smile-17-optimization)
@@ -132,7 +132,7 @@
     + 论文：Zheng F, Tang H, Liu Y H. [**Odometry-vision-based ground vehicle motion estimation with se (2)-constrained se (3) poses**](https://ieeexplore.ieee.org/abstract/document/8357438/)[J]. IEEE transactions on cybernetics, **2018**, 49(7): 2652-2663.
     + 代码：https://github.com/izhengfan/se2clam
 
-#### 13. GraphSfM（基于图的并行大尺度 SFM）
+#### 13. GraphSfM（基于图的并行大规模 SFM）
 
 + 论文：Chen Y, Shen S, Chen Y, et al. [**Graph-Based Parallel Large Scale Structure from Motion**](https://arxiv.org/pdf/1912.10659.pdf)[J]. arXiv preprint arXiv:1912.10659, **2019**.
 + 代码：https://github.com/AIBluefisher/GraphSfM
@@ -311,7 +311,7 @@
     + Li J, Meger D, Dudek G. [**Semantic Mapping for View-Invariant Relocalization**](https://www.cim.mcgill.ca/~mrl/pubs/jimmy/li2019icra.pdf)[C]//2019 International Conference on Robotics and Automation (ICRA). IEEE, **2019**: 7108-7115.
     + Nicholson L, Milford M, Sünderhauf N. [**Quadricslam: Dual quadrics from object detections as landmarks in object-oriented slam**](https://arxiv.org/pdf/1804.04011)[J]. IEEE Robotics and Automation Letters, **2018**, 4(1): 1-8.
 
-### :smile: 1.4 VIO / VISLAM
+### :smile: 1.4 Sensor Fusion
 
 #### 1. msckf_vio
 
@@ -370,6 +370,11 @@
 + **论文**：Usenko V, Demmel N, Schubert D, et al. [Visual-inertial mapping with non-linear factor recovery](https://link.zhihu.com/?target=https%3A//arxiv.org/pdf/1904.06504.pdf)[J]. IEEE Robotics and Automation Letters, **2019**.
 + **代码**：[https://github.com/VladyslavUsenko/basalt-mirror](https://link.zhihu.com/?target=https%3A//github.com/VladyslavUsenko/basalt-mirror) ；[Video](https://link.zhihu.com/?target=https%3A//www.youtube.com/watch%3Fv%3Dr3CJ2JP75Tc)；[Project Page](https://link.zhihu.com/?target=https%3A//vision.in.tum.de/research/vslam/basalt)
 
+#### 12. Limo：激光单目视觉里程计
+
++ **论文**：Graeter J, Wilczynski A, Lauer M. [**Limo: Lidar-monocular visual odometry**](https://arxiv.org/pdf/1807.07524)[C]//2018 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). IEEE, **2018**: 7872-7879.
++ **代码**：https://github.com/johannes-graeter/limo ； [**Video**](https://www.youtube.com/watch?v=wRemjJBjp64&feature=youtu.be)
+    
 ### :smile: 1.5 Dynamic SLAM
 
 #### 1. DynamicSemanticMapping（动态语义建图）
@@ -397,6 +402,12 @@
 + **论文**：Palazzolo E, Behley J, Lottes P, et al. [**ReFusion: 3D Reconstruction in Dynamic Environments for RGB-D Cameras Exploiting Residuals**](https://arxiv.org/pdf/1905.02082.pdf)[J]. arXiv preprint arXiv:1905.02082, **2019**.
 + **代码**：https://github.com/PRBonn/refusion ；[**Video**](https://www.youtube.com/watch?v=1P9ZfIS5-p4&feature=youtu.be)
 
+#### 6. DynSLAM（室外大规模稠密重建）
+
++ **论文**：Bârsan I A, Liu P, Pollefeys M, et al. [**Robust dense mapping for large-scale dynamic environments**](https://arxiv.org/pdf/1905.02781.pdf?utm_term)[C]//2018 IEEE International Conference on Robotics and Automation (ICRA). IEEE, **2018**: 7510-7517.
++ **代码**：https://github.com/AndreiBarsan/DynSLAM
++ **作者博士学位论文**：Barsan I A. [**Simultaneous localization and mapping in dynamic scenes**](https://www.research-collection.ethz.ch/bitstream/handle/20.500.11850/202829/1/Barsan_Ioan.pdf)[D]. ETH Zurich, Department of Computer Science, **2017**.
+    
 ### :smile: 1.6 Mapping
 
 #### 1. InfiniTAM（跨平台 CPU 实时重建）
@@ -720,7 +731,9 @@
 ## 5. 资料
 + SLAM 最新研究更新 Recent_SLAM_Research ：https://github.com/YiChenCityU/Recent_SLAM_Research
 + 西北工大智能系统实验室 SLAM 培训：https://github.com/zdzhaoyong/SummerCamp2018
-+ SLAMcn：http://www.slamcn.org/index.php/%E9%A6%96%E9%A1%B5
++ SLAMcn：http://www.slamcn.org/index.php/
++ IROS 2019 视觉惯导导航的挑战与应用研讨会：http://udel.edu/~ghuang/iros19-vins-workshop/index.html
++ 事件相机相关研究与发展：https://github.com/uzh-rpg/event-based_vision_resources
 + 公众号
 	+ 泡泡机器人：paopaorobot_slam
 
@@ -1515,7 +1528,7 @@ TopoTraj](https://github.com/HKUST-Aerial-Robotics/TopoTraj)
     + 图宾根大学
 + [x] **[8]** Mo J, Sattar J. [**Extending Monocular Visual Odometry to Stereo Camera System by Scale Optimization**](https://arxiv.org/pdf/1905.12723.pdf)[C]. International Conference on Intelligent Robots and Systems (**IROS**), **2019**.
     + <font color = blue>通过尺度优化将单目视觉里程计扩展到双目相机系统</font>
-    + [牛津大学交互式机器人和视觉实验室](http://irvlab.cs.umn.edu/publication)
+    + [明尼苏达大学交互式机器人和视觉实验室](http://irvlab.cs.umn.edu/publication)
     + [**代码开源**](https://github.com/jiawei-mo/scale_optimization)
 + [ ] **[9]** [**A Modular Optimization framework for Localization and mApping (MOLA)**](http://ingmec.ual.es/~jlblanco/papers/blanco2019mola_rss2019.pdf). **2019**
     + <font color = blue>用于定位和建图的模块化优化框架</font>
