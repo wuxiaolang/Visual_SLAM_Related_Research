@@ -1122,7 +1122,7 @@ Neural-SLAM：CMU 开源的主动神经网络**
     + 北京大学
 + [x] **[17]** Li W, Gu J, Chen B, et al. [**Incremental Instance-Oriented 3D Semantic Mapping via RGB-D Cameras for Unknown Indoor Scene**](https://www.hindawi.com/journals/ddns/2020/2528954/)[J]. Discrete Dynamics in Nature and Society, 2020, **2020**.
     + <font color = blue>RGB-D 相机室内增量式三维实例语义建图</font>
-    + 河北工业大学；期刊：中科院三区，JCR Q3Q4 开源期刊 慎读
+    + 河北工业大学；期刊：中科院三区，JCR Q3Q4 开源期刊
 + [x] **[18]** Tiwari L, Ji P, Tran Q H, et al. [**Pseudo RGB-D for Self-Improving Monocular SLAM and Depth Prediction**](https://arxiv.org/abs/2004.10681)[J]. arXiv preprint arXiv:2004.10681, **2020**.
     + <font color = blue>伪 RGB-D 用于改善单目 SLAM 和深度预测</font>（单目 SLAM + 单目深度估计）
     + 印度德里 Indraprastha 信息技术学院(IIIT-Delhi)
@@ -1561,8 +1561,8 @@ TopoTraj](https://github.com/HKUST-Aerial-Robotics/TopoTraj)
     + 图宾根大学
     + 相关论文：Vakhitov A, Lempitsky V. [**Learnable Line Segment Descriptor for Visual SLAM**](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8651490)[J]. IEEE Access, 2019, 7: 39923-39934. [代码开源](https://github.com/alexandervakhitov/lld-slam)
 + [ ] **[6]** Liu W, Mo Y, Jiao J. [**An efficient edge-feature constraint visual SLAM**](https://dl.acm.org/citation.cfm?id=3371455)[C]//Proceedings of the International Conference on Artificial Intelligence, Information Processing and Cloud Computing. ACM, **2019**: 13.
-    + <font color = blue>一种高效的基于边缘约束的视觉 SLAM</font>
-    + 北邮，论文里好像没看到什么边缘信息啊？？慎读
+    + <font color = blue>一种高效的基于边缘特征约束的视觉 SLAM</font>
+    + 北邮
 + [ ] **[7]** Pan L, Wang P, Cao J, et al. [**Dense RGB-D SLAM with Planes Detection and Mapping**](https://ieeexplore.ieee.org/abstract/document/8927657)[C]//IECON 2019-45th Annual Conference of the IEEE Industrial Electronics Society. IEEE, **2019**, 1: 5192-5197.
     + <font color = blue>使用平面检测与建图的稠密 RGB-D SLAM</font>
     + 新加坡国立大学
@@ -1783,10 +1783,9 @@ TopoTraj](https://github.com/HKUST-Aerial-Robotics/TopoTraj)
 
 + [ ] **[21 ]** Pei L, Liu K, Zou D, et al. [**IVPR: An Instant Visual Place Recognition Approach based on Structural Lines in Manhattan World**](https://ieeexplore.ieee.org/abstract/document/8836504)[J]. IEEE Transactions on Instrumentation and Measurement, **2019**.
     + <font color = blue>IVPR：基于曼哈顿世界中的结构线的即时视觉位置识别方法</font>
-    + 上交邹丹平老师，期刊：中科院三区 JCR Q1Q2 IF2.98
+    + 上交[裴凌老师](https://scholar.google.com/citations?user=Vm7d2EkAAAAJ&hl=zh-CN&oi=sra)，期刊：中科院三区 JCR Q1Q2 IF2.98
 + [ ] **[22]** Sjanic Z. [**Particle Filtering Approach for Data Association**](http://users.isy.liu.se/en/rt/zoran/Publ/fusion2019.pdf)[C]//22nd International Conference on Information Fusion. **2019**.
     + <font color = blue>粒子滤波算法用于数据关联</font>
-    + 上交邹丹平老师，期刊：中科院三区 JCR Q1Q2 IF2.98
 
 ---
 
