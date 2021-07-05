@@ -1,25 +1,19 @@
-> **新春快乐！最近更新 2021 年 02 月 14 日：论文更新 +58，开源代码 +5**
+> **毕业快乐！最近更新 2021 年 07 月 05 日：论文更新 +104，开源代码 +9**
 
 # Visual_SLAM_Related_Research
 > @Author：[吴艳敏](https://yanmin-wu.github.io/)    
-@E-mail ：wuyanminmax@gmail.com    
+@E-mail ：wuyanminmax[AT]gmail.com    
 @github ：[wuxiaolang](https://github.com/wuxiaolang)
 
 ## 前言
-&emsp;&emsp;以下收集的论文、代码等资料主要与本人的学习方向 **视觉 SLAM、增强现实** 相关。    
-&emsp;&emsp;目前**重点关注 VO、物体级 SLAM 和语义数据关联**， 对传感器融合、稠密建图也略有关注，所以资料的收集范围也与自己的兴趣比较一致，无法涵盖视觉 SLAM 的所有研究，**请谨慎参考**。主要内容包括：   
+&emsp;&emsp;以下收集的论文、代码等资料主要与本人的硕士期间的学习方向 **视觉 SLAM、增强现实** 相关。目前（2019-2021）**重点关注 VO、物体级 SLAM 和语义数据关联**， 对传感器融合、稠密建图也略有关注，所以资料的收集范围也与自己的兴趣比较一致，无法涵盖视觉 SLAM 的所有研究，**请谨慎参考**，部分整理后发布于[知乎](https://www.zhihu.com/people/wuyanmin2018/posts)。主要内容包括：   
 `1. 开源代码` ：经典、优秀的**开源工程**    
 `2. 优秀作者与实验室` ：在自己感兴趣领域比较**优秀的值得关注的团队或个人**    
 `3. SLAM 学习资料` ：**SLAM 相关学习资料**、视频、数据集、公众号和代码注释    
 `4. 近期论文` ：自己感兴趣方向的**最新论文**，大概**一个月一更新**。部分论文的详/泛读笔记放在我的[**博客**](https://wym.netlify.com/post/)/[List](https://zhuanlan.zhihu.com/p/138737870)上。    
-&emsp;&emsp;**`注：若本仓库内容出现任何错误请批评指出，定及时修改。`**    
-&emsp;&emsp;本仓库于 2019 年 3 月（研一下）开始整理（私密）🌚。    
-&emsp;&emsp;本仓库于 2020 年 3 月（研二下）公开，正好一周年🌝。    
-  > **一些总结性博客或原创性工作：**    
-  > **1.** [100 项开源视觉 SLAM 项目够你用了吗？](https://zhuanlan.zhihu.com/p/115599978) 2020 年 3 月 31 日发布于[知乎](https://zhuanlan.zhihu.com/p/115599978)和公众号[3D 视觉工坊] &emsp; &emsp; | [PDF 版本](https://gitee.com/wuxiaolang2008/Notes_of_wu/raw/master/blog/20200330_%E5%BC%80%E6%BA%90SLAM%E4%BB%A3%E7%A0%81%E5%90%88%E9%9B%86_by_%E5%90%B4%E8%89%B3%E6%95%8F.pdf)    
-  > **2.** [SLAM 领域国内外优秀实验室汇总](https://zhuanlan.zhihu.com/p/130530891)  &emsp; &emsp; &nbsp; 2020 年 4 月 26 日发布于[知乎](https://zhuanlan.zhihu.com/p/130530891)和公众号[泡泡机器人 SLAM] | [PDF 版本](https://gitee.com/wuxiaolang2008/Notes_of_wu/raw/master/blog/20200418_SLAM%E9%A2%86%E5%9F%9F%E5%9B%BD%E5%86%85%E5%A4%96%E4%BC%98%E7%A7%80%E5%AE%9E%E9%AA%8C%E5%AE%A4%E6%B1%87%E6%80%BB_by_%E5%90%B4%E8%89%B3%E6%95%8F.pdf)    
-  > **3.** 单目物体级 SLAM 中的数据关联问题： Yanmin Wu, Yunzhou Zhang, Delong Zhu, et al. **EAO-SLAM: Monocular Semi-Dense Object SLAM Based on Ensemble Data Association**. _IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) 2020._ [[**PDF**](https://arxiv.org/abs/2004.12730)]  [[**bilibili**](https://www.bilibili.com/video/av94805216)]  [[**YouTube**](https://youtu.be/pvwdQoV1KBI)]  [[**Project page**](https://yanmin-wu.github.io/project/eaoslam/)].    
-  > **4.** 物体级 SLAM 应用于机械臂抓取和增强现实： Yanmin Wu, Yunzhou Zhang, Delong Zhu, et al. **Object-Driven Active Mapping for More Accurate Object Pose Estimation and Robotic Grasping**. _(Submition to ICRA 2021)_ [[**PDF**](https://arxiv.org/abs/2012.01788)] [**bilibili** [**1**](https://www.bilibili.com/video/BV1ZA411p7KK), [**2**](https://www.bilibili.com/video/BV1V5411p7gA)]  [**YouTube** [**1**](https://youtu.be/cNtvqiArVfI), [**2**](https://youtu.be/E8jfkO_Q7Iw)]  [[**Project page**](https://yanmin-wu.github.io/project/active-mapping/)].	
+&emsp;&emsp;🌚 本仓库于 2019 年 3 月（研一）开始整理（私密）；   
+&emsp;&emsp;🌝 本仓库于 2020 年 3月（研二）公开，正好一周年；    
+&emsp;&emsp;🎓 2021 年 7 月，研三硕士毕业，此仓库后续可能不会有很频繁的更新，祝各位学习工作顺利，学术交流欢迎邮件联系 wuyanminmax[AT]gmail.com。    
 
 ## 目录
 > <small>推荐使用 [GayHub](https://github.com/jawil/GayHub) 插件自动在侧栏展开目录</small>
@@ -34,6 +28,11 @@
 + [**2. 优秀作者与实验室**](https://github.com/wuxiaolang/Visual_SLAM_Related_Research#2-%E4%BC%98%E7%A7%80%E4%BD%9C%E8%80%85%E4%B8%8E%E5%AE%9E%E9%AA%8C%E5%AE%A4)
 + [**3. SLAM 学习资料**](https://github.com/wuxiaolang/Visual_SLAM_Related_Research#3-SLAM-%E5%AD%A6%E4%B9%A0%E8%B5%84%E6%96%99)
 + [**4. 近期论文更新**](https://github.com/wuxiaolang/Mark/blob/master/README.md#4-%E8%BF%91%E6%9C%9F%E8%AE%BA%E6%96%87%E6%8C%81%E7%BB%AD%E6%9B%B4%E6%96%B0)
+  + [2021 年 06 月论文更新（20 篇）](https://github.com/wuxiaolang/Visual_SLAM_Related_Research#2021-%E5%B9%B4-6-%E6%9C%88%E8%AE%BA%E6%96%87%E6%9B%B4%E6%96%B020-%E7%AF%87)
+  + [2021 年 05 月论文更新（20 篇）](https://github.com/wuxiaolang/Visual_SLAM_Related_Research#2021-%E5%B9%B4-5-%E6%9C%88%E8%AE%BA%E6%96%87%E6%9B%B4%E6%96%B020-%E7%AF%87)
+  + [2021 年 04 月论文更新（20 篇）](https://github.com/wuxiaolang/Visual_SLAM_Related_Research#2021-%E5%B9%B4-4-%E6%9C%88%E8%AE%BA%E6%96%87%E6%9B%B4%E6%96%B020-%E7%AF%87)
+  + [2021 年 03 月论文更新（23 篇）](https://github.com/wuxiaolang/Visual_SLAM_Related_Research#2021-%E5%B9%B4-3-%E6%9C%88%E8%AE%BA%E6%96%87%E6%9B%B4%E6%96%B023-%E7%AF%87)
+  + [2021 年 02 月论文更新（21 篇）](https://github.com/wuxiaolang/Visual_SLAM_Related_Research#2021-%E5%B9%B4-2-%E6%9C%88%E8%AE%BA%E6%96%87%E6%9B%B4%E6%96%B021-%E7%AF%87)
   + [2021 年 01 月论文更新（20 篇）](https://github.com/wuxiaolang/Visual_SLAM_Related_Research#2021-%E5%B9%B4-1-%E6%9C%88%E8%AE%BA%E6%96%87%E6%9B%B4%E6%96%B020-%E7%AF%87)
   + -- ↑ 2021年 ↑ === ↓ 2020年 ↓ --
   + [2020 年 12 月论文更新（18 篇）](https://github.com/wuxiaolang/Visual_SLAM_Related_Research#2020-%E5%B9%B4-12-%E6%9C%88%E8%AE%BA%E6%96%87%E6%9B%B4%E6%96%B018-%E7%AF%87)
@@ -204,6 +203,21 @@
 + 论文：Carlos Campos, Richard Elvira, et al.[**ORB-SLAM3: An Accurate Open-Source Library for Visual, Visual-Inertial and Multi-Map SLAM**](https://arxiv.org/abs/2007.11898)[J]. arXiv preprint arXiv:2007.11898, **2020**.
 + 代码：https://github.com/UZ-SLAMLab/ORB_SLAM3 | [Video](https://www.youtube.com/channel/UCXVt-kXG6T95Z4tVaYlU80Q)
 
+#### 24. OV²SLAM（完全实时在线多功能 SLAM）
+
++ 论文：Ferrera M, Eudes A, Moras J, et al. [**OV $^{2} $ SLAM: A Fully Online and Versatile Visual SLAM for Real-Time Applications**](https://ieeexplore.ieee.org/abstract/document/9351614/)[J]. IEEE Robotics and Automation Letters, **2021**, 6(2): 1399-1406.
++ 代码：https://github.com/ov2slam/ov2slam
+
+#### 25. ESVO（基于事件的双目视觉里程计）
+
++ 论文：Zhou Y, Gallego G, Shen S. [**Event-based stereo visual odometry**](https://ieeexplore.ieee.org/abstract/document/9386209/)[J]. IEEE Transactions on Robotics, **2021**.
++ 代码：https://github.com/HKUST-Aerial-Robotics/ESVO
+
+#### 26. VOLDOR-SLAM（实时稠密非直接法 SLAM）
+
++ 论文：Min Z, Dunn E. [**VOLDOR-SLAM: For the Times When Feature-Based or Direct Methods Are Not Good Enough**](https://arxiv.org/abs/2104.06800)[J]. arXiv preprint arXiv:2104.06800, 2021.
++ 代码：https://github.com/htkseason/VOLDOR
+
 ### :smile: 1.2 Semantic / Deep SLAM
 
 #### 1. MsakFusion
@@ -289,6 +303,12 @@
 + **代码**：https://github.com/castacks/tartanvo
 + 数据集：IROS2020 [**TartanAir: A Dataset to Push the Limits of Visual SLAM**](https://arxiv.org/abs/2003.14338)，[数据集地址](http://theairlab.org/tartanair-dataset/)
 
+#### 17. DF-VO
+
++ **论文**：Zhan H, Weerasekera C S, Bian J W, et al. [**DF-VO: What Should Be Learnt for Visual Odometry?**](https://arxiv.org/abs/2103.00933)[J]. arXiv preprint arXiv:2103.00933, **2021**. 
+    + Zhan H, Weerasekera C S, Bian J W, et al. [**Visual odometry revisited: What should be learnt?**](https://ieeexplore.ieee.org/abstract/document/9197374/)[C]//2020 IEEE International Conference on Robotics and Automation (ICRA). IEEE, **2020**: 4203-4210.
++ **代码**：https://github.com/Huangying-Zhan/DF-VO
+
 ### :smile: 1.3 Multi-Landmarks / Object SLAM
 
 #### 1. PL-SVO（点线 SVO）
@@ -357,7 +377,7 @@
 
 + **论文**：Yang S, Scherer S. [**Cubeslam: Monocular 3-d object slam**](https://arxiv.org/pdf/1806.00557)[J]. IEEE Transactions on Robotics, **2019**, 35(4): 925-938.
 + **代码**：https://github.com/shichaoy/cube_slam
-+ 对，这就是带我入坑的一项工作，2018 年 11 月份看到这篇论文（当时是预印版）之后开始学习物体级 SLAM，个人对 Cube SLAM 的一些注释和总结：[链接](https://www.wuxiaolang.cn/slam/)。
++ 对，这就是带我入坑的一项工作，2018 年 11 月份看到这篇论文（当时是预印版）之后开始学习物体级 SLAM，个人对 Cube SLAM 的一些注释和总结：[链接](https://wym.netlify.app/categories/cube-slam/)。
 + 也有很多有意思的但没开源的物体级 SLAM
     + Ok K, Liu K, Frey K, et al. [**Robust Object-based SLAM for High-speed Autonomous Navigation**](http://groups.csail.mit.edu/rrg/papers/OkLiu19icra.pdf)[C]//2019 International Conference on Robotics and Automation (ICRA). IEEE, **2019**: 669-675.
     + Li J, Meger D, Dudek G. [**Semantic Mapping for View-Invariant Relocalization**](https://www.cim.mcgill.ca/~mrl/pubs/jimmy/li2019icra.pdf)[C]//2019 International Conference on Robotics and Automation (ICRA). IEEE, **2019**: 7108-7115.
@@ -475,10 +495,30 @@
 + **论文**：Li K, Li M, Hanebeck U D. [**Towards high-performance solid-state-lidar-inertial odometry and mapping**](https://arxiv.org/abs/2010.13150)[J]. arXiv preprint arXiv:2010.13150, **2020**.
 + **代码**：https://github.com/KIT-ISAS/lili-om
 
-#### 19. CamVox：Lidar辅助视觉 SLAM
+#### 19. CamVox：Lidar 辅助视觉 SLAM
 
 + **论文**：ZHU, Yuewen, et al. [**CamVox: A Low-cost and Accurate Lidar-assisted Visual SLAM System**](https://arxiv.org/abs/2011.11357). arXiv preprint arXiv:2011.11357, **2020**.
 + **代码**：https://github.com/ISEE-Technology/CamVox
+
+#### 20. SSL_SLAM：固态 LiDAR 轻量级 3D 定位与建图
+
++ **论文**：Wang H, Wang C, Xie L. [**Lightweight 3-D Localization and Mapping for Solid-State LiDAR**](https://ieeexplore.ieee.org/abstract/document/9357899)[J]. IEEE Robotics and Automation Letters, **2021**, 6(2): 1801-1807.
++ **代码**：https://github.com/wh200720041/SSL_SLAM
+
+#### 21. r2live：LiDAR-Inertial-Visual 紧耦合
+
++ **论文**：Lin J, Zheng C, Xu W, et al. [**R2LIVE: A Robust, Real-time, LiDAR-Inertial-Visual tightly-coupled state Estimator and mapping**](https://arxiv.org/abs/2102.12400)[J]. arXiv preprint arXiv:2102.12400, **2021**.
++ **代码**：https://github.com/hku-mars/r2live
+
+#### 22. GVINS：GNSS-视觉-惯导紧耦合
+
++ **论文**：Cao S, Lu X, Shen S. [**GVINS: Tightly Coupled GNSS-Visual-Inertial for Smooth and Consistent State Estimation**](https://ui.adsabs.harvard.edu/abs/2021arXiv210307899C/abstract)[J]. arXiv e-prints, **2021**: arXiv: 2103.07899.
++ **代码**：https://github.com/HKUST-Aerial-Robotics/GVINS
+
+#### 23. LVI-SAM：Lidar-Visual-Inertial 建图与定位
+
++ **论文**：Shan T, Englot B, Ratti C, et al. [**LVI-SAM: Tightly-coupled Lidar-Visual-Inertial Odometry via Smoothing and Mapping**](https://arxiv.org/abs/2104.10831)[J]. arXiv preprint arXiv:2104.10831, **2021**. (ICRA2021)
++ **代码**：https://github.com/TixiaoShan/LVI-SAM
 
 ### :smile: 1.5 Dynamic SLAM
 
@@ -638,6 +678,11 @@
 + **论文**：Kern A, Bobbe M, Khedar Y, et al. [**OpenREALM: Real-time Mapping for Unmanned Aerial Vehicles**](https://arxiv.org/abs/2009.10492)[J]. arXiv preprint arXiv:2009.10492, **2020**.
 + **代码**：https://github.com/laxnpander/OpenREALM
 
+#### 22. c-blox：可拓展的 TSDF 稠密建图
+
++ **论文**：Millane A, Taylor Z, Oleynikova H, et al. [**C-blox: A scalable and consistent tsdf-based dense mapping approach**](https://ieeexplore.ieee.org/abstract/document/8593427/)[C]//2018 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). IEEE, **2018**: 995-1002.
++ **代码**：https://github.com/ethz-asl/cblox
+
 ### :smile: 1.7 Optimization
 
 #### 1. 后端优化库
@@ -775,10 +820,12 @@
 + 📜 **多机器人分布式 SLAM**：Cunningham A, Wurm K M, Burgard W, et al. [**Fully distributed scalable smoothing and mapping with robust multi-robot data association**](https://smartech.gatech.edu/bitstream/handle/1853/44686/Cunningham12icra.pdf?sequence=1&isAllowed=y)[C]//2012 IEEE International Conference on Robotics and Automation. IEEE, **2012**: 1093-1100.
 + 📜 Choudhary S, Trevor A J B, Christensen H I, et al. [**SLAM with object discovery, modeling and mapping**](https://smartech.gatech.edu/bitstream/handle/1853/53723/Choudhary14iros.pdf)[C]//2014 IEEE/RSJ International Conference on Intelligent Robots and Systems. IEEE, **2014**: 1018-1025.
 
-#### 11. 赵轶璞（美国佐治亚理工学院智能视觉与自动化实验室）
+#### 11. Patricio Vela （美国佐治亚理工学院智能视觉与自动化实验室）
 
-+ **研究方向**：视觉 SLAM、三维重建、多目标跟踪
-+ 👦 [个人主页](https://sites.google.com/site/zhaoyipu/home?authuser=0) &emsp; [谷歌学术](https://scholar.google.com/citations?user=HiM_WcYAAAAJ&hl=zh-CN&authuser=1&oi=ao)
++ **研究方向**：机器人控制、定位与导航
++ **实验室主页**：http://ivalab.gatech.edu/
++ 👦 Patricio Vela [个人主页](https://pvela.gatech.edu/)
++ 👦 赵轶璞 [个人主页](https://sites.google.com/site/zhaoyipu/home?authuser=0) &emsp; [谷歌学术](https://scholar.google.com/citations?user=HiM_WcYAAAAJ&hl=zh-CN&authuser=1&oi=ao)
 + 📜 Zhao Y, Smith J S, Karumanchi S H, et al. [**Closed-Loop Benchmarking of Stereo Visual-Inertial SLAM Systems: Understanding the Impact of Drift and Latency on Tracking Accuracy**](https://arxiv.org/pdf/2003.01317)[J]. arXiv preprint arXiv:2003.01317, **2020**.
 + 📜 Zhao Y, Vela P A. [**Good feature selection for least squares pose optimization in VO/VSLAM**](https://arxiv.org/pdf/1905.07807)[C]//2018 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). IEEE, **2018**: 1183-1189.（**代码**：https://github.com/ivalab/FullResults_GoodFeature ）
 + 📜 Zhao Y, Vela P A. [**Good line cutting: Towards accurate pose tracking of line-assisted VO/VSLAM**](http://openaccess.thecvf.com/content_ECCV_2018/papers/Yipu_Zhao_Good_Line_Cutting_ECCV_2018_paper.pdf)[C]//Proceedings of the European Conference on Computer Vision (ECCV). **2018**: 516-531. （**代码**：https://github.com/ivalab/GF_PL_SLAM ）
@@ -1119,6 +1166,15 @@
 + 📜 Bartolomei L, Karrer M, Chli M. [**Multi-robot Coordination with Agent-Server Architecture for Autonomous Navigation in Partially Unknown Environments**](https://www.research-collection.ethz.ch/handle/20.500.11850/441280)[C]//IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2020)(virtual). **2020**. [**code**](https://github.com/VIS4ROB-lab/multi_robot_coordination) | [video](https://www.youtube.com/watch?v=ATQiTsbaSOw)       
 + 📜 Schmuck P, Chli M. [**Multi-uav collaborative monocular slam**](https://ieeexplore.ieee.org/abstract/document/7989445/)[C]//2017 IEEE International Conference on Robotics and Automation (ICRA). IEEE, **2017**: 3863-3870.
 
+#### +1 谢立华教授（南洋理工大学）
+
++ **研究方向**：控制，多智能体，定位
++ **个人主页**：https://personal.ntu.edu.sg/elhxie/research.html | [Google Scholar](https://scholar.google.com.hk/citations?user=Fmrv3J8AAAAJ&hl=zh-CN&oi=ao)
++ 👦 **Wang Han**：[个人主页](https://wanghan.pro/)  | [Github](https://github.com/wh200720041)
++ 📜 Wang H, Wang C, Xie L. [**Intensity scan context: Coding intensity and geometry relations for loop closure detection**](https://ieeexplore.ieee.org/abstract/document/9196764/)[C]//2020 IEEE International Conference on Robotics and Automation (ICRA). IEEE, **2020**: 2095-2101. | [Code](https://github.com/wh200720041/iscloam)
++ 📜 Wang H, Wang C, Xie L. [**Lightweight 3-D Localization and Mapping for Solid-State LiDAR**](https://ieeexplore.ieee.org/abstract/document/9357899/)[J]. IEEE Robotics and Automation Letters, **2021**, 6(2): 1801-1807. | [Code](https://github.com/wh200720041/ssl_slam)
++ 📜 Wang C, Yuan J, Xie L. [**Non-iterative SLAM**](https://ieeexplore.ieee.org/abstract/document/8023500/)[C]//2017 18th International Conference on Advanced Robotics (ICAR). IEEE, **2017**: 83-90.
+
 ---
 
 ## 3. SLAM 学习资料
@@ -1161,6 +1217,460 @@
 ---
 
 ## 4. 近期论文（持续更新）
+
+### 2021 年 6 月论文更新（20 篇）
+
+> **本期更新于 2021 年 7 月 5 日       
+共 20 篇论文，其中 7 项（待）开源工作       
+[4,9,13,14,16,17] LiDAR 相关        
+[1,2,6,7] Mapping**
+
+#### 1. Geometric SLAM
+
++ [x] **[1]** Bokovoy A, Muravyev K, Yakovlev K. [**MAOMaps: A Photo-Realistic Benchmark For vSLAM and Map Merging Quality Assessment**](https://arxiv.org/abs/2105.14994)[J]. arXiv preprint arXiv:2105.14994, **2021**.
+    + <font color = blue>**用于视觉 SLAM 和地图合并质量评估的逼真基准**</font>
+    + 俄罗斯科学院；[开源数据集](https://github.com/CnnDepth/MAOMaps)
++ [x] **[2]** Demmel N, Sommer C, Cremers D, et al. [**Square Root Bundle Adjustment for Large-Scale Reconstruction**](http://openaccess.thecvf.com/content/CVPR2021/html/Demmel_Square_Root_Bundle_Adjustment_for_Large-Scale_Reconstruction_CVPR_2021_paper.html)[C]//Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. **2021**: 11723-11732.
+    + <font color = blue>**大规模重建的平方根 BA**</font>
+    + TUM；[代码开源](https://vision.in.tum.de/research/vslam/rootba)
++ [ ] **[3]** Chen Y, Zhao L, Zhang Y, et al. [**Anchor Selection for SLAM Based on Graph Topology and Submodular Optimization**](https://ieeexplore.ieee.org/abstract/document/9461163)[J]. IEEE Transactions on Robotics, **2021**.
+    + <font color = blue>基于图拓扑和子模块优化的SLAM锚点选择</font>
+    + 悉尼科技大学
++ [ ] **[4]** Zhou L, Koppel D, Kaess M. [**LiDAR SLAM with Plane Adjustment for Indoor Environment**](https://ieeexplore.ieee.org/abstract/document/9464638)[J]. IEEE Robotics and Automation Letters, **2021**.
+    + <font color = blue>室内环境中平面调整的 LiDAR SLAM</font>
+    + Magic Leap，CMU
++ [ ] **[5]** Liu D, Parra A, Chin T J. [**Spatiotemporal Registration for Event-based Visual Odometry**](https://arxiv.org/abs/2103.05955)[J]. arXiv preprint arXiv:2103.05955, **2021**.
+    + <font color = blue>基于事件的视觉里程计的时空配准</font>
+    + 阿德莱德大学；[开源数据集](https://github.com/liudaqikk/RobotEvt)（待公开）
+
+---
+
+#### 2. Semantic / Deep SLAM / Mapping
+
++ [ ] **[6]** Wimbauer F, Yang N, von Stumberg L, et al. [**MonoRec: Semi-supervised dense reconstruction in dynamic environments from a single moving camera**](http://openaccess.thecvf.com/content/CVPR2021/html/Wimbauer_MonoRec_Semi-Supervised_Dense_Reconstruction_in_Dynamic_Environments_From_a_Single_CVPR_2021_paper.html)[C]//Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. **2021**: 6112-6122.
+    + <font color = blue>**MonoRec: 动态环境中从单个移动相机中进行半监督稠密重建**</font>
+    + TUM；[项目主页](https://vision.in.tum.de/research/monorec)；[代码开源](https://github.com/Brummi/MonoRec)
++ [ ] **[7]** Qin T, Zheng Y, Chen T, et al. [**RoadMap: A Light-Weight Semantic Map for Visual Localization towards Autonomous Driving**](https://arxiv.org/abs/2106.02527)[J]. arXiv preprint arXiv:2106.02527, **2021**.（ICRA2021）
+    + <font color = blue>一种用于自动驾驶视觉定位的轻量级语义地图</font>
+    + 华为
++ [x] **[8]** Tschopp F, Nieto J, Siegwart R Y, et al. [**Superquadric Object Representation for Optimization-based Semantic SLAM**](https://www.research-collection.ethz.ch/bitstream/handle/20.500.11850/487527/1/asldoc_2021_ftschopp_super_quadrics.pdf)[J]. **2021**.
+    + <font color = blue>**基于优化的语义 SLAM 的超二次曲面的物体表示**</font>
+    + ETH；Microsoft
++ [ ] **[9]** Miller I D, Cowley A, Konkimalla R, et al. [**Any Way You Look at It: Semantic Crossview Localization and Mapping With LiDAR**](https://ieeexplore.ieee.org/abstract/document/9361130/)[J]. IEEE Robotics and Automation Letters, **2021**, 6(2): 2397-2404.
+    + <font color = blue>以任何方式看待它：使用 LiDAR 进行语义交叉视图的定位和建图</font>
+    + 宾夕法尼亚大学；[代码开源](https://github.com/iandouglas96/cross_view_slam)
++ [ ] **[10]** Lu Y, Xu X, Ding M, et al. [**A Global Occlusion-Aware Approach to Self-Supervised Monocular Visual Odometry**](https://www.aaai.org/AAAI21Papers/AAAI-299.LuY.pdf)[C]//Proceedings of the AAAI Conference on Artificial Intelligence. **2021**, 35(3): 2260-2268.
+    + <font color = blue>自监督单目视觉里程计的全局遮挡感知方法</font>
+    + 中国人民大学
++ [ ] **[11]** Li S, Liu S, Zhao Q, et al. [**Quantized Self-supervised Local Feature for Real-time Robot Indirect VSLAM**](https://ieeexplore.ieee.org/abstract/document/9444777)[J]. IEEE/ASME Transactions on Mechatronics, **2021**.
+    + <font color = blue>实时机器人间接 VSLAM 的量化自监督局部特征</font>
+    + 上海交大；期刊：中科院二区，JCR Q1，IF 5.3
+
+---
+
+#### 3. Sensor Fusion
+
++ [ ] **[12]** Seiskari O, Rantalankila P, Kannala J, et al. [**HybVIO: Pushing the Limits of Real-time Visual-inertial Odometry**](https://arxiv.org/abs/2106.11857)[J]. arXiv preprint arXiv:2106.11857, **2021**.
+    + <font color = blue>HybVIO: 突破实时视觉惯性里程计的极限</font>
+    + Spectacular AI，阿尔托大学，坦佩雷大学
++ [ ] **[13]** Li L, Kong X, Zhao X, et al. [**SA-LOAM: Semantic-aided LiDAR SLAM with Loop Closure**](https://arxiv.org/abs/2106.11516)[J]. arXiv preprint arXiv:2106.11516, 2021. （**ICRA2021**）
+    + <font color = blue>具有闭环的语义辅助的 LiDAR SLAM</font>
+    + 浙大
++ [ ] **[14]** Li K, Ouyang Z, Hu L, et al. [**Robust SRIF-based LiDAR-IMU Localization for Autonomous Vehicles**](https://kms.shanghaitech.edu.cn/bitstream/2MSLDSTB/126753/1/Robust_SRIF_based_LiDAR_IMU_Localization_for_Autonomous_Vehicles.pdf)[J]. 2021. （**ICRA2021**）
+    + <font color = blue>用于自动驾驶汽车的鲁棒的基于 SRIF 的 LiDAR-IMU 定位</font>
+    + 上海科技大学
++ [ ] **[15]** Kumar H, Payne J J, Travers M, et al. [**Periodic SLAM: Using Cyclic Constraints to Improve the Performance of Visual-Inertial SLAM on Legged Robots**](http://copland.udel.edu/~ghuang/icra21-vins-workshop/papers/04-Kumar_PeriodicSLAM.pdf)[J].
+    + <font color = blue>周期性 SLAM：使用循环约束提高腿式机器人视觉惯性 SLAM 的性能</font>
++ [ ] **[16]** Zhou P, Guo X, Pei X, et al. [**T-LOAM: Truncated Least Squares LiDAR-Only Odometry and Mapping in Real Time**](https://ieeexplore.ieee.org/abstract/document/9446309)[J]. IEEE Transactions on Geoscience and Remote Sensing, **2021**.
+    + <font color = blue>截断最小二乘法的 LiDAR 实时里程计和建图</font>
+    + 武汉理工
++ [ ] **[17]** Jia Y, Luo H, Zhao F, et al. [**Lvio-Fusion: A Self-adaptive Multi-sensor Fusion SLAM Framework Using Actor-critic Method**](https://arxiv.org/abs/2106.06783)[J]. arXiv preprint arXiv:2106.06783, **2021**.
+    + <font color = blue>Lvio-Fusion：使用Actor-critic方法的自适应多传感器融合SLAM框架</font>
+    + 北邮，中科院计算机所；[代码开源](https://github.com/jypjypjypjyp/lvio_fusion)
+
+---
+
+#### 4. Others
+
++ [ ] **[18]** Huang R, Fang C, Qiu K, et al. [**AR Mapping: Accurate and Efficient Mapping for Augmented Reality**](https://arxiv.org/abs/2103.14846)[J]. arXiv preprint arXiv:2103.14846, **2021**.
+    + <font color = blue>AR Mapping：用于增强现实的准确高效建图</font>
+    + 阿里巴巴
++ [x] **[19]** Kim A, Ošep A, Leal-Taixé L. [**EagerMOT: 3D Multi-Object Tracking via Sensor Fusion**](https://arxiv.org/abs/2104.14682)[J]. arXiv preprint arXiv:2104.14682, **2021**. (ICRA2021)
+    + <font color = blue>**EagerMOT：通过传感器融合进行 3D 多目标跟踪**</font>
+    + TUM；[代码开源](https://github.com/aleksandrkim61/EagerMOT)
++ [ ] **[20]** Wang J, Zhong Y, Dai Y, et al. [**Deep Two-View Structure-from-Motion Revisited**](https://openaccess.thecvf.com/content/CVPR2021/html/Wang_Deep_Two-View_Structure-From-Motion_Revisited_CVPR_2021_paper.html)[C]//Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. **2021**: 8953-8962.
+    + <font color = blue>重新审视两视图 SFM</font>
+    + 澳大利亚国立、西工大、NVIDIA
+
+---
+
+### 2021 年 5 月论文更新（20 篇）
+
+> **本期更新于 2021 年 6 月 13 日       
+共 20 篇论文，其中 6 项（待）开源工作       
+[2] SLAM 中的隐私保护问题近年来受到关注      
+[4,5,6] 基于线的 SLAM/SFM**
+
+#### 1. Geometric SLAM
+
++ [ ] **[1]** Geppert M, Larsson V, Speciale P, et al. [**Privacy Preserving Localization and Mapping from Uncalibrated Cameras**](https://openaccess.thecvf.com/content/CVPR2021/html/Geppert_Privacy_Preserving_Localization_and_Mapping_From_Uncalibrated_Cameras_CVPR_2021_paper.html)[C]//Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. **2021**: 1809-1819.
+    + <font color = blue>未校准相机的隐私保护定位和建图</font>
+    + ETH, Microsift
++ [ ] **[2]** Hermann M, Ruf B, Weinmann M. [**Real-time dense 3D Reconstruction from monocular video data captured by low-cost UAVs**](https://arxiv.org/abs/2104.10515)[J]. arXiv preprint arXiv:2104.10515, **2021**.
+    + <font color = blue>低成本无人机捕获的单目视频数据实时实时稠密重建</font>
+    + KIT
++ [ ] **[3]** Zhang J, Zhu C, Zheng L, et al. [**ROSEFusion: Random Optimization for Online Dense Reconstruction under Fast Camera Motion**](https://arxiv.org/abs/2105.05600)[J]. arXiv preprint arXiv:2105.05600, **2021**. (SIGGRAPH 2021)
+    + <font color = blue>快速相机运动下在线稠密重建的随机优化</font>
+    + 国防科大
++ [ ] **[4]** Xu B, Wang P, He Y, et al. [**Leveraging Structural Information to Improve Point Line Visual-Inertial Odometry**](https://arxiv.org/abs/2105.04064)[J]. arXiv preprint arXiv:2105.04064, **2021**.
+    + <font color = blue>利用结构信息改进点线 VIO</font>
+    + 武汉大学；东北大学；[代码开源](https://github.com/xubogithub/Structural-and-Non-structural-line)
++ [ ] **[5]** Liu Z, Shi D, Li R, et al. [**PLC-VIO: Visual-Inertial Odometry Based on Point-Line Constraints**](https://ieeexplore.ieee.org/abstract/document/9431679/)[J]. IEEE Transactions on Automation Science and Engineering, **2021**.
+    + <font color = blue>PLC-VIO：基于点线约束的 VIO</font>
+    + 国防科大
++ [ ] **[6]** Mateus A, Tahri O, Aguiar A P, et al. [**On Incremental Structure from Motion Using Lines**](https://ieeexplore.ieee.org/abstract/document/9460316)[J]. IEEE Transactions on Robotics, **2021**.
+    + <font color = blue>使用线的增量式 SFM</font>
+    + 里斯本大学
++ [ ] **[7]** Patel M, Bandopadhyay A, Ahmad A. [**Collaborative Mapping of Archaeological Sites using multiple UAVs**](https://arxiv.org/abs/2105.07644)[J]. arXiv preprint arXiv:2105.07644, **2021**.
+    + <font color = blue>使用多无人机协同绘制考古遗址</font>
+    + 印度理工学院；[数据集&项目主页](https://patelmanthan.in/castle-ruins-airsim/)
++ [ ] **[8]** Chiu C Y, Sastry S S. [**Simultaneous Localization and Mapping: A Rapprochement of Filtering and Optimization-Based Approaches**](https://www2.eecs.berkeley.edu/Pubs/TechRpts/2021/EECS-2021-76.pdf)[J]. **2021**.
+    + <font color = blue>SLAM：滤波和优化方法的结合</font>
+    + 加州大学伯克利分校硕士学位论文
+
+---
+
+#### 2. Semantic / Deep SLAM / Mapping
+
++ [x] **[9]** Karkus P, Cai S, Hsu D. [**Differentiable SLAM-net: Learning Particle SLAM for Visual Navigation**](https://openaccess.thecvf.com/content/CVPR2021/html/Karkus_Differentiable_SLAM-Net_Learning_Particle_SLAM_for_Visual_Navigation_CVPR_2021_paper.html)[C]//Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. **2021**: 2815-2825.
+    + <font color = blue>**可微 SLAM 网络：用于视觉导航的学习型粒子 SLAM**</font>
+    + 新加坡国立大学；[项目主页](https://sites.google.com/view/slamnet)
++ [ ] **[10]** Ok K, Liu K, Roy N. [**Hierarchical Object Map Estimation for Efficient and Robust Navigation**](http://groups.csail.mit.edu/rrg/papers/ok_icra21.pdf)[C]//Proc. ICRA. **2021**
+    + <font color = blue>用于高效鲁棒导航的层次化物体地图估计</font>
+    + MIT
++ [ ] **[11]** Adu-Bredu A, Del Coro N, Liu T, et al. [**GODSAC*: Graph Optimized DSAC* for Robot Relocalization**](https://arxiv.org/abs/2105.00546)[J]. arXiv preprint arXiv:2105.00546, **2021**.
+    + <font color = blue>用于机器人重定位的图形优化 DSAC*</font>
+    + 密歇根大学；[代码开源](https://github.com/alphonsusadubredu/godsacstar)
++ [ ] **[12]** Xu D, Vedaldi A, Henriques J F. [**Moving SLAM: Fully Unsupervised Deep Learning in Non-Rigid Scenes**](https://arxiv.org/abs/2105.02195)[J]. arXiv preprint arXiv:2105.02195, **2021**.
+    + <font color = blue>Moving SLAM：非刚性场景中的完全无监督深度学习</font>
+    + 港科，牛津大学
++ [ ] **[13]** Ma J, Ye X, Zhou H, et al. [**Loop-Closure Detection Using Local Relative Orientation Matching**](https://ieeexplore.ieee.org/abstract/document/9423519/)[J]. IEEE Transactions on Intelligent Transportation Systems, **2021**.
+    + <font color = blue>使用局部相对方向匹配的闭环检测</font>
+    + 武汉大学
++ [ ] **[14]** Çatal O, Jansen W, Verbelen T, et al. [**LatentSLAM: unsupervised multi-sensor representation learning for localization and mapping**](https://arxiv.org/abs/2105.03265)[J]. arXiv preprint arXiv:2105.03265, **2021**.
+    + <font color = blue>LatentSLAM：用于定位和建图的无监督多传感器表示学习</font>
+    + 根特大学，安特卫普大学；[数据集](https://thesmartrobot.github.io/datasets)
+
+---
+
+#### 3. Sensor Fusion
+
++ [x] **[15]** Zhao S, Zhang H, Wang P, et al. [**Super Odometry: IMU-centric LiDAR-Visual-Inertial Estimator for Challenging Environments**](https://arxiv.org/abs/2104.14938)[J]. arXiv preprint arXiv:2104.14938, **2021**.
+    + <font color = blue>**超级里程计：用于挑战性环境的以 IMU 为中心的 LiDAR-Visual-Inertial 状态估计器**</font>
+    + CMU
++ [ ] **[16]** Nguyen T M, Yuan S, Cao M, et al. [**VIRAL SLAM: Tightly Coupled Camera-IMU-UWB-Lidar SLAM**](https://arxiv.org/abs/2105.03296)[J]. arXiv preprint arXiv:2105.03296, **2021**.
+    + <font color = blue>VIRAL SLAM：紧耦合相机-IMU-UWB-Lidar SLAM</font>
+    + 南洋理工大学
++ [ ] **[17]** Nguyen T M, Yuan S, Cao M, et al. [**MILIOM: Tightly Coupled Multi-Input Lidar-Inertia Odometry and Mapping**](https://ieeexplore.ieee.org/abstract/document/9431754/)[J]. IEEE Robotics and Automation Letters, **2021**, 6(3): 5573-5580.
+    + <font color = blue>MILIOM：紧耦合多源激光雷达-惯性里程计和建图</font>
+    + 南洋理工大学
+
+---
+
+#### 4. Others
+
++ [ ] **[18]** Sakaridis C, Dai D, Van Gool L. [**ACDC: The Adverse Conditions Dataset with Correspondences for Semantic Driving Scene Understanding**](https://arxiv.org/abs/2104.13395)[J]. arXiv preprint arXiv:2104.13395, **2021**.
+    + <font color = blue>ACDC: 用于语义驾驶场景理解的具有对应关系的不利条件数据集</font>
+    + ETH；[数据集和 benchmark](https://acdc.vision.ee.ethz.ch/)
++ [x] **[19]** Huang Z, Zhou H, Li Y, et al. VS-Net: Voting with Segmentation for Visual Localization[C]//Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2021: 6101-6111.
+    + <font color = blue>**VS-Net：通过分割投票进行视觉定位**</font>
+    + 浙大，港中文；[代码开源](https://github.com/zju3dv/VS-Net)
++ [ ] **[20]** Kim A, Ošep A, Leal-Taixé L. [**EagerMOT: 3D Multi-Object Tracking via Sensor Fusion**](https://arxiv.org/abs/2104.14682)[J]. arXiv preprint arXiv:2104.14682, **2021**. (ICRA2021)
+    + <font color = blue>EagerMOT：通过传感器融合进行 3D 多目标跟踪</font>
+    + TUM；[代码开源](https://github.com/aleksandrkim61/EagerMOT)
+
+---
+
+### 2021 年 4 月论文更新（20 篇）
+
+> **本期更新于 2021 年 5 月 11 日       
+共 20 篇论文，其中 5 篇来自于 CVPR2021，7 项开源工作       
+[7, 8, 9]  Event-based      
+[10] VDO-SLAM 作者博士学位论文          
+[3, 4, 5, 17] 线、平面          
+[14] NeuralRecon**
+
+#### 1. Geometric SLAM
+
++ [ ] **[1]** Jang Y, Oh C, Lee Y, et al. [**Multirobot Collaborative Monocular SLAM Utilizing Rendezvous**](https://ieeexplore.ieee.org/abstract/document/9381949)[J]. IEEE Transactions on Robotics, **2021**.
+    + <font color = blue>利用集合点的多机器人协作单目 SLAM</font>
+    + 首尔大学
++ [ ] **[2]** Luo H, Pape C, Reithmeier E. [**Hybrid Monocular SLAM Using Double Window Optimization**](https://ieeexplore.ieee.org/abstract/document/9392262)[J]. IEEE Robotics and Automation Letters, **2021**, 6(3): 4899-4906.
+    + <font color = blue>使用双窗口优化的混合单目 SLAM</font>
+    + 汉诺威大学
++ [ ] **[3]** Yunus R, Li Y, Tombari F. [**ManhattanSLAM: Robust Planar Tracking and Mapping Leveraging Mixture of Manhattan Frames**](https://arxiv.org/abs/2103.15068)[J]. arXiv preprint arXiv:2103.15068, **2021**.
+    + <font color = blue>ManhattanSLAM：利用混合曼哈顿世界的鲁棒平面跟踪与建图</font>
+    + TUM
++ [ ] **[4]** Wang Q, Yan Z, Wang J, et al. [**Line Flow Based Simultaneous Localization and Mapping**](https://ieeexplore.ieee.org/abstract/document/9393474)[J]. IEEE Transactions on Robotics, **2021**.
+    + <font color = blue>基于线流的 SLAM</font>
+    + 北大（去年的 9 月的 Preprint）
++ [ ] **[5]** Vakhitov A, Ferraz L, Agudo A, et al. [**Uncertainty-Aware Camera Pose Estimation From Points and Lines**](https://openaccess.thecvf.com/content/CVPR2021/html/Vakhitov_Uncertainty-Aware_Camera_Pose_Estimation_From_Points_and_Lines_CVPR_2021_paper.html)[C]//Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. **2021**: 4659-4668.
+    + <font color = blue>基于点线不确定性感知的相机位姿估计</font>
+    + SLAMCore；[代码开源](https://github.com/alexandervakhitov/uncertain-pnp)
++ [ ] **[6]** Liu D, Parra A, Chin T J. [**Spatiotemporal Registration for Event-based Visual Odometry**](https://openaccess.thecvf.com/content/CVPR2021/html/Liu_Spatiotemporal_Registration_for_Event-Based_Visual_Odometry_CVPR_2021_paper.html)[C]//Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. **2021**: 4937-4946.
+    + <font color = blue>基于事件的视觉里程计的时空配准</font>
+    + 阿德莱德大学
++ [ ] **[7]** Min Z, Dunn E. Jiao J, Huang H, Li L, et al. [**Comparing Representations in Tracking for Event Camera-based SLAM**](https://openaccess.thecvf.com/content/CVPR2021W/EventVision/html/Jiao_Comparing_Representations_in_Tracking_for_Event_Camera-Based_SLAM_CVPRW_2021_paper.html)[C]//Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. **2021**: 1369-1376.
+    + <font color = blue>比较基于事件相机 SLAM 在跟踪中的表示</font>
+    + 港科，港大；[代码开源](https://github.com/gogojjh/ESVO_extension)
++ [x] **[8]** Zhou Y, Gallego G, Shen S. [**Event-based stereo visual odometry**](https://ieeexplore.ieee.org/abstract/document/9386209/)[J]. IEEE Transactions on Robotics, **2021**.
+    + <font color = blue>**基于事件的双目视觉里程计**</font>
+    + 港科、柏林工业大学；[代码开源](https://github.com/HKUST-Aerial-Robotics/ESVO),（去年的 8 月的 Preprint）
++ [x] **[9]** Min Z, Dunn E. [**VOLDOR-SLAM: For the Times When Feature-Based or Direct Methods Are Not Good Enough**](https://arxiv.org/abs/2104.06800)[J]. arXiv preprint arXiv:2104.06800, 2021.
+    + <font color = blue>**VOLDOR-SLAM: 当基于特征或直接法不够好时**</font>
+    + 史蒂文斯理工学院；[代码开源](https://github.com/htkseason/VOLDOR)
++ [x] **[10]** Ila V, Henein M, Li H. [**Meta Information In Graph-based Simultaneous Localisation And Mapping**](https://openresearch-repository.anu.edu.au/bitstream/1885/222452/1/Henein_thesis_2021.pdf)[J]. **2020**
+    + <font color = blue>**基于图的 SLAM 中的元信息**</font>
+    + 澳大利亚国立大学 Mina Henein 博士学位论文
+    + VDO-SLAM: A Visual Dynamic Object-aware SLAM System.
+    + Dynamic SLAM: The Need for Speed.
+
+---
+
+#### 2. Semantic / Deep SLAM / Mapping
+
++ [ ] **[11]** Li S, Wu X, Cao Y, et al. [**Generalizing to the Open World: Deep Visual Odometry with Online Adaptation**](https://openaccess.thecvf.com/content/CVPR2021/html/Li_Generalizing_to_the_Open_World_Deep_Visual_Odometry_With_Online_CVPR_2021_paper.html)[C]//Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. **2021**: 13184-13193.
+    + <font color = blue>推广到开放世界：具有在线适应功能的深度视觉里程计</font>
+    + 北京大学
+    + Li S, Wang X, Cao Y, et al. [**Self-supervised deep visual odometry with online adaptation**](http://openaccess.thecvf.com/content_CVPR_2020/html/Li_Self-Supervised_Deep_Visual_Odometry_With_Online_Adaptation_CVPR_2020_paper.html)[C]//Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. **2020**: 6339-6348.
++ [x] **[12]** Qiu K, Chen S, Zhang J, et al. [**Compact 3D Map-Based Monocular Localization Using Semantic Edge Alignment**](https://arxiv.org/abs/2103.14826)[J]. arXiv preprint arXiv:2103.14826, **2021**.
+    + <font color = blue>**使用语义边缘对齐的基于 3D 紧凑地图的单目定位**</font>
+    + 阿里巴巴
++ [ ] **[13]** Cheng W, Yang S, Zhou M, et al. [**Road Mapping and Localization using Sparse Semantic Visual Features**](https://ieeexplore.ieee.org/abstract/document/9387091/)[J]. IEEE Robotics and Automation Letters, **2021**.
+    + <font color = blue>使用稀疏语义视觉特征的道路建图和定位</font>
+    + 阿里巴巴
++ [x] **[14]** Sun J, Xie Y, Chen L, et al. [**NeuralRecon: Real-Time Coherent 3D Reconstruction from Monocular Video**](https://openaccess.thecvf.com/content/CVPR2021/html/Sun_NeuralRecon_Real-Time_Coherent_3D_Reconstruction_From_Monocular_Video_CVPR_2021_paper.html)[C]//Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. **2021**: 15598-15607.
+    + <font color = blue>**NeuralRecon：从单目视频中进行实时连贯 3D 重建**</font>
+    + 浙大，商汤；[代码开源](https://zju3dv.github.io/neuralrecon/)
+
+---
+
+#### 3. Sensor Fusion
+
++ [x] **[15]** Shan T, Englot B, Ratti C, et al. [**LVI-SAM: Tightly-coupled Lidar-Visual-Inertial Odometry via Smoothing and Mapping**](https://arxiv.org/abs/2104.10831)[J]. arXiv preprint arXiv:2104.10831, **2021**. (ICRA2021)
+    + <font color = blue>**LVI-SAM：通过平滑的紧耦合的激光雷达-视觉-惯性里程计和建图框架**</font>
+    + MIT；[代码开源](https://github.com/TixiaoShan/LVI-SAM)
++ [ ] **[16]** Zhang K, Yang T, Ding Z, et al. [**The Visual-Inertial-Dynamical UAV Dataset**](https://arxiv.org/abs/2103.11152)[J]. arXiv preprint arXiv:2103.11152, **2021**.
+    + <font color = blue>视觉-惯性-动力 UAV 数据集</font>
+    + 浙大；[数据集](https://github.com/ZJU-FAST-Lab/VID-Dataset)
++ [ ] **[17]** Amblard V, Osedach T P, Croux A, et al. [**Lidar-Monocular Surface Reconstruction Using Line Segments**](https://arxiv.org/abs/2104.02761)[J]. arXiv preprint arXiv:2104.02761, **2021**.
+    + <font color = blue>**使用线段的 Lidar - 单目表面重建**</font>
+    + MIT
++ [ ] **[18]** Wei B, Trigoni N, Markham A. [**iMag+: An Accurate and Rapidly Deployable Inertial Magneto-Inductive SLAM System**](https://ieeexplore.ieee.org/abstract/document/9369878)[J]. IEEE Transactions on Mobile Computing, **2021**.
+    + <font color = blue>iMag+: 一种准确且可快速部署的惯性磁感应 SLA​​M 系统</font>
+    + 诺森比亚大学、牛津大学
+
+---
+
+#### 4. Others
+
++ [ ] **[19]** Huang R, Fang C, Qiu K, et al. [**AR Mapping: Accurate and Efficient Mapping for Augmented Reality**](https://arxiv.org/abs/2103.14846)[J]. arXiv preprint arXiv:2103.14846, **2021**.
+    + <font color = blue>AR Mapping：用于增强现实的准确高效建图</font>
+    + 阿里巴巴
++ [ ] **[20]** Wang J, Zhong Y, Dai Y, et al. [**Deep Two-View Structure-from-Motion Revisited**](https://openaccess.thecvf.com/content/CVPR2021/html/Wang_Deep_Two-View_Structure-From-Motion_Revisited_CVPR_2021_paper.html)[C]//Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. **2021**: 8953-8962.
+    + <font color = blue>重新审视两视图 DFM</font>
+    + 澳大利亚国立、西工大、NVIDIA
+
+---
+
+### 2021 年 3 月论文更新（23 篇）
+
+> **本期更新于 2021 年 4 月 15 日       
+共 23 篇论文，其中 9 项（待）开源工作       
+[3, 4, 5] 线、面 SLAM      
+[6, 7] 滤波方法     
+[10] DynaSLAM 作者博士学位论文      
+[9, 12, 13, 17, 23] LiDAR**
+
+#### 1. Geometric SLAM
+
++ [ ] **[1]** Liu P, Zuo X, Larsson V, et al. [**MBA-VO: Motion Blur Aware Visual Odometry**](https://arxiv.org/abs/2103.13684)[J]. arXiv preprint arXiv:2103.13684, **2021**.
+    + <font color = blue>MBA-VO: 运动模糊感知的视觉里程计</font>
+    + ETH，Microsoft
++ [ ] **[2]** Chen H, Hu W, Yang K, et al. [**Panoramic annular SLAM with loop closure and global optimization**](https://arxiv.org/abs/2102.13400)[J]. arXiv preprint arXiv:2102.13400, **2021**.
+    + <font color = blue>具有闭环和全局优化的全景环形 SLAM</font>
+    + 浙大、KIT
++ [x] **[3]** Wang X, Christie M, Marchand E. [**TT-SLAM: Dense Monocular SLAM for Planar Environments**](https://hal.inria.fr/hal-03169199/)[C]//IEEE International Conference on Robotics and Automation, ICRA'21. **2021**.
+    + <font color = blue>**TT-SLAM: 面向平面环境的单目稠密 SLAM**</font>
+    + 法国雷恩大学
++ [ ] **[4]** Lim H, Kim Y, Jung K, et al. [**Avoiding Degeneracy for Monocular Visual SLAM with Point and Line Features**](https://arxiv.org/abs/2103.01501)[J]. arXiv preprint arXiv:2103.01501, **2021**. (ICRA2021)
+    + <font color = blue>使用点线特征避免单目视觉 SLAM 退化</font>
+    + 韩国科学技术院
++ [ ] **[5]** Lu J, Fang Z, Gao Y, et al. [**Line-based visual odometry using local gradient fitting**](https://www.sciencedirect.com/science/article/pii/S1047320321000377)[J]. Journal of Visual Communication and Image Representation, **2021**, 77: 103071.
+    + <font color = blue>使用局部梯度拟合的基于线的视觉里程计</font>
+    + 上海工程技术大学
++ [ ] **[6]** Wang J, Meng Z, Wang L. [**A UPF-PS SLAM Algorithm for Indoor Mobile Robot with Non-Gaussian Detection Model**](https://ieeexplore.ieee.org/abstract/document/9349139)[J]. IEEE/ASME Transactions on Mechatronics, **2021**.
+    + <font color = blue>具有非高斯检测模型的室内移动机器人 UPF-PS SLAM 算法</font>
+    + 清华大学
++ [ ] **[7]** Gao L, Battistelli G, Chisci L. [**PHD-SLAM 2.0: Efficient SLAM in the Presence of Missdetections and Clutter**](https://ieeexplore.ieee.org/abstract/document/9347824)[J]. IEEE Transactions on Robotics, **2021**.
+    + <font color = blue>PHD-SLAM 2.0：漏检和杂波污染情况下的高效 SLAM</font>
+    + 电子科大，佛罗伦萨大学；[代码开源](https://github.com/gao12345ab/PHD-SLAM-2.0)
++ [ ] **[8]** Labbé M, Michaud F. [**Multi-session visual SLAM for illumination invariant localization in indoor environments**](https://arxiv.org/abs/2103.03827)[J]. arXiv preprint arXiv:2103.03827, **2021**.
+    + <font color = blue>用于室内环境光照不变定位的多会话视觉 SLAM</font>
+    + 谢布鲁克大学
++ [ ] **[9]** Yokozuka M, Koide K, Oishi S, et al. [**LiTAMIN2: Ultra Light LiDAR-based SLAM using Geometric Approximation applied with KL-Divergence**](https://arxiv.org/abs/2103.00784)[J]. arXiv preprint arXiv:2103.00784, **2021**. (ICRA2021)
+    + <font color = blue>使用几何近似和 KL 散度的超轻型基于 LiDAR 的 SLAM</font>
+    + 日本先进工业科学技术研究所
+
+---
+
+#### 2. Semantic/Deep SLAM
+
++ [x] **[10]** [**Visual SLAM in dynamic environments**](https://zaguan.unizar.es/record/100672). **2020**
+    + <font color = blue>**动态环境中视觉 SLAM**</font>
+    + 萨拉戈萨大学 [Berta Bescos](https://scholar.google.com.hk/citations?user=8koVpHwAAAAJ&hl=zh-CN&oi=sra) 博士学位论文，[Github](https://github.com/BertaBescos)
+    + DynaSLAM: Tracking, Mapping, and Inpainting in Dynamic Scenes. 2018
+    + DynaSLAM II: Tightly-Coupled Multi-Object Tracking and SLAM. 2020
+    + Empty Cities: a Dynamic-Object-Invariant Space for Visual SLAM. 2021
++ [x] **[11]** Zhan H, Weerasekera C S, Bian J W, et al. [**DF-VO: What Should Be Learnt for Visual Odometry?**](https://arxiv.org/abs/2103.00933)[J]. arXiv preprint arXiv:2103.00933, **2021**.
+    + <font color = blue>**DF-VO: 视觉里程计应该学习什么？**</font>
+    + 阿德莱德大学；[代码开源](https://github.com/Huangying-Zhan/DF-VO)
+    + 先关工作：Zhan H, Weerasekera C S, Bian J W, et al. [**Visual odometry revisited: What should be learnt?**](https://ieeexplore.ieee.org/abstract/document/9197374/)[C]//2020 IEEE International Conference on Robotics and Automation (ICRA). IEEE, **2020**: 4203-4210.
++ [ ] **[12]** Westfechtel T, Ohno K, Akegawa T, et al. [**Semantic Mapping of Construction Site From Multiple Daily Airborne LiDAR Data**](https://ieeexplore.ieee.org/abstract/document/9364688)[J]. IEEE Robotics and Automation Letters, **2021**, 6(2): 3073-3080.
+    + <font color = blue>来自多个日常机载激光雷达数据的施工现场语义建图</font>
+    + 东京大学
++ [ ] **[13]** Habich T L, Stuede M, Labbé M, et al. [**Have I been here before? Learning to Close the Loop with LiDAR Data in Graph-Based SLAM**](https://arxiv.org/abs/2103.06713)[J]. arXiv preprint arXiv:2103.06713, **2021**.
+    + <font color = blue>在图 SLAM 中学习使用 LiDAR 数据的闭环</font>
+    + 汉诺威大学
++ [ ] **[14]** Jayasuriya M, Arukgoda J, Ranasinghe R, et al. [**UV-Loc: A Visual Localisation Strategy for Urban Environments**](https://www.researchgate.net/profile/Maleen-Jayasuriya/publication/349944764_UV-Loc_A_Visual_Localisation_Strategy_for_Urban_Environments/links/60485d58299bf1e0786971a0/UV-Loc-A-Visual-Localisation-Strategy-for-Urban-Environments.pdf)[J]. **2021**
+    + <font color = blue>城市环境中视觉定位策略</font>
+    + 悉尼科技大学 
+    + pole-like landmarks and ground surface boundaries
++ [ ] **[15]** Sarlin P E, Unagar A, Larsson M, et al. [**Back to the Feature: Learning Robust Camera Localization from Pixels to Pose**](https://arxiv.org/abs/2103.09213)[J]. arXiv preprint arXiv:2103.09213, **2021**. （CVPR2021）
+    + <font color = blue>回归到特征：从像素中学习鲁棒的相机定位</font>
+    + ETH；[代码开源](https://github.com/cvg/pixloc)
++ [ ] **[16]** Zhang J, Sui W, Wang X, et al. [**Deep Online Correction for Monocular Visual Odometry**](https://arxiv.org/abs/2103.10029)[J]. arXiv preprint arXiv:2103.10029, **2021**. (ICRA2021)
+    + <font color = blue>单目视觉里程计深度在线校正</font>
+    + 地平线，华中科大
+
+---
+
+#### 3. Sensor Fusion
+
++ [x] **[17]** Lin J, Zheng C, Xu W, et al. [**R2LIVE: A Robust, Real-time, LiDAR-Inertial-Visual tightly-coupled state Estimator and mapping**](https://arxiv.org/abs/2102.12400)[J]. arXiv preprint arXiv:2102.12400, **2021**.
+    + <font color = blue>**R2LIVE：一种鲁棒的的、实时的、LiDAR-惯导-视觉紧耦合的状态估计和建图方法**</font>
+    + 香港大学；[代码开源](https://github.com/hku-mars/r2live)
++ [ ] **[18]** Cao S, Lu X, Shen S. [**GVINS: Tightly Coupled GNSS-Visual-Inertial for Smooth and Consistent State Estimation**](https://ui.adsabs.harvard.edu/abs/2021arXiv210307899C/abstract)[J]. arXiv e-prints, **2021**: arXiv: 2103.07899.
+    + <font color = blue>GVINS: 用于平滑和一致性状态估计的紧耦合 GNSS-视觉-惯性系统</font>
+    + 港科；[代码开源](https://github.com/HKUST-Aerial-Robotics/GVINS)
++ [ ] **[19]** Zhu P, Geneva P, Ren W, et al. [**Distributed Visual-Inertial Cooperative Localization**](https://arxiv.org/abs/2103.12770)[J]. arXiv preprint arXiv:2103.12770, **2021**.
+    + <font color = blue>分布式视觉-惯性协同定位</font>
+    + 加利福尼亚大学、特拉华大学；[video](https://www.youtube.com/watch?v=boHBcVoMKk8)
++ [ ] **[20]** Peng X, Liu Z, Wang Q, et al. [**Accurate Visual-Inertial SLAM by Feature Re-identification**](https://arxiv.org/abs/2102.13438)[J]. arXiv preprint arXiv:2102.13438, **2021**.
+    + <font color = blue>基于特征重识别的视觉惯性 SLAM</font>
+    + 三星
++ [ ] **[21]** Reinke A, Chen X, Stachniss C. [**Simple But Effective Redundant Odometry for Autonomous Vehicles**](https://arxiv.org/abs/2105.11783)[J]. arXiv preprint arXiv:2105.11783, **2021**. (ICRA2021)
+    + <font color = blue>用于自动驾驶的简易且有效的冗余里程计</font>
+    + 波恩大学；[代码开源](https://github.com/PRBonn/MutiverseOdometry)（待公开）
++ [ ] **[22]** Ram K, Kharyal C, Harithas S S, et al. [**RP-VIO: Robust Plane-based Visual-Inertial Odometry for Dynamic Environments**](https://arxiv.org/abs/2103.10400)[J]. arXiv preprint arXiv:2103.10400, **2021**.
+    + <font color = blue>RP-VIO: 动态环境中鲁棒的基于平面的 VIO</font>
+    + 印度理工学院海得拉巴机器人研究中心；[代码开源](https://github.com/karnikram/rp-vio)（基于 VINS）
++ [ ] **[23]** Kramer A, Harlow K, Williams C, et al. [**ColoRadar: The Direct 3D Millimeter Wave Radar Dataset**](https://arxiv.org/abs/2103.04510)[J]. arXiv preprint arXiv:2103.04510, **2021**.
+    + <font color = blue>直接 3D 毫米波雷达数据集</font>
+    + 科罗拉多大学博尔德分校；[开源数据集](https://arpg.github.io/coloradar/)
+
+---
+
+### 2021 年 2 月论文更新（21 篇）
+
+> **本期更新于 2021 年 3 月 20 日       
+共 21 篇论文，其中 8 项开源工作       
+[3][4] VIO 数据集      
+[9][10] 杆状特征**
+
+#### 1. Geometric SLAM
+
++ [x] **[1]** Ferrera M, Eudes A, Moras J, et al. [**OV $^{2} $ SLAM: A Fully Online and Versatile Visual SLAM for Real-Time Applications**](https://ieeexplore.ieee.org/abstract/document/9351614/)[J]. IEEE Robotics and Automation Letters, **2021**, 6(2): 1399-1406.
+    + <font color = blue>**适用于实时应用的完全在线、多功能 SLAM**</font>
+    + IFREMER；[**代码开源**](https://github.com/ov2slam/ov2slam)
++ [ ] **[2]** Gladkova M, Wang R, Zeller N, et al. [**Tight-Integration of Feature-Based Relocalization in Monocular Direct Visual Odometry**](https://arxiv.org/abs/2102.01191)[J]. arXiv preprint arXiv:2102.01191, **2021**.
+    + <font color = blue>单目直接法视觉里程计中基于特征重定位的紧耦合</font>
+    + TUM
++ [ ] **[3]** Zhang H, Jin L, Ye C. [**The VCU-RVI Benchmark: Evaluating Visual Inertial Odometry for Indoor Navigation Applications with an RGB-D Camera**](https://ieeexplore.ieee.org/abstract/document/9341713)[C]//**2020** IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). IEEE, 6209-6214.
+    + <font color = blue>**VCU-RVI Benchmark：用于评估 RGB-D 室内导航应用的 VIO**</font>
+    + 弗吉尼亚联邦大学；[**数据集地址**](https://github.com/rising-turtle/VCU_RVI_Benchmark)
++ [ ] **[4]** Minoda K, Schilling F, Wüest V, et al. [**VIODE: A Simulated Dataset to Address the Challenges of Visual-Inertial Odometry in Dynamic Environments**](https://ieeexplore.ieee.org/abstract/document/9351597)[J]. IEEE Robotics and Automation Letters, **2021**, 6(2): 1343-1350.
+    + <font color = blue>**VIODE：用于解决 VIO 在动态环境中挑战的仿真数据集**</font>
+    + 东京大学，洛桑联邦理工；[**数据集地址**](https://github.com/kminoda/VIODE)
++ [ ] **[5]** Younes G. [**A Unified Hybrid Formulation for Visual SLAM**](https://scholarworks.aub.edu.lb/bitstream/handle/10938/22253/YounesGeorges_2021.pdf?sequence=5)[D]. , **2021**.
+    + <font color = blue>一种视觉 SLAM 统一混合的架构</font>
+    + 滑铁卢大学大学，博士学位论文，[Google Scholar](https://scholar.google.com/citations?user=4Xy_9NQAAAAJ&hl=zh-CN&authuser=1&oi=sra)
++ [ ] **[6]** Shakeri M, Loo S Y, Zhang H, et al. [**Polarimetric Monocular Dense Mapping Using Relative Deep Depth Prior**](https://ieeexplore.ieee.org/abstract/document/9385958)[J]. IEEE Robotics and Automation Letters, **2021**, 6(3): 4512-4519.
+    + <font color = blue>利用相对深度先验的偏振相机单目密集建图</font>
+    + 阿尔伯塔大学
++ [ ] **[7]** Wang H, Wang C, Xie L. [**Intensity-SLAM: Intensity Assisted Localization and Mapping for Large Scale Environment**](https://ieeexplore.ieee.org/abstract/document/9354903)[J]. IEEE Robotics and Automation Letters, **2021**, 6(2): 1715-1721.
+    + <font color = blue>大规模环境中强度特征辅助的 LiDAR 定位与建图</font>
+    + NTU, CMU
++ [ ] **[8]** Doan A, Latif Y, Chin T, et al. [**HM⁴: hidden Markov model with memory management for visual place recognition**](https://ieeexplore.ieee.org/document/9250504)[J]. IEEE Robotics and Automation Letters, vol. 6, no. 1, pp. 167-174, Jan. **2021**.
+    + <font color = blue>用于视觉位置识别的具有内存管理功能的隐马尔可夫模型</font>
+    + 阿德莱德大学
++ [ ] **[9]** Li L, Yang M, Weng L, et al. [**Robust Localization for Intelligent Vehicles Based on Pole-Like Features Using the Point Cloud**](https://ieeexplore.ieee.org/abstract/document/9328830/)[J]. IEEE Transactions on Automation Science and Engineering, **2021**.
+    + <font color = blue>基于杆状点云特征的智能车鲁棒定位</font>
+    + 上海交大；期刊：中科院一区，JCR Q1，IF 4.9
++ [ ] **[10]** Tschopp F, von Einem C, Cramariuc A, et al. [**Hough $^ 2$ Map–Iterative Event-Based Hough Transform for High-Speed Railway Mapping**](https://ieeexplore.ieee.org/abstract/document/9361194)[J]. IEEE Robotics and Automation Letters, **2021**, 6(2): 2745-2752.
+    + <font color = blue>用于高速铁路建图的基于事件相机的迭代式霍夫变换</font>
+    + ETH；[**代码开源**](https://github.com/ethz-asl/Hough2Map)；[Video](https://www.youtube.com/watch?v=YPSiODVzD-I)
++ [ ] **[11]** Ma X, Liang X. [**Point-line-based RGB-D SLAM and Bundle Adjustment Uncertainty Analysis**](https://arxiv.org/abs/2102.07110)[J]. arXiv preprint arXiv:2102.07110, **2021**.
+    + <font color = blue>基于点线的 RGB-D SLAM 和 BA 的不确定性分析</font>
+    + 上交
+
+---
+
+#### 2. Semantic/Deep SLAM
+
++ [x] **[12]** Rosinol A, Violette A, Abate M, et al. [**Kimera: from slam to spatial perception with 3d dynamic scene graphs**](https://arxiv.org/abs/2101.06894)[J]. arXiv preprint arXiv:2101.06894, **2021**.
+    + <font color = blue>**Kimera: 从 SLAM 到具有 3D 动态场景图的空间感知**</font>
+    + MIT；[项目主页](https://github.com/MIT-SPARK/Kimera)
++ [x] **[13]** Liu Y, Liu J, Hao Y, et al. [**A Switching-Coupled Backend for Simultaneous Localization and Dynamic Object Tracking**](https://ieeexplore.ieee.org/abstract/document/9343683)[J]. IEEE Robotics and Automation Letters, **2021**, 6(2): 1296-1303.
+    + <font color = blue>**一种同时用于定位与动态物体跟踪的可切换松耦合后端**</font>
+    + 清华大学
++ [x] **[14]** Feng Q, Atanasov N. [**Mesh Reconstruction from Aerial Images for Outdoor Terrain Mapping Using Joint 2D-3D Learning**](https://arxiv.org/abs/2101.01844)[J]. arXiv preprint arXiv:2101.01844, **2021**.
+    + <font color = blue>**使用 2D-3D 联合学习从航空图像进行室外地形建图的 Mesh 重建**</font>
+    + UCSD Nikolay Atanasov
++ [ ] **[15]** Wong Y S, Li C, Nießner M, et al. [**RigidFusion: RGB-D Scene Reconstruction with Rigidly-moving Objects**](http://128.16.15.132/projects/2021/rigidfusion/paper_docs/rigidfusion_eg21.pdf)[J]. Eurographics, **2021**.
+    + <font color = blue>RigidFusion: 移动刚体运动场景的 RGB-D 重建</font>
+    + UCL, TUM；[补充材料](http://geometry.cs.ucl.ac.uk/projects/2021/rigidfusion/paper_docs/rigidfusion_supp2.pdf)
++ [ ] **[16]** Sun S, Melamed D, Kitani K. [**IDOL: Inertial Deep Orientation-Estimation and Localization**](https://arxiv.org/abs/2102.04024)[J]. arXiv preprint arXiv:2102.04024, **2021**.(AAAI 2021)
+    + <font color = blue>基于学习的惯性传感器方向与位置估计</font>
+    + CMU；[代码与数据集](https://github.com/KlabCMU/IDOL)
++ [ ] **[17]** Qin C, Zhang Y, Liu Y, et al. [**Semantic loop closure detection based on graph matching in multi-objects scenes**](https://www.sciencedirect.com/science/article/pii/S1047320321000389)[J]. Journal of Visual Communication and Image Representation, **2021**, 76: 103072.
+    + <font color = blue>基于图匹配的多目标场景闭环检测</font>
+    + 东北大学
+
+---
+
+#### 3. Sensor Fusion
+
++ [x] **[18]** Wang H, Wang C, Xie L. [**Lightweight 3-D Localization and Mapping for Solid-State LiDAR**](https://ieeexplore.ieee.org/abstract/document/9357899)[J]. IEEE Robotics and Automation Letters, **2021**, 6(2): 1801-1807.
+    + <font color = blue>**固态 LiDAR 轻量化 3D 定位与建图**</font>
+    + 南洋理工大学；[代码开源](https://github.com/wh200720041/SSL_SLAM)
++ [ ] **[19]** Jiang Z, Taira H, Miyashita N, et al. [**VIO-Aided Structure from Motion Under Challenging Environments**](https://arxiv.org/abs/2101.09657)[J]. arXiv preprint arXiv:2101.09657, **2021**. (ICIT2021)
+    + <font color = blue>在具有挑战场景下 VIO 辅助的 SFM</font>
+    + 东京工业大学
+
+---
+
+#### 4. Others
+
++ [ ] **[20]** Liu Y, Yixuan Y, Liu M. [**Ground-aware Monocular 3D Object Detection for Autonomous Driving**](https://ieeexplore.ieee.org/abstract/document/9327478)[J]. IEEE Robotics and Automation Letters, **2021**, 6(2): 919-926.
+    + <font color = blue>用于自动驾驶的地面感知单目 3D 目标检测</font>
+    + 港科；[代码开源](https://github.com/Owen-Liuyuxuan/visualDet3D)
++ [ ] **[21]** Singh G, Akrigg S, Di Maio M, et al. [**Road: The road event awareness dataset for autonomous driving**](https://arxiv.org/abs/2102.11585)[J]. arXiv preprint arXiv:2102.11585, **2021**.
+    + <font color = blue>自动驾驶场景的道路事件感知数据集</font>
+    + ETH；[代码开源](https://github.com/gurkirt/3D-RetinaNet)
+    + **道路事件**由智能体、智能体所执行的动作和智能体所处的环境组成。
+
+---
 
 ### 2021 年 1 月论文更新（20 篇）
 
@@ -2155,7 +2665,7 @@ VPS-SLAM 平面语义 SLAM 比较有意思，代码开源**
     
 ---
 
-#### 2. 传感器融合
+#### 2. Sensor Fusion
 
 + [ ] **[9]** Zhao Y, Smith J S, Karumanchi S H, et al. [**Closed-Loop Benchmarking of Stereo Visual-Inertial SLAM Systems: Understanding the Impact of Drift and Latency on Tracking Accuracy**](https://arxiv.org/pdf/2003.01317.pdf)[C].  **ICRA 2020**.
     + <font color = blue>双目视觉里程计闭环检测基准系统：关于测试漂移和延迟对跟踪准确性的影响</font>
@@ -2263,7 +2773,7 @@ VPS-SLAM 平面语义 SLAM 比较有意思，代码开源**
 
 ---
 
-#### 2. 传感器融合
+#### 2. Sensor Fusion
 
 + [ ] **[10]** Patel N, Khorrami F, Krishnamurthy P, et al. [**Tightly Coupled Semantic RGB-D Inertial Odometry for Accurate Long-Term Localization and Mapping**](https://ieeexplore.ieee.org/abstract/document/8981658/)[C]//2019 19th International Conference on Advanced Robotics (**ICAR**). IEEE, **2019**: 523-528.
     + <font color = blue>用于精确、长期定位和建图的紧耦合语义 RGB-D 惯性里程计</font>
@@ -2337,7 +2847,7 @@ VPS-SLAM 平面语义 SLAM 比较有意思，代码开源**
 + [ ] **[7]** 马艳阳, 叶梓豪, 刘坤华, 等. [**基于事件相机的定位与建图算法: 综述**](http://www.aas.net.cn/cn/article/doi/10.16383/j.aas.c190550)[J]. 自动化学报, **2020**, 46: 1-11.
     + 中山大学
 
-#### 2. 传感器融合
+#### 2. Sensor Fusion
 
 + [x] **[8]** WEN, Shuhuan, et al. [**Joint optimization based on direct sparse stereo visual-inertial odometry**](https://link.springer.com/article/10.1007/s10514-019-09897-6). Autonomous Robots, **2020**, 1-19.
     + <font color = blue>基于直接稀疏双目视觉惯导里程计的联合优化</font>
@@ -2445,7 +2955,7 @@ TopoTraj](https://github.com/HKUST-Aerial-Robotics/TopoTraj)
     
 ---
 
-#### 2. 传感器融合
+#### 2. Sensor Fusion
 
 + [x] **[11]** Tschopp F, Riner M, Fehr M, et al. [**VersaVIS: An Open Versatile Multi-Camera Visual-Inertial Sensor Suite**](https://arxiv.org/pdf/1912.02469.pdf)[J]. arXiv preprint arXiv:1912.02469, **2019**.
     + <font color = blue>**VersaVIS：开源多功能多相机的视觉惯性传感器套件**</font>
@@ -3057,7 +3567,7 @@ TopoTraj](https://github.com/HKUST-Aerial-Robotics/TopoTraj)
 
 ---
 
-#### 3. 传感器融合
+#### 3. Sensor Fusion
 
 + [ ] **[12]** Huang K, Xiao J, Stachniss C. [**Accurate Direct Visual-Laser Odometry with Explicit Occlusion Handling and Plane Detection**](http://www.ipb.uni-bonn.de/wp-content/papercite-data/pdf/huang2019icra.pdf)[C]//Proceedings of the IEEE International Conference on Robotics and Automation (**ICRA**). **2019**.
     + <font color = blue>具有显式遮挡处理和平面检测的精确直接视觉激光测距</font>
@@ -3169,7 +3679,7 @@ TopoTraj](https://github.com/HKUST-Aerial-Robotics/TopoTraj)
     
 ---
 
-#### 2. AR/MR 相关
+#### 2. AR/MR
 + [x] **[17]** Piao J C, Kim S D. [**Real-time Visual-Inertial SLAM Based on Adaptive Keyframe Selection for Mobile AR Applications**](https://ieeexplore.ieee.org/abstract/document/8698793)[J]. IEEE Transactions on Multimedia, **2019**.
     + <font color = blue>基于自适应关键帧选择的**移动增强现实**应用的实时视觉惯性 SLAM</font>
     + 中国延边大学，韩国延世大学 &emsp; 期刊 中科院二区，JCR Q2，IF 4.368
@@ -3255,7 +3765,7 @@ TopoTraj](https://github.com/HKUST-Aerial-Robotics/TopoTraj)
     + <font color = blue>基于**事件**的运动补偿运动分割</font>
     + 澳大利亚机器人视觉中心，苏黎世大学
     
-#### 6. 传感器融合
+#### 6. Sensor Fusion
 + [ ] **[43]** Xiao Y, Ruan X, Chai J, et al. [**Online IMU Self-Calibration for Visual-Inertial Systems**](https://www.mdpi.com/1424-8220/19/7/1624/htm)[J]. Sensors, **2019**, 19(7): 1624.
     + <font color = blue>视觉惯性系统 **IMU 在线标定**</font>
     + 北京工业大学 &emsp; Sensors 开源期刊
@@ -3389,4 +3899,4 @@ TopoTraj](https://github.com/HKUST-Aerial-Robotics/TopoTraj)
     + 苏黎世联邦理工学院
 
 ---
-> wuyanminmax@gmail.com    
+> wuyanminmax[AT]gmail.com    
